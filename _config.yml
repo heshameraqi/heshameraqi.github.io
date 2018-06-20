@@ -126,7 +126,7 @@ google_analytics: "UA-121084888-1"
 # disqus: ""
 
 # To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
+fb_comment_id: "433765380430380"
 
 # --- Misc --- #
 
@@ -242,10 +242,6 @@ plugins:
 
 gems:
   - jekyll-paginate
-
-# For posts comments
-#disqus: ""
-fb_comment_id: "433765380430380"
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
