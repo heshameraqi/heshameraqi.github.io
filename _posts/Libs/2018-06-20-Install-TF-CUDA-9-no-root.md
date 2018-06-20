@@ -3,7 +3,8 @@ layout: post
 title: Install Tensorflow for CUDA 9 without root
 subtitle: No admin :-)
 bigimg: /img/TF_Cuda.png
-tags: [books, test]
+tags: [Tensorflow, Cuda]
+category: Libs
 ---
 
 At the moment latest [Tensorflow](https://www.tensorflow.org) 1.4 does not yet support [Cuda 9.0](https://developer.nvidia.com/cuda-toolkit/whatsnew). This tutorial is about how to install Tensorflow that uses Cuda 9.0 without root access.
