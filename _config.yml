@@ -17,27 +17,26 @@ baseurl: ""
 title: Hesham Eraqi
 
 # Short description of your site
-description: Personal website and blog of Hesham Eraqi
+description: 
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://heshameraqi.github.io"
-  Projects:
-    - AUC: "auc"
-    - Valeo: "valeo"
-  Post Archive: "archive"
-  About me / Contact: "aboutme"
-  Simply blog: "http://heraqi.blogspot.com"
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/HeshamEraqi_Photo_ID0.jpg"
+avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/img/HeshamEraqi_Photo_ID0.jpg"
+# title-img: /path/to/image
 
 # --- Background colour/image options --- #
 
@@ -56,18 +55,16 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/HeshamEraqi_Photo_ID0.png"
-footer-img: "/img/HeshamEraqi_Photo_ID0.png"
-page-img: "/img/HeshamEraqi_Photo_ID0.png"
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Hesham Eraqi
-  email: "hesham.eraqi@gmail.com"
-  github: hesham.eraqi
+  name: Some Person
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -75,18 +72,18 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "hesham.eraqi@gmail.com"
-  facebook: hesham.eraqi
-  github: heshameraqi
-  twitter: hesham.eraqi
+  email: "someone@example.com"
+  facebook: daattali
+  github: daattali
+  twitter: daattali
 #  reddit: yourname
-#  google-plus: +hesham.eraqi
-  linkedin: hesham.eraqi
+#  google-plus: +DeanAttali
+#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: hesham.eraqi
-  youtube: HeshamChannel
+#  instagram: deanat78
+#  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -97,18 +94,17 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: true
-  
-  din: true
+  google: false
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "heshameraqi.blogspot.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-121084888-1"
+#google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
@@ -128,7 +124,7 @@ google_analytics: "UA-121084888-1"
 # disqus: ""
 
 # To use Facebook Comments, fill in a Facebook App ID
-fb_comment_id: "433765380430380"
+# fb_comment_id: ""
 
 # --- Misc --- #
 
@@ -146,11 +142,11 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Africa/Cairo"
+timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: blog/:categories/:year-:month-:day-:title/
-paginate: 6
+permalink: /:year-:month-:day-:title/
+paginate: 5
 
 kramdown:
   input: GFM
