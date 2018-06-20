@@ -18,14 +18,14 @@ cd downloads
 
 The easiest way to install CMake is from source. Head over to the [CMake downloads page](http://www.cmake.org/download) and get the latest “Unix/Linux Source” *.tar.gz file.
 
-~~~
+{% highlight bash linenos %}
 wget https://cmake.org/files/v3.10/cmake-3.10.1.tar.gz
 tar -xf cmake*.tar.gz
 cd cmake*
 ./configure --prefix=$HOME
 make
 make install
-~~~
+{% endhighlight %}
 
 You should now have the most up-to-date installation of cmake. Check the version by typing:
 
