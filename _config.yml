@@ -78,8 +78,8 @@ social-network-links:
   github: heshameraqi
   twitter: hesham.eraqi
 #  reddit: yourname
-  google-plus: +hesham.eraqi
-#  linkedin: daattali
+#  google-plus: +hesham.eraqi
+  linkedin: hesham.eraqi
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -90,14 +90,14 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-  skype: hesham.eraqi
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
   google: true
-  linkedin: true
+  
+  din: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
