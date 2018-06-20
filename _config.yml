@@ -66,6 +66,8 @@ page-img: "/img/HeshamEraqi_Photo_ID0.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Hesham Eraqi
+  email: "hesham.eraqi@gmail.com"
+  github: hesham.eraqi
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -239,9 +241,6 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-gems:
-  - jekyll-paginate
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
