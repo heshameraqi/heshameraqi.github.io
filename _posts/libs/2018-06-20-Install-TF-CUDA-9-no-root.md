@@ -10,9 +10,10 @@ At the moment latest [Tensorflow](https://www.tensorflow.org) 1.4 does not yet s
 
 **1- Create a temp folder to install download sources into:**
 
-{: .box-note}
+~~~
 mkdir downloads
 cd downloads
+~~~
 
 **2- Building and installing CMake:**
 
@@ -37,12 +38,12 @@ cmake --version
 
 The Tensorflow wheels that we are going to install later on in this tutorial contain MKL support. If you don't have it, install MKL as follows. MKL is [Intel's deep learning kernal library](https://github.com/01org/mkl-dnn), which makes training neural nets on CPU much faster. If you don't have it, install it like the following:
 
-~~~
+{% highlight bash linenos %}
 git clone https://github.com/01org/mkl-dnn.git
 cd mkl-dnn/scripts && ./prepare_mkl.sh && cd ..
 mkdir -p build && cd build && cmake .. && make
 make install
-~~~
+{% endhighlight %}
 
 At the last step, it's expected to get an error because without root access the output library can't be copied to system roots:
 
