@@ -25,11 +25,11 @@ description: Personal website and blog of Hesham Eraqi
 navbar-links:
   Home: "http://heshameraqi.github.io"
   Projects:
-    - Distraction Detection Dataset: "/Pages/distraction_detection"
+    - Distraction Detection Dataset: "//_posts//Pages//2019-01-15-distraction_detection.md"
     - AUC: "auc"
     - Valeo: "valeo"
   Archive: "archive"
-  About me/Contact: "/Pages/aboutme"
+  About me/Contact: "//_posts//Pages//aboutme.md"
   Simply blog: "http://heraqi.blogspot.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
