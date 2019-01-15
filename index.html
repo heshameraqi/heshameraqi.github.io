@@ -12,9 +12,7 @@ use-site-title: true
 	  <h2 class="post-title">{{ post.title }}</h2>
 
 	  %For loading first image in post
-	  <ul>
-	  {% for post in site.posts %}
-		<li>
+	  <li>
 		  {% assign foundImage = 0 %}
 		  {% assign images = post.content | split:"<img " %}
 		  {% for image in images %}
@@ -28,9 +26,7 @@ use-site-title: true
 		  {% endfor %}
 
 		  <a href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-	  {% endfor %}
-	</ul>
+	  </li>
 	  
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
