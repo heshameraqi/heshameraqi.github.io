@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Distracted Driver Dataset
-subtitle: Machine Intelligence Research Group, the American University in Cairo (AUC)
+subtitle: Machine Intelligence Research Group, the American University in Cairo
 ---
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
