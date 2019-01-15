@@ -11,21 +11,6 @@ use-site-title: true
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
 
-	  <!-- For loading first image in post -->
-	  <li>
-		  {% assign foundImage = 0 %}
-		  {% assign images = post.content | split:"<img " %}
-		  {% for image in images %}
-			{% if image contains 'src' %}
-				{% if foundImage == 0 %}
-					{% assign html = image | split:"/>" | first %}
-					<img {{ html }} /> <!-- Image shown here -->
-					{% assign foundImage = 1 %}
-				{% endif %}
-			{% endif %}
-		  {% endfor %}
-	  </li>
-	  
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
 	    {{ post.subtitle }}
@@ -36,6 +21,19 @@ use-site-title: true
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
+	
+	<!-- For loading first image in post -->
+	{% assign foundImage = 0 %}
+	{% assign images = post.content | split:"<img " %}
+	{% for image in images %}
+	{% if image contains 'src' %}
+		{% if foundImage == 0 %}
+			{% assign html = image | split:"/>" | first %}
+			<img {{ html }} /> <!-- Image shown here -->
+			{% assign foundImage = 1 %}
+		{% endif %}
+	{% endif %}
+	{% endfor %}
 
     <div class="post-entry-container">
       {% if post.image %}
