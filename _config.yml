@@ -25,6 +25,7 @@ description: Personal website and blog of Hesham Eraqi
 navbar-links:
   Home: "http://heshameraqi.github.io"
   Projects:
+	- Distraction Detection Dataset: "distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
   Archive: "archive"
