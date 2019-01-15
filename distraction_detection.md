@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Distraction Detection Dataset
+title: Distracted Driver Dataset
 subtitle: Machine Intelligence Research Group, the American University in Cairo (AUC)
 ---
 
