@@ -109,7 +109,7 @@ Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracte
 ### Institutions
 
 Our work is being used by researches across academia and research labs:
-<div class="row" style="width:800px; margin:0 auto;"> 
+<div class="row" style="width:800px; margin:0 auto;" align="center"> 
   <div class="column">
     <img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" width="180" />
 	<img src="/data/auc.distracted.driver.dataset/logos/tum.gif" width="180" />
