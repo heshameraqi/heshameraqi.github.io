@@ -1,8 +1,28 @@
 ---
 layout: page
 title: Distracted Driver Dataset
-subtitle: Machine Intelligence Research Group, the American University in Cairo
+subtitle: Hesham M. Eraqi 2, 3, *, Yehya Abouelnaga 1, *, Mohamed H. Saad 3, Mohamed N. Moustafa 2
+subtitle: 1 Technical University of Munich
+subtitle: 2 The American University in Cairo
+subtitle: 3 Valeo Egypt
+
+subtitle: 3 Valeo Egypt
 ---
+
+### Datasets
+
+|                     |                                              Distracted Driver V1                                           |                                                                   Distracted Driver V2                                                                   |
+|:-------------------:|:-----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
+|  Key Contributions  | -First publicly available dataset for distracted driving - Training and testing datasets are split randomly | - Collected more data with more drivers - More precise labeling and better sampling per class - Training and testing datasets are split based on drivers |
+| Dataset Information |                                                   31 drivers                                                |                                                                        44 drivers                                                                        |
+|  License Agreement  |                                              License Agreement V1                                           |                                                                   License Agreement V2                                                                   |
+|    Download Link    |                                                                              If you agree with terms and conditions, please fill out the license agreement and send it to: ([Yehya Abouelnaga](devyhia@aucegypt.edu) or ([Hesham Eraqi](heraqi@aucegypt.edu). Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.                                                                                                                                                                                                                                         |
+|     Publication     | - Y. Abouelnaga, H. Eraqi, and M. Moustafa. "Real-time Distracted Driver Posture Classification". Neural Information Processing Systems (NIPS 2018), Workshop on Machine Learning for Intelligent Transportation Systems, Dec. 2018. - H. Eraqi, Y. Abouelnaga, M. Saad, M. Moustafa, "Driver Distraction Identification with an Ensemble of Convolutional Neural Networks", Journal of Advanced Transportation, Machine Learning in Transportation (MLT) Issue, 2019                                                                                                                                                            |
+
+### Terms & Conditions
+
+
+
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
 
@@ -24,7 +44,3 @@ Hesham M. Eraqi, Yehya Abouelnaga, Mohamed H. Saad, Mohamed N. Moustafa, "Driver
 Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracted Driver Posture Classification", Machine Learning for Intelligent Transportation Systems Workshop in the 32nd Conference on Neural Information Processing Systems (NeuroIPS), Montréal, Canada, 2018.
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/System.png)
-
-### Download the dataset
-
-This database was captured to develop the state-of-the-art in detection of distracted drivers and so it may be used freely to this purpose. Other research uses of this database are encouraged. However, the End User must first obtain prior consent from the MI-AUC group. If you agree with the terms of the agreement please sign and fill in the fields in **[this form ](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/auc.distracted.driver.dataset_license.agreement.pdf)** and attach this form via email to ([Yehya Abouelnaga](devyhia@aucegypt.edu) or ([Hesham Eraqi](heraqi@aucegypt.edu) to download the database.
