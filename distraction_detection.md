@@ -6,7 +6,7 @@ subtitle: 1 Technical University of Munich
 subtitle: 2 The American University in Cairo
 subtitle: 3 Valeo Egypt
 
-subtitle: 3 Valeo Egypt
+subtitle: * Both authors equally contributed to this work.
 ---
 
 ### Datasets
