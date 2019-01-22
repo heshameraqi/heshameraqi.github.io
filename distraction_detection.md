@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Distracted Driver Dataset
-subtitle: Hesham M. Eraqi 2, 3, *, Yehya Abouelnaga 1, *, Mohamed H. Saad 3, Mohamed N. Moustafa 2
-subtitle: 1 Technical University of Munich
-subtitle: 2 The American University in Cairo
-subtitle: 3 Valeo Egypt
-
-subtitle: * Both authors equally contributed to this work.
 ---
+
+<h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4>
+<p style="text-align: center;"><sup>1</sup>The American University in Cairo<br /> <sup>2</sup>Technical University of Municho<br /> <sup>3</sup>Valeo Egypto<br /> <sup>*</sup>Both authors equally contributed to this work.</p>
+
+![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
 
 ### Datasets
 
@@ -26,8 +25,19 @@ subtitle: * Both authors equally contributed to this work.
   </tr>
   <tr>
     <td class="tg-c3ow">Key Contributions</td>
-    <td class="tg-0pky">-First publicly available dataset for distracted driving<br>- Training and testing datasets are split randomly</td>
-    <td class="tg-0pky">- Collected more data with more drivers<br>- More precise labeling and better sampling per class<br>- Training and testing datasets are split based on drivers</td>
+    <td class="tg-0pky">
+		<ul class="dashed">
+			<li>First publicly available dataset for distracted driving</li>
+			<li>Training and testing datasets are split randomly</li>
+		</ul>
+	</td>
+    <td class="tg-0pky">
+		<ul class="dashed">
+			<li>Collected more data with more drivers</li>
+			<li>More precise labeling and better sampling per class</li>
+			<li>Training and testing datasets are split based on drivers</li>
+		</ul>
+	</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Dataset Information</td>
@@ -45,16 +55,30 @@ subtitle: * Both authors equally contributed to this work.
   </tr>
   <tr>
     <td class="tg-c3ow">Publication</td>
-    <td class="tg-0pky" colspan="2">- Y. Abouelnaga, H. Eraqi, and M. Moustafa. "Real-time Distracted Driver Posture Classification". Neural Information Processing Systems (NIPS 2018), Workshop on Machine Learning for Intelligent Transportation Systems, Dec. 2018.<br>- H. Eraqi, Y. Abouelnaga, M. Saad, M. Moustafa, "Driver Distraction Identification with an Ensemble of Convolutional Neural Networks", Journal of Advanced Transportation, Machine Learning in Transportation (MLT) Issue, 2019</td>
+    <td class="tg-0pky" colspan="2">
+		<ul class="dashed">
+			<li>H. Eraqi, Y. Abouelnaga, M. Saad, M. Moustafa, "Driver Distraction Identification with an Ensemble of Convolutional Neural Networks", Journal of Advanced Transportation, Machine Learning in Transportation (MLT) Issue, 2019.</li>
+			<li>Y. Abouelnaga, H. Eraqi, and M. Moustafa. "Real-time Distracted Driver Posture Classification". Neural Information Processing Systems (NIPS 2018), Workshop on Machine Learning for Intelligent Transportation Systems, Dec. 2018.</li>
+		</ul>
+	</td>
   </tr>
 </table>
 
 
 ### Terms & Conditions
 
+<td class="tg-0pky" colspan="2">
+	<ul class="dashed">
+		<li>The dataset is the sole property of the Machine Intelligence group at the American University in Cairo (MI-AUC) and is protected by copyright. The dataset shall remain the exclusive property of the MI-AUC.</li>
+		<li>The End User acquires no ownership, rights or title of any kind in all or any parts with regard to the dataset.</li>
+		<li>Any commercial use of the dataset is strictly prohibited. Commercial use includes, but is not limited to: Testing commercial systems; Using screenshots of subjects from the dataset in advertisements, Selling data or making any commercial use of the dataset, broadcasting data from the dataset.</li>
+		<li>The End User shall not, without prior authorization of the MI-AUC group, transfer in any way, permanently or temporarily, distribute or broadcast all or part of the dataset to third parties.</li>
+		<li>The End User shall send all requests for the distribution of the dataset to the MI-AUC group.</li>
+		<li>All publications that report on research that uses the dataset should cite our publications.</li>
+	</ul>
+</td>
 
-
-![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
+### Description
 
 This is the first publicly available dataset for distracted driver detection. We had 44 participants from 7 different countries: Egypt (37), Germany (2), USA (1), Canada (1), Uganda (1), Palestine (1), and Morocco (1). Out of all participants, 29 were males and 15 were females. Some drivers participated in more than one recording session with different time of day, driving conditions, and wearing different clothes.
 Videos were shot in 5 different cars: Proton Gen2, Mitsubishi Lancer, Nissan Sunny, KIA Carens, and a prototyping car. We extracted 14,478 frames distributed over the following classes: Safe Driving (2,986), Phone Right (1,256), Phone Left (1,320), Text Right (1,718), Text Left (1,124), Adjusting Radio (1,123), Drinking (1,076), Hair or Makeup (1,044), Reaching Behind (1,034), and Talking to Passenger (1,797). The sampling is done manually by inspecting the video files with eye and giving a distraction label for each frame. The transitional actions between each consecutive distraction types are manually removed. The figure below shows samples for the ten classes in our dataset.
@@ -65,7 +89,9 @@ Any commercial use of the dataset is strictly prohibited. Commercial use include
 
 The End User shall not, without prior authorization of the MI-AUC group, transfer in any way, permanently or temporarily, distribute or broadcast all or part of the dataset to third parties. The End User shall send all requests for the distribution of the dataset to the MI-AUC group.
 
-All publications that report on research that use the dataset should cite our work(s): 
+### Citation
+
+All publications that report on research that use the dataset should cite our work(s):
 
 {: .box-warning}
 Hesham M. Eraqi, Yehya Abouelnaga, Mohamed H. Saad, Mohamed N. Moustafa, "Driver Distraction Identification with an Ensemble of Convolutional Neural Networks", Journal of Advanced Transportation, Machine Learning in Transportation (MLT) Issue, 2019.
@@ -74,3 +100,6 @@ Hesham M. Eraqi, Yehya Abouelnaga, Mohamed H. Saad, Mohamed N. Moustafa, "Driver
 Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracted Driver Posture Classification", Machine Learning for Intelligent Transportation Systems Workshop in the 32nd Conference on Neural Information Processing Systems (NeuroIPS), Montréal, Canada, 2018.
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/System.png)
+
+### Institutions
+
