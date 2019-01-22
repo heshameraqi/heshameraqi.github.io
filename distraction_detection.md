@@ -15,13 +15,13 @@ subtitle: Machine Intelligence Research Group, the American University in Cairo
 ### Datasets
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-uys7{border-color:inherit;text-align:center}
-.tg .tg-5e9r{background-color:#efefef;border-color:inherit;text-align:center}
-.tg .tg-mn4z{background-color:#c0c0c0;border-color:inherit;text-align:center}
-.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-md4w{background-color:#D2E4FC;text-align:left}
+.tg .tg-5hgy{background-color:#D2E4FC;text-align:center}
+.tg .tg-s268{text-align:left}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 874px" align="center">
 <colgroup>
