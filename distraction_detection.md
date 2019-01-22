@@ -23,7 +23,7 @@ subtitle: Machine Intelligence Research Group, the American University in Cairo
 .tg .tg-mn4z{background-color:#c0c0c0;border-color:inherit;text-align:center}
 .tg .tg-xldj{border-color:inherit;text-align:left}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 874px" align="center">>
+<table class="tg" style="undefined;table-layout: fixed; width: 874px" align="center">
 <colgroup>
 <col style="width: 94px">
 <col style="width: 354px">
