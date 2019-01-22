@@ -5,9 +5,11 @@ title: Distracted Driver Dataset
 subtitle: Machine Intelligence Research Group, the American University in Cairo
 -->
 ---
-<h2 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h2>
-<h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4>
-<p style="text-align: center;"><sup>1</sup>The American University in Cairo<br /> <sup>2</sup>Technical University of Munich<br /> <sup>3</sup>Valeo Egypt<br /> <sup>*</sup>Both authors equally contributed to this work.</p>
+<p style="text-align: center;">
+<h2><strong>Distracted Driver Dataset</strong></h2>
+<h4><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4><br />
+<sup>1</sup>The American University in Cairo<br /> <sup>2</sup>Technical University of Munich<br /> <sup>3</sup>Valeo Egypt<br /> <sup>*</sup>Both authors equally contributed to this work.
+</p>
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
 
