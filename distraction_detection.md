@@ -11,16 +11,46 @@ subtitle: 3 Valeo Egypt
 
 ### Datasets
 
-|                     |                                              Distracted Driver V1                                           |                                                                   Distracted Driver V2                                                                   |
-|:-------------------:|:-----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
-|  Key Contributions  | -First publicly available dataset for distracted driving - Training and testing datasets are split randomly | - Collected more data with more drivers - More precise labeling and better sampling per class - Training and testing datasets are split based on drivers |
-| Dataset Information |                                                   31 drivers                                                |                                                                        44 drivers                                                                        |
-|  License Agreement  |                                              License Agreement V1                                           |                                                                   License Agreement V2                                                                   |
-|    Download Link    |                                                                              If you agree with terms and conditions, please fill out the license agreement and send it to: ([Yehya Abouelnaga](devyhia@aucegypt.edu) or ([Hesham Eraqi](heraqi@aucegypt.edu). Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.                                                                                                                                                                                                                                         |
-|     Publication     | - Y. Abouelnaga, H. Eraqi, and M. Moustafa. "Real-time Distracted Driver Posture Classification". Neural Information Processing Systems (NIPS 2018), Workshop on Machine Learning for Intelligent Transportation Systems, Dec. 2018. - H. Eraqi, Y. Abouelnaga, M. Saad, M. Moustafa, "Driver Distraction Identification with an Ensemble of Convolutional Neural Networks", Journal of Advanced Transportation, Machine Learning in Transportation (MLT) Issue, 2019                                                                                                                                                            |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-c3ow"></th>
+    <th class="tg-c3ow">Distracted Driver V1</th>
+    <th class="tg-c3ow">Distracted Driver V2</th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Key Contributions</td>
+    <td class="tg-0pky">-First publicly available dataset for distracted driving<br>- Training and testing datasets are split randomly</td>
+    <td class="tg-0pky">- Collected more data with more drivers<br>- More precise labeling and better sampling per class<br>- Training and testing datasets are split based on drivers</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Dataset Information</td>
+    <td class="tg-c3ow">31 drivers</td>
+    <td class="tg-c3ow">44 drivers</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">License Agreement</td>
+    <td class="tg-c3ow">License Agreement V1</td>
+    <td class="tg-c3ow">License Agreement V2</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Download Link</td>
+    <td class="tg-c3ow" colspan="2">If you agree with terms and conditions, please fill out the license agreement and send it to:<br>Yehya Abouelnaga: yehya.abouelnaga(at)tum(dot)de<br>Hesham Eraqi: heraqi(at)aucegypt(dot)edu<br>Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Publication</td>
+    <td class="tg-0pky" colspan="2">- Y. Abouelnaga, H. Eraqi, and M. Moustafa. "Real-time Distracted Driver Posture Classification". Neural Information Processing Systems (NIPS 2018), Workshop on Machine Learning for Intelligent Transportation Systems, Dec. 2018.<br>- H. Eraqi, Y. Abouelnaga, M. Saad, M. Moustafa, "Driver Distraction Identification with an Ensemble of Convolutional Neural Networks", Journal of Advanced Transportation, Machine Learning in Transportation (MLT) Issue, 2019</td>
+  </tr>
+</table>
+
 
 ### Terms & Conditions
-
 
 
 
