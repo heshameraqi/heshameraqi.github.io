@@ -5,7 +5,7 @@ title: Distracted Driver Dataset
 subtitle: Machine Intelligence Research Group, the American University in Cairo
 -->
 ---
-<h4 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h4>
+<h2 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h4>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4>
 <p style="text-align: center;"><sup>1</sup>The American University in Cairo<br /> <sup>2</sup>Technical University of Municho<br /> <sup>3</sup>Valeo Egypto<br /> <sup>*</sup>Both authors equally contributed to this work.</p>
 
@@ -104,39 +104,39 @@ Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracte
 Our work is being used by researches across academia and research labs:
 <div class="row"> 
   <div class="column">
-    <div><img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/tum.gif" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/valeo.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/intel.png" width="200" /></div>
+    <img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/tum.gif" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/valeo.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/intel.png" width="200" />
   </div>
   <div class="column">
-	<div><img src="/data/auc.distracted.driver.dataset/logos/university-of-warwick.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/washington.edu.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/University-of-Waterloo.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/university_of_illinois.gif" width="200" /></div>
+	<img src="/data/auc.distracted.driver.dataset/logos/university-of-warwick.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/washington.edu.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/University-of-Waterloo.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/university_of_illinois.gif" width="200" />
   </div>
-	<div class="column">
-	<div><img src="/data/auc.distracted.driver.dataset/logos/University_of_Sussex_Logo.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/DCU_Three_Castles.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/uestc.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/ustc.png" width="200" /></div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/University_of_Sussex_Logo.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/DCU_Three_Castles.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/uestc.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/ustc.png" width="200" />
   </div>
-	<div class="column">
-	<div><img src="/data/auc.distracted.driver.dataset/logos/beijing-institute-of-technology.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/chinese-academy-of-sciences.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/beijing_info_tech_uni_logo.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/chalmers.png" width="200" /></div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/beijing-institute-of-technology.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/chinese-academy-of-sciences.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/beijing_info_tech_uni_logo.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/chalmers.png" width="200" />
   </div>
-	<div class="column">
-	<div><img src="/data/auc.distracted.driver.dataset/logos/kyungpook.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/alzahra_university.jpg" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/national_usct_pakistan.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/UNIMIB-LOGO.png" width="200" /></div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/kyungpook.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/alzahra_university.jpg" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/national_usct_pakistan.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/UNIMIB-LOGO.png" width="200" />
   </div>
-	<div class="column">
-	<div><img src="/data/auc.distracted.driver.dataset/logos/raphta.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/Lanzhou_Univ_logo.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/technical-university-cluj-napoca-romania.png" width="200" /></div>
-	<div><img src="/data/auc.distracted.driver.dataset/logos/kyunghee-university.jpg" width="200" /></div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/raphta.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/Lanzhou_Univ_logo.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/technical-university-cluj-napoca-romania.png" width="200" />
+	<img src="/data/auc.distracted.driver.dataset/logos/kyunghee-university.jpg" width="200" />
   </div>
 </div>
