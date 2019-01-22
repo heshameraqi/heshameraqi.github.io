@@ -1,8 +1,11 @@
 ---
 layout: page
+<!---
 title: Distracted Driver Dataset
+subtitle: Machine Intelligence Research Group, the American University in Cairo
+-->
 ---
-
+<h4 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h4>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4>
 <p style="text-align: center;"><sup>1</sup>The American University in Cairo<br /> <sup>2</sup>Technical University of Municho<br /> <sup>3</sup>Valeo Egypto<br /> <sup>*</sup>Both authors equally contributed to this work.</p>
 
@@ -14,8 +17,9 @@ title: Distracted Driver Dataset
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:center}
 </style>
 <table class="tg">
   <tr>
@@ -46,12 +50,12 @@ title: Distracted Driver Dataset
   </tr>
   <tr>
     <td class="tg-c3ow">License Agreement</td>
-    <td class="tg-c3ow">License Agreement V1</td>
-    <td class="tg-c3ow">License Agreement V2</td>
+    <td class="tg-c3ow"><a href="https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Distracted_Driver_Dataset_V1_License_Agreement.pdf>License Agreement V1</a></td>
+    <td class="tg-c3ow"><a href="https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Distracted_Driver_Dataset_V2_License_Agreement.pdf">License Agreement V2</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Download Link</td>
-    <td class="tg-c3ow" colspan="2">If you agree with terms and conditions, please fill out the license agreement and send it to:<br>Yehya Abouelnaga: yehya.abouelnaga(at)tum(dot)de<br>Hesham Eraqi: heraqi(at)aucegypt(dot)edu<br>Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.</td>
+    <td class="tg-c3ow" colspan="2">If you agree with terms and conditions, please fill out the license agreement and send it to: <a href="mailto:yehya.abouelnaga@tum.de">Yehya Abouelnaga: yehya.abouelnaga@tum.de</a> or <a href="mailto:heraqi@aucegypt.edu">Hesham M. Eraqi: heraqi@aucegypt.edu</a>.Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Publication</td>
