@@ -15,21 +15,22 @@ subtitle: Machine Intelligence Research Group, the American University in Cairo
 ### Datasets
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
 .tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-5e9r{background-color:#efefef;border-color:inherit;text-align:center}
 .tg .tg-mn4z{background-color:#c0c0c0;border-color:inherit;text-align:center}
 .tg .tg-xldj{border-color:inherit;text-align:left}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 874px">
+<table class="tg" style="undefined;table-layout: fixed; width: 874px" align="center">>
 <colgroup>
 <col style="width: 94px">
 <col style="width: 354px">
 <col style="width: 426px">
 </colgroup>
   <tr>
-    <th class="tg-mn4z"></th>
+    <th class="tg-5e9r"></th>
     <th class="tg-c3ow"><strong>Distracted Driver V1</strong></th>
     <th class="tg-c3ow"><strong>Distracted Driver V2</strong></th>
   </tr>
