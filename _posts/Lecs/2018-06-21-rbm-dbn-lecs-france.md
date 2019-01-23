@@ -3,7 +3,7 @@ layout: post
 title: Unsupervised Deep Learning with Restricted Boltzmann Machines (RBM) and Deep Belief Networks (DBN)
 subtitle: Conducted in Paris, September 2017
 bigimg: /img/Unsupervised-Learning.png
-tags: [Lecturex, Unsupervised Learning, Deep Belief Networks, Restricted Boltzmann Machines, DBN, RBM]
+tags: [Lectures, Unsupervised Learning, Deep Belief Networks, Restricted Boltzmann Machines, DBN, RBM]
 category: Lecs
 ---
 
