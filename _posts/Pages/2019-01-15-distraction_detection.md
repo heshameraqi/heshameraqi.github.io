@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: page
 title: Distracted Driver Dataset
 tags: [Distracted Driver, Dataset]
-category: Pages
+category: Dataset
 ---
 
 <!--- Comments:
