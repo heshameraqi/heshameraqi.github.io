@@ -3,8 +3,10 @@ layout: page
 <!---
 title: Distracted Driver Dataset
 subtitle: Machine Intelligence Research Group, the American University in Cairo
+redirect_from: "/distraction_detection"
 -->
 ---
+
 <h2 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4>
 <p style="text-align: center;"><sup>1 </sup>The American University in Cairo<br /> <sup>2 </sup>Technical University of Munich<br /> <sup>3 </sup>Valeo Egypt<br /> <sup>* </sup>Both authors equally contributed to this work.</p>

@@ -25,8 +25,7 @@ description: Personal website and blog of Hesham Eraqi
 navbar-links:
   Home: "http://heshameraqi.github.io"
   Projects:
-# For normal pages use for example "https://heshameraqi.github.io/blog/2019-01-15-distraction_detection" instead to be listed automatically on home page #
-    - Distraction Detection Dataset: "https://heshameraqi.github.io/blog/2019-01-23-2019-01-15-distraction_detection/"
+    - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
   Archive: "archive"
@@ -243,6 +242,10 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
+  
+gems:
+  - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
