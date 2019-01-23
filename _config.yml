@@ -26,9 +26,8 @@ navbar-links:
   Home: "http://heshameraqi.github.io"
   Projects:
   # Options: #
-  # 1- "https://heshameraqi.github.io/blog/2019-01-15-distraction_detection"  #
+  # 1- "https://heshameraqi.github.io/distraction_detection"  #
   # 2- "pageX" it will refer to <pageX>.md in the main directory #
-  # 3- Short link like "https://heshameraqi.github.io/blog/distraction_detection" #
     - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
