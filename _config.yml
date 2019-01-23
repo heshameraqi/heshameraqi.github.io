@@ -25,6 +25,10 @@ description: Personal website and blog of Hesham Eraqi
 navbar-links:
   Home: "http://heshameraqi.github.io"
   Projects:
+  # Options: #
+  # 1- "https://heshameraqi.github.io/blog/2019-01-15-distraction_detection"  #
+  # 2- "pageX" it will refer to <pageX>.md in the main directory #
+  # 3- Short link like "https://heshameraqi.github.io/blog/distraction_detection" #
     - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
@@ -150,7 +154,7 @@ title-separator: "-"
 timezone: "Africa/Cairo"
 markdown: kramdown
 highlighter: rouge
-permalink: blog/:categories/:year-:month-:day-:title/
+permalink: title
 paginate: 6
 
 kramdown:
@@ -242,9 +246,6 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
-  
-gems:
   - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
