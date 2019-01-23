@@ -1,6 +1,5 @@
 ---
 layout: post
-short-urls-jekyll: "rbm_lecture"
 title: Unsupervised Deep Learning with Restricted Boltzmann Machines (RBM) and Deep Belief Networks (DBN)
 subtitle: Conducted in Paris, September 2017
 bigimg: /img/Unsupervised-Learning.png
