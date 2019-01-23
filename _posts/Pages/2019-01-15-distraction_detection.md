@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Distracted Driver Dataset
+title: 
+<!---
 subtitle: Machine Intelligence Research Group, the American University in Cairo
+-->
 tags: [Distracted Driver, Dataset]
 category: Pages
 ---
