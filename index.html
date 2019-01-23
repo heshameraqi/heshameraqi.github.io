@@ -9,12 +9,11 @@ use-site-title: true
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	
-	
+
 		{% if post.title %}
 			<h2 class="post-title">{{ post.title }}</h2>
 		{% else %}
-			<h2 class="post-title">{{ post.invisible-title }}</h2> <!-- Todo: capture-->
+			<h2 class="post-title">{{ post.title }}</h2> <!-- Todo: capture-->
 		{% endif %}
 	  
 
