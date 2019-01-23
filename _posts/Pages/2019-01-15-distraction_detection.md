@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Distracted Driver Dataset
-<!---
-subtitle: Machine Intelligence Research Group, the American University in Cairo
--->
 tags: [Distracted Driver, Dataset]
 category: Pages
-<!---
+---
+
+<!--- Comments:
+subtitle: Machine Intelligence Research Group, the American University in Cairo
 For the category as "Pages" I prevent creating the title and posted on header.
 -->
----
 
 <h2 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,3,*</sup>, Yehya Abouelnaga <sup>2,*</sup>, Mohamed H. Saad <sup>3</sup>, Mohamed N. Moustafa <sup>1</sup></strong></h4>
