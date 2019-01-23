@@ -10,9 +10,7 @@ use-site-title: true
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 
-		{% if post.title == "" %}
-			<h2 class="post-title">{{ post.content | strip_html | truncatewords:5 }}</h2>
-		{% else %}
+		{% if post.title %}
 			<h2 class="post-title">{{ post.title }}</h2>
 		{% endif %}
 
