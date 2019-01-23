@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 short-urls-jekyll: "distraction_detection"
 <!---
 title: Distracted Driver Dataset
