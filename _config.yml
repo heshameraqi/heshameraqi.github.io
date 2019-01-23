@@ -154,7 +154,7 @@ title-separator: "-"
 timezone: "Africa/Cairo"
 markdown: kramdown
 highlighter: rouge
-permalink: short-urls-jekyll
+permalink: "/:title"
 paginate: 6
 
 kramdown:
