@@ -11,6 +11,48 @@ category: Dataset
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
 
+### Institutions
+
+Our work is being used by researches across academia and research labs:
+<div class="row" style="width:800px; margin:0 auto;" align="center"> 
+  <div class="column">
+    <img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/tum.gif" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/valeo.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/intel.png" width="180" />
+  </div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/university-of-warwick.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/washington.edu.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/University-of-Waterloo.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/university_of_illinois.gif" width="180" />
+  </div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/University_of_Sussex_Logo.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/DCU_Three_Castles.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/uestc.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/ustc.png" width="180" />
+  </div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/beijing-institute-of-technology.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/chinese-academy-of-sciences.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/beijing_info_tech_uni_logo.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/chalmers.png" width="180" />
+  </div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/kyungpook.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/alzahra_university.jpg" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/national_usct_pakistan.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/UNIMIB-LOGO.png" width="180" />
+  </div>
+  <div class="column">
+	<img src="/data/auc.distracted.driver.dataset/logos/raphta.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/Lanzhou_Univ_logo.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/technical-university-cluj-napoca-romania.png" width="180" />
+	<img src="/data/auc.distracted.driver.dataset/logos/kyunghee-university.jpg" width="180" />
+  </div>
+</div>
+
 ### Datasets
 
 <style type="text/css">
@@ -104,45 +146,3 @@ Hesham M. Eraqi, Yehya Abouelnaga, Mohamed H. Saad, Mohamed N. Moustafa, "Driver
 Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracted Driver Posture Classification", Machine Learning for Intelligent Transportation Systems Workshop in the 32nd Conference on Neural Information Processing Systems (NeuroIPS), Montréal, Canada, 2018.
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/System.png)
-
-### Institutions
-
-Our work is being used by researches across academia and research labs:
-<div class="row" style="width:800px; margin:0 auto;" align="center"> 
-  <div class="column">
-    <img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/tum.gif" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/valeo.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/intel.png" width="180" />
-  </div>
-  <div class="column">
-	<img src="/data/auc.distracted.driver.dataset/logos/university-of-warwick.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/washington.edu.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/University-of-Waterloo.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/university_of_illinois.gif" width="180" />
-  </div>
-  <div class="column">
-	<img src="/data/auc.distracted.driver.dataset/logos/University_of_Sussex_Logo.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/DCU_Three_Castles.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/uestc.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/ustc.png" width="180" />
-  </div>
-  <div class="column">
-	<img src="/data/auc.distracted.driver.dataset/logos/beijing-institute-of-technology.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/chinese-academy-of-sciences.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/beijing_info_tech_uni_logo.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/chalmers.png" width="180" />
-  </div>
-  <div class="column">
-	<img src="/data/auc.distracted.driver.dataset/logos/kyungpook.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/alzahra_university.jpg" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/national_usct_pakistan.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/UNIMIB-LOGO.png" width="180" />
-  </div>
-  <div class="column">
-	<img src="/data/auc.distracted.driver.dataset/logos/raphta.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/Lanzhou_Univ_logo.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/technical-university-cluj-napoca-romania.png" width="180" />
-	<img src="/data/auc.distracted.driver.dataset/logos/kyunghee-university.jpg" width="180" />
-  </div>
-</div>
