@@ -6,6 +6,9 @@ subtitle: Machine Intelligence Research Group, the American University in Cairo
 -->
 tags: [Distracted Driver, Dataset]
 category: Pages
+<!---
+For the category as "Pages" I prevent creating the title and posted on header.
+-->
 ---
 
 <h2 style="text-align: center;"><strong>Distracted Driver Dataset</strong></h2>
