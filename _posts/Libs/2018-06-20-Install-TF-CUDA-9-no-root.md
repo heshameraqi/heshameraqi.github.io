@@ -1,5 +1,6 @@
 ---
 layout: post
+short-urls-jekyll: "/install_tf_CUDA9_noadmin"
 title: Install Tensorflow for CUDA 9 without root
 subtitle: No admin :-)
 bigimg: /img/TF_Cuda.png

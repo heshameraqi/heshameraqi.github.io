@@ -1,6 +1,6 @@
 ---
 layout: page
-redirect_from: "/distraction_detection"
+short-urls-jekyll: "/distraction_detection"
 <!---
 title: Distracted Driver Dataset
 subtitle: Machine Intelligence Research Group, the American University in Cairo
