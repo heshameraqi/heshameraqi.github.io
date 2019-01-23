@@ -8,7 +8,11 @@
         <span class="icon-bar"></span>
       </button>
       {% if site.title-img %}
-        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/> <h4>Hesham Eraqi Website</h4> </a>
+        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/>
+			<div style="display:inline-block;">
+				<div>Hesham Eraqi Website</div>
+			</div>
+		</a>
       {% else %}
         <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
       {% endif %}
