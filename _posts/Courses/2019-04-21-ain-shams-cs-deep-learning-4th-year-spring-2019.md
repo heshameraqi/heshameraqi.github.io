@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Ain Shams University - Faculty of Computer Science - Deep Learning Course - 4th Year - Spring 2019
 tags: [Deep Learning, Course, Ain Shams, CS, Material]
 category: Course
