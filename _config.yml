@@ -24,6 +24,8 @@ description: Personal website and blog of Hesham Eraqi
 # List of links in the navigation bar
 navbar-links:
   Home: "http://heshameraqi.github.io"
+  Courses:
+    - Ain Shams - CS - Deep Learning Course - 4th Year - Spring 2019: https://heshameraqi.github.io/ain-shams-cs-deep-learning-4th-year-spring-2019
   Projects:
   # Options: #
   # 1- "https://heshameraqi.github.io/distraction_detection"  #
