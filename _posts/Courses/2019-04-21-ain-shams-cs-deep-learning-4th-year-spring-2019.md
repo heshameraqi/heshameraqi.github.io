@@ -7,20 +7,42 @@ category: Course
 
 {% include advertisements.html %}
 
-** Lecture 5 **
-
 <div dir="ltr" style="text-align: left;" trbidi="on">
-<div style="text-align: center;">
-<b>Valeo Deep Learning Course - Lecture 8 - Ain Shams University,&nbsp;</b><span style="text-align: left;"><b>FCIS,</b></span><b>&nbsp;Fall 2018&nbsp;</b></div>
+<div style="text-align: center;"><b>Lecture 5</b></div>
 <div style="text-align: center;">
 <br /></div>
 <div style="text-align: center;">
-<iframe height="480" src="https://drive.google.com/file/d/1U7Z-yJzMePTzUD4EarYOeTzJmK_nO8Pf/preview" width="640"></iframe></div>
+<iframe height="480" src="https://drive.google.com/file/d/1E75t6Lt8W8uWWRjNKijhPdmuwAcuA7Is/preview" width="840"></iframe></div>
 </div>
 
-** Lecture 6 **
+{% include advertisements.html %}
 
-** Lecture 7 **
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="text-align: center;"><b>Lecture 6</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe height="480" src="https://drive.google.com/file/d/1E75t6Lt8W8uWWRjNKijhPdmuwAcuA7Is/preview" width="840"></iframe></div>
+</div>
 
-** Lecture 8 **
+{% include advertisements.html %}
 
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="text-align: center;"><b>Lecture 7</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe height="480" src="https://drive.google.com/file/d/1E75t6Lt8W8uWWRjNKijhPdmuwAcuA7Is/preview" width="840"></iframe></div>
+</div>
+
+{% include advertisements.html %}
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="text-align: center;"><b>Lecture 8</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe height="480" src="https://drive.google.com/file/d/1E75t6Lt8W8uWWRjNKijhPdmuwAcuA7Is/preview" width="840"></iframe></div>
+</div>
+
+{% include advertisements.html %}
