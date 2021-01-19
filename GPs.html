@@ -1,0 +1,27 @@
+---
+layout: page
+title: Advised Graduation Projects & Theses
+subtitle: All my blog posts in a single page.
+---
+
+<div class="categories-wrapper">
+    {% for tag in site.categories %}
+    <div class="category">
+        <h2 class="category-title" id="{{ tag[0] | slugify }}">
+			{{ tag[0] | capitalize}}</h2>
+            {% for post in tag[1] %}
+            <li>
+                <article>
+                    <a class="category-post-title" href="{{ site.baseurl }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                    <time class="category-post-meta" datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y"
+                        }}
+                    </time>
+                </article>
+            </li>
+            {% endfor %}
+        </h2>
+    </div>
+    {% endfor %}
+</div>
