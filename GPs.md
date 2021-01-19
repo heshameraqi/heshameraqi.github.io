@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My advised Graduation Projects & Theses
-subtitle: My advised Graduation Projects & Theses
+title: My advised Graduation Projects & Theses (Some Highlights)
+subtitle: Some Highlights
 ---
 
 # Graduation Projects & Theses I advised
