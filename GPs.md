@@ -4,7 +4,7 @@ title: My advised Graduation Projects & Theses (Some Highlights)
 subtitle: Some Highlights
 ---
 
-# Graduation Projects & Theses I advised
+# Highlights of my advised Graduation Projects & Theses
 
 ## Reactive Collision Avoidance using Evolutionary Neural Networks
 
