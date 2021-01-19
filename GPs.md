@@ -17,4 +17,4 @@ Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
 
 Implementing collision avoidance mechanism in automated guided vehicles (AGV) using Evolutionary Neural Networks. The network first learns the weights in a simulated environment in Gazebo simulator, then the weights are transferred to the AGV network which continues to improve the learned weights in the real environment. 
 
-Video: https://www.youtube.com/watch?v=LvPXkloEpvo 
+Video: https://www.youtube.com/watch?v=QI_payyxkng
