@@ -14,7 +14,6 @@ bigimg: /post_images/TF_Cuda.png
 <p style="text-align: center;"><sup>1 </sup>The American University in Cairo<br /> <sup>2 </sup>Technical University of Munich<br /> <sup>3 </sup>Valeo Egypt<br /> <sup>* </sup>Both authors equally contributed to this work.</p>
 -->
 
-<center><b><h3> <a href="https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf">Conference Agenda</a> </h3></b></center>
 
 <center>
 <img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_1.jpg" height="300">
