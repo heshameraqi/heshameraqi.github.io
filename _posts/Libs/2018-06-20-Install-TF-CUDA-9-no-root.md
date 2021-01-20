@@ -2,7 +2,7 @@
 layout: post
 title: Install Tensorflow for CUDA 9 without root
 subtitle: No admin :-)
-bigimg: https://heshameraqi.github.io/data/auc.distracted.driver.dataset/TF_Cuda.png
+bigimg: /_post_images/TF_Cuda.png
 tags: [Tensorflow, Cuda]
 category: Libs
 ---

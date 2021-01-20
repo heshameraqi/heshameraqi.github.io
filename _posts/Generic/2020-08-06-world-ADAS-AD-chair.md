@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Chairperson of World ADAS & Autonomous Driving Conference 2020
+bigimg: /_post_images/TF_Cuda.png
 tags: [World ADAS & Autonomous Driving, Conferences]
 category: Conferences
 ---
