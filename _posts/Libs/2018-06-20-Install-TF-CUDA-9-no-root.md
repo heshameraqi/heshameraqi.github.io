@@ -2,7 +2,7 @@
 layout: post
 title: Install Tensorflow for CUDA 9 without root
 subtitle: No admin :-)
-bigimg: /_post_images/TF_Cuda.png
+bigimg: /post_images/TF_Cuda.png
 tags: [Tensorflow, Cuda]
 category: Libs
 ---
