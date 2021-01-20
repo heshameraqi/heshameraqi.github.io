@@ -20,7 +20,7 @@ Can be added here for subtitle:
 <img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_2.png" height="300">
 </center>
 
-<center><b><h3> <a href="https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf">Conference Agenda (PDF)</a> </h3></b></center>
+<center><b><h3> <a href="https://heshameraqi.github.io/docs/World ADAS & AD Conference 2020_Agenda.pdf">Conference Agenda (PDF)</a> </h3></b></center>
 
 Tomorrow, I'm honored to be the Chairperson of the 2020 World ADAS & Autonomous Driving Conference and to moderate the very interesting panel discussion on the future of Connected, Autonomous, Shared, Electric vehicles in a post-COVID world with Shyam Sundar, Sanjay Puri, and Vienna Harvey. I'm also excited to be presenting about the recent advances in Deep Learning approaches to Autonomous Driving.
 
