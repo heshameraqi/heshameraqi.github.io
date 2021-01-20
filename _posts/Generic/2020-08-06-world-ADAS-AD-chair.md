@@ -14,8 +14,7 @@ Can be added here for subtitle:
 <p style="text-align: center;"><sup>1 </sup>The American University in Cairo<br /> <sup>2 </sup>Technical University of Munich<br /> <sup>3 </sup>Valeo Egypt<br /> <sup>* </sup>Both authors equally contributed to this work.</p>
 -->
 
-<center><b><h3> <a href="https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf">Conference Agenda (PDF)</a> </h3></b></center>
-
+<center><b><h3> <a href="https://heshameraqi.github.io/docs/World ADAS & AD Conference 2020_Agenda.pdf">Conference Agenda (PDF)</a> </h3></b></center>
 <center>
 <img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_1.jpg" height="300">
 <img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_2.png" height="300">
