@@ -14,13 +14,14 @@ bigimg: /post_images/TF_Cuda.png
 <p style="text-align: center;"><sup>1 </sup>The American University in Cairo<br /> <sup>2 </sup>Technical University of Munich<br /> <sup>3 </sup>Valeo Egypt<br /> <sup>* </sup>Both authors equally contributed to this work.</p>
 -->
 
-[Conference Agenda](https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf)
-<img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_1.jpg" height="200">
-<img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_2.jpg" height="200">
+## [Conference Agenda](https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf)
+
+<img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_1.jpg" height="300">
+<img src="https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_2.png" height="300">
 
 {% include advertisements.html %}
 
-[Conference Agenda](https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf)
+## [Conference Agenda](https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf)
 
 Tomorrow, I'm honored to be the Chairperson of the 2020 World ADAS & Autonomous Driving Conference and to moderate the very interesting panel discussion on the future of Connected, Autonomous, Shared, Electric vehicles in a post-COVID world with Shyam Sundar, Sanjay Puri, and Vienna Harvey. I'm also excited to be presenting about the recent advances in Deep Learning approaches to Autonomous Driving.
 
