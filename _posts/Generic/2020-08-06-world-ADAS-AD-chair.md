@@ -1,12 +1,23 @@
 ---
 layout: page
-title: Chairperson of World ADAS & Autonomous Driving Conference 2020
-tags: [World ADAS & Autonomous Driving, Conferences]
-category: Conferences
+title: My advised Graduation Projects & Theses (Some Highlights)
+subtitle: Some Highlights
 ---
 
-Tomorrow, I'm honored to be the Chairperson of the 2020 World ADAS & Autonomous Driving Conference and to moderate the very interesting panel discussion on the future of Connected, Autonomous, Shared, Electric vehicles in a post-COVID world with Shyam Sundar, Sanjay Puri, and Vienna Harvey. I'm also excited to be presenting about the recent advances in Deep Learning approaches to Autonomous Driving.
+## Highlights of my advised Graduation Projects & Theses
 
-I'm sharing this to encourage delegates from Egyptian universities to register to join for free. The conference is scheduled to happen virtually this year, and universities and OEM's delegates can register for free: https://bit.ly/3gl5nVX (terms: https://events.marketsandmarkets.com/termsandconditions).
+### Reactive Collision Avoidance using Evolutionary Neural Networks
+
+### AUC, Spring 2020
+
+<center>
+<img src="GPs/AUC20-GANN_Car_1.jpeg" height="200">
+<img src="GPs/AUC20-GANN_Car_2.jpeg" height="200">
+</center>
+
+Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
 
 
+Implementing collision avoidance mechanism in automated guided vehicles (AGV) using Evolutionary Neural Networks. The network first learns the weights in a simulated environment in Gazebo simulator, then the weights are transferred to the AGV network which continues to improve the learned weights in the real environment. 
+
+Video: https://www.youtube.com/watch?v=QI_payyxkng
