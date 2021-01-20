@@ -7,7 +7,7 @@ tags: [Lectures, Unsupervised Learning, Deep Belief Networks, Restricted Boltzma
 category: Lecs
 ---
 
-[![Part 1](/_post_images/DBN-Lec1.png)](https://www.youtube.com/embed/Jc1Kx5wfi_Q)
+[![Part 1](https://heshameraqi.github.io/_post_images/DBN-Lec1.png)](https://www.youtube.com/embed/Jc1Kx5wfi_Q)
 
-[![Part 2](/_post_images/DBN-Lec2.png)](https://www.youtube.com/embed/FBgx2ZEBApE)
+[![Part 2](https://heshameraqi.github.io/_post_images/DBN-Lec2.png)](https://www.youtube.com/embed/FBgx2ZEBApE)
 
