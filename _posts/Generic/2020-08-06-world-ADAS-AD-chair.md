@@ -12,8 +12,8 @@ category: Conferences
 -->
 
 ![Conference Agenda](https://heshameraqi.github.io/_docs/World ADAS & AD Conference 2020_Agenda.pdf)
-![Conference Agenda](https://heshameraqi.github.io/_post_images/World ADAS & AD Conference_panel_1.jpg)
-![Conference Agenda](https://heshameraqi.github.io/_post_images/World ADAS & AD Conference_panel_2.png)
+![Conference Agenda](https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_1.jpg)
+![Conference Agenda](https://heshameraqi.github.io/post_images/World ADAS & AD Conference_panel_2.png)
 
 {% include advertisements.html %}
 
