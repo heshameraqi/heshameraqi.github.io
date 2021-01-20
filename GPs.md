@@ -1,7 +1,7 @@
 ---
-layout: post
-title: My advised Graduation Projects & Theses
-subtitle: (Highlights)
+layout: page
+title: My advised Graduation Projects & Theses (Some Highlights)
+subtitle: Highlights
 ---
 
 ## Highlights of my advised Graduation Projects & Theses
