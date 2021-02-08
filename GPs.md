@@ -62,6 +62,7 @@ Team: Ahmed Hossam Mohamed Ali - Ahmed Mohamed Sleem Abd-Alaal - Ahmed Mohamed A
 A self-driving car based on Conditional Imitation Learning. The project was sponsored by Valeo.
 
 [Link to Book](https://drive.google.com/file/d/1gwFsM2j0LD8De2MsG0oRhf2om11WxQE7/view?usp=sharing)
+
 [Link to Video](https://www.youtube.com/watch?v=4CmXf6s6GtM)
 
 -----------------------------------
