@@ -22,7 +22,7 @@ Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
 
 Implementing collision avoidance mechanism in automated guided vehicles (AGV) using Evolutionary Neural Networks. The network first learns the weights in a simulated environment in Gazebo simulator, then the weights are transferred to the AGV network which continues to improve the learned weights in the real environment. 
 
-Video: https://www.youtube.com/watch?v=QI_payyxkng
+[Link to Video](https://www.youtube.com/watch?v=QI_payyxkng)
 
 -----------------------------------
 
@@ -61,7 +61,7 @@ Team: Ahmed Hossam Mohamed Ali - Ahmed Mohamed Sleem Abd-Alaal - Ahmed Mohamed A
 
 A self-driving car based on Conditional Imitation Learning. The project was sponsored by Valeo.
 
-Book: https://drive.google.com/file/d/1gwFsM2j0LD8De2MsG0oRhf2om11WxQE7/view?usp=sharing
-Video: https://www.youtube.com/watch?v=4CmXf6s6GtM
+[Link to Book](https://drive.google.com/file/d/1gwFsM2j0LD8De2MsG0oRhf2om11WxQE7/view?usp=sharing)
+[Link to Video](https://www.youtube.com/watch?v=4CmXf6s6GtM)
 
 -----------------------------------
