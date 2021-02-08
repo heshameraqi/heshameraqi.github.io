@@ -47,18 +47,14 @@ Team: Sara Ahmed - Ahmed M. Ibrahim - Ayman El-Refai - Ahmed Ibrahim - Mariam Ab
 ### Electronics and communication Department, Faculty of Engineering, Alexandria University, Spring 2020
 
 <center>
-<img src="GPs/Alex_SelfDrive_2019_1" height="150">
-<img src="GPs/Alex_SelfDrive_2019_2" height="150">
+<img src="GPs/Alex_SelfDrive_2019_1.jpg" height="150">
+<img src="GPs/Alex_SelfDrive_2019_2.jpg" height="150">
 </center>
 
 <center>
-<img src="GPs/Alex_SelfDrive_2019_3" height="150">
-<img src="GPs/Alex_SelfDrive_2019_4" height="150">
-</center>
-
-<center>
-<img src="GPs/Alex_SelfDrive_2019_5" height="150">
-<img src="GPs/Alex_SelfDrive_2019_6" height="150">
+<img src="GPs/Alex_SelfDrive_2019_3.jpg" height="150">
+<img src="GPs/Alex_SelfDrive_2019_4.jpg" height="150">
+<img src="GPs/Alex_SelfDrive_2019_5.jpg" height="150">
 </center>
 
 Team: Ahmed Hossam Mohamed Ali - Ahmed Mohamed Sleem Abd-Alaal - Ahmed Mohamed Abd-Elkarim Mohamed Gomaa - Ahmed Mohamed Mohamed Abd-Elmonem Zahwy - Ahmed Mohamed Mohamed Mahmoud Hamza - Adham Fattouh Saad Hussein Metwally - Abdullah Adel Gaber Hassan Ali - Omar Khamis Mohamed Ahmed Shokr - Mahmoud Mohamed Abdullah Mansour - Nour El-din Abd-Elfatah Mohamed El-Sayed
