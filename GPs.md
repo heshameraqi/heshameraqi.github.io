@@ -42,3 +42,30 @@ Team: Sara Ahmed - Ahmed M. Ibrahim - Ayman El-Refai - Ahmed Ibrahim - Mariam Ab
 
 -----------------------------------
 
+### CIL Self-Driving Car
+
+### Electronics and communication Department, Faculty of Engineering, Alexandria University, Spring 2020
+
+<center>
+<img src="GPs/Alex_SelfDrive_2019_1" height="150">
+<img src="GPs/Alex_SelfDrive_2019_2" height="150">
+</center>
+
+<center>
+<img src="GPs/Alex_SelfDrive_2019_3" height="150">
+<img src="GPs/Alex_SelfDrive_2019_4" height="150">
+</center>
+
+<center>
+<img src="GPs/Alex_SelfDrive_2019_5" height="150">
+<img src="GPs/Alex_SelfDrive_2019_6" height="150">
+</center>
+
+Team: Ahmed Hossam Mohamed Ali - Ahmed Mohamed Sleem Abd-Alaal - Ahmed Mohamed Abd-Elkarim Mohamed Gomaa - Ahmed Mohamed Mohamed Abd-Elmonem Zahwy - Ahmed Mohamed Mohamed Mahmoud Hamza - Adham Fattouh Saad Hussein Metwally - Abdullah Adel Gaber Hassan Ali - Omar Khamis Mohamed Ahmed Shokr - Mahmoud Mohamed Abdullah Mansour - Nour El-din Abd-Elfatah Mohamed El-Sayed
+
+A self-driving car based on Conditional Imitation Learning. The project was sponsored by Valeo.
+
+Book: https://drive.google.com/file/d/1gwFsM2j0LD8De2MsG0oRhf2om11WxQE7/view?usp=sharing
+Video: https://www.youtube.com/watch?v=4CmXf6s6GtM
+
+-----------------------------------
