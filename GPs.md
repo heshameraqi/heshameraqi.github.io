@@ -19,7 +19,6 @@ subtitle: Highlights
 
 Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
 
-
 Implementing collision avoidance mechanism in automated guided vehicles (AGV) using Evolutionary Neural Networks. The network first learns the weights in a simulated environment in Gazebo simulator, then the weights are transferred to the AGV network which continues to improve the learned weights in the real environment. 
 
 [Link to Video](https://www.youtube.com/watch?v=QI_payyxkng)
@@ -28,9 +27,16 @@ Implementing collision avoidance mechanism in automated guided vehicles (AGV) us
 
 ### Deep Visual Speech Recognition (Lip Reading)
 
-### AUC, Fall 2020
+### AUC, Spring 2021
 
-Team: Hadeel Mabrouk - Shahd El-Ashmawy - Omar Abugabal - Marian Ramsis - Farah El-Ashmawy 
+<center>
+<img src="GPs/AUC21-LipReading_1.png" height="300">
+<img src="GPs/AUC21-LipReading_2.jpeg" height="300">
+</center>
+
+Team: Hadeel Mabrouk - Omar Abugabal - Shahd El-Ashmawy - Marian Ramsis - Farah El-Ashmawy
+
+In this work, we propose a technique to transfer speech recognition capabilities from audio speech recognition systems to visual speech recognizers, where our goal is to utilize audio data during lipreading model training. Impressive progress in the domain of speech recognition has been exhibited by audio and audio-visual systems. Nevertheless, there is still much to be explored with regards to visual speech recognition systems due to the visual ambiguity of some phonemes. To this end, the development of visual speech recognition models is crucial given the instability of audio models. The main contributions of this work are i) building on recent state-of-the-art word-based lipreading models by integrating sequence-level and frame-level Knowledge Distillation (KD) to their systems; ii) leveraging audio data during training visual models, a feat which has not been utilized in prior word-based work; iii) proposing the Gaussian-shaped averaging in frame-level KD, as an efficient technique that aids the model in distilling knowledge at the sequence model encoder. This work proposes a novel and competitive architecture for lip-reading, as we demonstrate a noticeable improvement in performance, setting a new benchmark equals to 88.64% on the LRW dataset.
 
 -----------------------------------
 
