@@ -13,9 +13,9 @@ subtitle: Highlights
 ### AUC, Spring 2021
 
 <center>
-<img src="GPs/AUC21-LipReading_1.png" height="300">
-<img src="GPs/AUC21-LipReading_2.jpeg" height="300">
-<img src="GPs/AUC21-LipReading_3.png" height="300">
+<img src="GPs/AUC21-LipReading_1.png" height="200">
+<img src="GPs/AUC21-LipReading_2.jpeg" height="200">
+<img src="GPs/AUC21-LipReading_3.png" height="200">
 </center>
 
 Team: Hadeel Mabrouk - Omar Abugabal - Shahd El-Ashmawy - Marian Ramsis - Farah El-Ashmawy
