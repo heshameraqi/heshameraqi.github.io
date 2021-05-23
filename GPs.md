@@ -29,11 +29,11 @@ In this work, we propose a technique to transfer speech recognition capabilities
 ### AUC, CSE Department, Fall 2021
 
 <center>
-<img src="GPs/AUC21_Sonar_Ayman_ElRefai.jpg" height="200">
-<img src="GPs/AUC21_Sonar_Sara_Ahmed.jpeg" height="200">
-<img src="GPs/AUC21_Sonar_Ahmed_M_Khalel.jpeg" height="200">
-<img src="GPs/AUC21_Sonar_Mariam_Abul-Ela.jpg" height="200">
-<img src="GPs/AUC21_Sonar_Ahmed_Ibrahim.jpg" height="200">
+<img src="GPs/AUC21_Sonar_Ayman_ElRefai.jpg" height="150">
+<img src="GPs/AUC21_Sonar_Sara_Ahmed.jpeg" height="150">
+<img src="GPs/AUC21_Sonar_Ahmed_M_Khalel.jpeg" height="150">
+<img src="GPs/AUC21_Sonar_Mariam_Abul-Ela.jpg" height="150">
+<img src="GPs/AUC21_Sonar_Ahmed_Ibrahim.jpg" height="150">
 </center>
 
 Team: Ayman El-Refai - Sara Ahmed - Ahmed M. Ibrahim - Ahmed Ibrahim - Mariam Abul-Ela 
