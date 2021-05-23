@@ -41,7 +41,7 @@ Team: Ayman El-Refai - Sara Ahmed - Ahmed M. Ibrahim - Ahmed Ibrahim - Mariam Ab
 Due to the mass advancement in ubiquitous technologies nowadays, new pervasive methods have come into practice to provide new innovative features and stimulate the research on new human-computer interactions. Handheld devices are expected to recognize a user's movements as its integral to the human-machine interaction. In this paper, we present SonarWAV, a hand gesture classification system that uses the smartphone's built-in speakers and microphones to detect the hand movement around the user's smartphone.
 The proposed method emits an ultrasonic sonar-based signal from the smartphone's stereo speakers, which is then received by the smartphone's microphone, and then converted to a spectrogram short-time Fourier transform. That spectrogram is then used as input to a CNN model which then recognizes such a gesture. This study compares different types of CNN models based on the input to the model. The first takes the dual channel audio as 1 channel image of the spectrogram (Basic CNN), the second takes the dual channels spectrogram (top and bottom) and concatenates them as an input to the model (Early Fusion), the third takes two spectrograms of the bottom and top channels, and learns each channel on its own then merges the result at the end of the model (Late Fusion). Our results show that our system can detect the six gestures with an accuracy of 93.58% using the Early Fusion model based on Xception.
 
-[Link to Video](https://www.youtube.com/watch?v=QI_payyxkng)
+[Link to Demo Video](https://youtu.be/I8HhX1JGzFw)
 
 -----------------------------------
 
@@ -58,7 +58,7 @@ Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
 
 Implementing collision avoidance mechanism in automated guided vehicles (AGV) using Evolutionary Neural Networks. The network first learns the weights in a simulated environment in Gazebo simulator, then the weights are transferred to the AGV network which continues to improve the learned weights in the real environment. 
 
-[Link to Video](https://www.youtube.com/watch?v=QI_payyxkng)
+[Link to Demo Video](https://www.youtube.com/watch?v=QI_payyxkng)
 
 -----------------------------------
 
@@ -82,6 +82,6 @@ A self-driving car based on Conditional Imitation Learning. The project was spon
 
 [Link to Book](https://drive.google.com/file/d/1gwFsM2j0LD8De2MsG0oRhf2om11WxQE7/view?usp=sharing)
 
-[Link to Video](https://www.youtube.com/watch?v=4CmXf6s6GtM)
+[Link to Demo Video](https://www.youtube.com/watch?v=4CmXf6s6GtM)
 
 -----------------------------------
