@@ -10,7 +10,7 @@ subtitle: Highlights
 
 ### Deep Visual Speech Recognition (Lip Reading)
 
-### AUC, Spring 2021
+### AUC, CSE Department, Spring 2021
 
 <center>
 <img src="GPs/AUC21-LipReading_1.png" height="200">
@@ -24,9 +24,30 @@ In this work, we propose a technique to transfer speech recognition capabilities
 
 -----------------------------------
 
+### Pervasive Sonar-based Smartphones Control Suite
+
+### AUC, CSE Department, Fall 2021
+
+<center>
+<img src="GPs/AUC21_Sonar_Ayman_ElRefai.jpg" height="200">
+<img src="GPs/AUC21_Sonar_Sara_Ahmed.jpeg" height="200">
+<img src="GPs/AUC21_Sonar_Ahmed_M_Khalel.jpeg" height="200">
+<img src="GPs/AUC21_Sonar_Mariam_Abul-Ela.jpg" height="200">
+<img src="GPs/AUC21_Sonar_Ahmed_Ibrahim.jpg" height="200">
+</center>
+
+Team: Ayman El-Refai - Sara Ahmed - Ahmed M. Ibrahim - Ahmed Ibrahim - Mariam Abul-Ela 
+
+Due to the mass advancement in ubiquitous technologies nowadays, new pervasive methods have come into practice to provide new innovative features and stimulate the research on new human-computer interactions. Handheld devices are expected to recognize a user's movements as its integral to the human-machine interaction. In this paper, we present SonarWAV, a hand gesture classification system that uses the smartphone's built-in speakers and microphones to detect the hand movement around the user's smartphone.
+The proposed method emits an ultrasonic sonar-based signal from the smartphone's stereo speakers, which is then received by the smartphone's microphone, and then converted to a spectrogram short-time Fourier transform. That spectrogram is then used as input to a CNN model which then recognizes such a gesture. This study compares different types of CNN models based on the input to the model. The first takes the dual channel audio as 1 channel image of the spectrogram (Basic CNN), the second takes the dual channels spectrogram (top and bottom) and concatenates them as an input to the model (Early Fusion), the third takes two spectrograms of the bottom and top channels, and learns each channel on its own then merges the result at the end of the model (Late Fusion). Our results show that our system can detect the six gestures with an accuracy of 93.58% using the Early Fusion model based on Xception.
+
+[Link to Video](https://www.youtube.com/watch?v=QI_payyxkng)
+
+-----------------------------------
+
 ### Reactive Collision Avoidance using Evolutionary Neural Networks
 
-### AUC, Spring 2020
+### AUC, CSE Department, Spring 2020
 
 <center>
 <img src="GPs/AUC20-GANN_Car_1.jpeg" height="200">
@@ -41,27 +62,18 @@ Implementing collision avoidance mechanism in automated guided vehicles (AGV) us
 
 -----------------------------------
 
-### Pervasive Sonar-based Smartphones Control Suite
-
-### AUC, Fall 2020
-
-Team: Sara Ahmed - Ahmed M. Ibrahim - Ayman El-Refai - Ahmed Ibrahim - Mariam Abul-Ela 
-
------------------------------------
-
 ### CIL Self-Driving Car
 
 ### Electronics and communication Department, Faculty of Engineering, Alexandria University, Spring 2020
 
 <center>
-<img src="GPs/Alex_SelfDrive_2019_1.jpg" height="150">
-<img src="GPs/Alex_SelfDrive_2019_2.jpg" height="150">
+<img src="GPs/Alex_SelfDrive_2019_2.jpg" height="200">
+<img src="GPs/Alex_SelfDrive_2019_5.jpg" height="200">
 </center>
 
 <center>
 <img src="GPs/Alex_SelfDrive_2019_3.jpg" height="150">
 <img src="GPs/Alex_SelfDrive_2019_4.jpg" height="150">
-<img src="GPs/Alex_SelfDrive_2019_5.jpg" height="150">
 </center>
 
 Team: Ahmed Hossam Mohamed Ali - Ahmed Mohamed Sleem Abd-Alaal - Ahmed Mohamed Abd-Elkarim Mohamed Gomaa - Ahmed Mohamed Mohamed Abd-Elmonem Zahwy - Ahmed Mohamed Mohamed Mahmoud Hamza - Adham Fattouh Saad Hussein Metwally - Abdullah Adel Gaber Hassan Ali - Omar Khamis Mohamed Ahmed Shokr - Mahmoud Mohamed Abdullah Mansour - Nour El-din Abd-Elfatah Mohamed El-Sayed
