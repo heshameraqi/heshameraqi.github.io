@@ -24,6 +24,30 @@ In this work, we propose a technique to transfer speech recognition capabilities
 
 -----------------------------------
 
+### Autonomous Disinfection Robot
+
+### AUC, MENG Department, Spring 2021
+
+<center>
+<img src="GPs/AUC21_Disinfect_Robot_1.jpg" height="400">
+<img src="GPs/AUC21_Disinfect_Robot_2.jpeg" height="400">
+</center>
+
+<center>
+<img src="GPs/AUC21_Disinfect_Robot_3.png" height="200">
+<img src="GPs/AUC21_Disinfect_Robot_4.png" height="200">
+<img src="GPs/AUC21_Disinfect_Robot_5.jpeg" height="200">
+<img src="GPs/AUC21_Disinfect_Robot_6.jpeg" height="200">
+</center>
+
+Team: Hamdy Ibrahim - Mostafa Karakish - Ahmed el Sakhawi - Aly Kassem - Omar Ibrahim
+
+As COVID-19 spreads across the globe, hospitals, schools, and working areas have become ground zero for the virus. The project aims to design an autonomous disinfection robot using ultraviolet rays (UV-C) approach. This report describes the robot design, including sensors, embedded systems, mechanical parts and materials, and the Integration of both of them. The materials used are mainly aluminum, acrylic, and glass fiber to provide the required strength without increasing the weight. The results show that the robot can draw a map and localize itself within this map. Moreover, it also detects humans in the room and turns off the lamps to prevent human exposure to harmful UV radiation. The reach and efficacy of the UV lamps tests failed due to limitations of budget, time and unavailability of the required sensor to perform the tests. 
+
+[Link to Demo Video](https://www.youtube.com/watch?v=FM9TTGmkSD0)
+
+-----------------------------------
+
 ### Pervasive Sonar-based Smartphones Control Suite
 
 ### AUC, CSE Department, Fall 2021
