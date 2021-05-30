@@ -29,15 +29,15 @@ In this work, we propose a technique to transfer speech recognition capabilities
 ### AUC, MENG Department, Spring 2021
 
 <center>
-<img src="GPs/AUC21_Disinfect_Robot_1.jpg" height="400">
-<img src="GPs/AUC21_Disinfect_Robot_2.jpeg" height="400">
+<img src="GPs/AUC21_Disinfect_Robot_1.jpg" height="300">
+<img src="GPs/AUC21_Disinfect_Robot_2.jpeg" height="300">
 </center>
 
 <center>
-<img src="GPs/AUC21_Disinfect_Robot_3.png" height="200">
-<img src="GPs/AUC21_Disinfect_Robot_4.png" height="200">
-<img src="GPs/AUC21_Disinfect_Robot_5.jpeg" height="200">
-<img src="GPs/AUC21_Disinfect_Robot_6.jpeg" height="200">
+<img src="GPs/AUC21_Disinfect_Robot_3.png" height="150">
+<img src="GPs/AUC21_Disinfect_Robot_4.png" height="150">
+<img src="GPs/AUC21_Disinfect_Robot_5.jpeg" height="150">
+<img src="GPs/AUC21_Disinfect_Robot_6.jpeg" height="150">
 </center>
 
 Team: Hamdy Ibrahim - Mostafa Karakish - Ahmed el Sakhawi - Aly Kassem - Omar Ibrahim
