@@ -36,8 +36,8 @@ In this work, we propose a technique to transfer speech recognition capabilities
 <center>
 <img src="GPs/AUC21_Disinfect_Robot_3.png" height="150">
 <img src="GPs/AUC21_Disinfect_Robot_4.png" height="150">
-<img src="GPs/AUC21_Disinfect_Robot_5.jpeg" height="150">
-<img src="GPs/AUC21_Disinfect_Robot_6.jpeg" height="150">
+<img src="GPs/AUC21_Disinfect_Robot_5.jpeg" height="100">
+<img src="GPs/AUC21_Disinfect_Robot_6.jpeg" height="100">
 </center>
 
 Team: Hamdy Ibrahim - Mostafa Karakish - Ahmed el Sakhawi - Aly Kassem - Omar Ibrahim
