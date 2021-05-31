@@ -1,10 +1,10 @@
 ---
 layout: page
-title: My advised Graduation Projects & Theses (Some Highlights)
+title: Advised Graduation Projects & Theses (Some Highlights)
 subtitle: Highlights
 ---
 
-## Highlights of my advised Graduation Projects & Theses
+## Highlights of advised Graduation Projects & Theses
 
 -----------------------------------
 
