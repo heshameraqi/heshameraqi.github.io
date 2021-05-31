@@ -24,7 +24,7 @@ In this work, we propose a technique to transfer speech recognition capabilities
 
 -----------------------------------
 
-### Autonomous Disinfection Robot {#auto_disinfect_robo}
+[### Autonomous Disinfection Robot](#auto_disinfect_robo)
 
 ### AUC, MENG Department, Spring 2021
 
