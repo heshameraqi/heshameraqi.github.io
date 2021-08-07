@@ -48,7 +48,7 @@ As COVID-19 spreads across the globe, hospitals, schools, and working areas have
 
 -----------------------------------
 
-### Pervasive Sonar-based Smartphones Control Suite
+### Hand Gesture Recognition for Smartphones using Non-audible Sound and Deep Learning
 
 ### AUC, CSE Department, Fall 2021
 
@@ -62,9 +62,11 @@ As COVID-19 spreads across the globe, hospitals, schools, and working areas have
 
 Team: Ayman El-Refai - Sara Ahmed - Ahmed M. Ibrahim - Ahmed Ibrahim - Mariam Abul-Ela 
 
-Due to the mass advancement in ubiquitous technologies nowadays, new pervasive methods have come into practice to provide new innovative features and stimulate the research on new human-computer interactions. Handheld devices are expected to recognize a user's movements as its integral to the human-machine interaction. In this paper, we present SonarWAV, a hand gesture classification system that uses the smartphone's built-in speakers and microphones to detect the hand movement around the user's smartphone.
-The proposed method emits an ultrasonic sonar-based signal from the smartphone's stereo speakers, which is then received by the smartphone's microphone, and then converted to a spectrogram short-time Fourier transform. That spectrogram is then used as input to a CNN model which then recognizes such a gesture. This study compares different types of CNN models based on the input to the model. The first takes the dual channel audio as 1 channel image of the spectrogram (Basic CNN), the second takes the dual channels spectrogram (top and bottom) and concatenates them as an input to the model (Early Fusion), the third takes two spectrograms of the bottom and top channels, and learns each channel on its own then merges the result at the end of the model (Late Fusion). Our results show that our system can detect the six gestures with an accuracy of 93.58% using the Early Fusion model based on Xception.
+Your smartphone can understand your hand gestures without using the camera and, of course, without touching the screen. In this work, we emit ultrasonic sonar-based (inaudible) sound from the phone speakers and analyze the signal received from the microphone with Deep Learning to achieve the task and apply some tricks to improve the model accuracy. The dataset is publicly available!
 
+[Paper Link](https://arxiv.org/abs/2108.02148)
+Citation: Ahmed Ibrahim, Ayman El-Refai, Sara Ahmed, Mariam Aboul-Ela, Ahmed Khalel, Hesham M. Eraqi, Mohamed Moustafa. Pervasive Hand Gesture Recognition for Smartphones using Non-audible Sound and Deep Learning. The 13rd International Joint Conference on Computational Intelligence (IJCCI), 2021.
+[Data Link](https://drive.google.com/drive/u/2/folders/19Me8bCMPyCm1NOr6rk7apOiCOQXLmdqY)
 [Link to Demo Video](https://youtu.be/I8HhX1JGzFw)
 
 -----------------------------------
