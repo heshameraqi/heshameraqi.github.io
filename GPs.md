@@ -64,11 +64,10 @@ Team: Ayman El-Refai - Sara Ahmed - Ahmed M. Ibrahim - Ahmed Ibrahim - Mariam Ab
 
 Your smartphone can understand your hand gestures without using the camera and, of course, without touching the screen. In this work, we emit ultrasonic sonar-based (inaudible) sound from the phone speakers and analyze the signal received from the microphone with Deep Learning to achieve the task and apply some tricks to improve the model accuracy. The dataset is publicly available!
 
-[Paper Link](https://arxiv.org/abs/2108.02148)
-[Data Link](https://drive.google.com/drive/u/2/folders/19Me8bCMPyCm1NOr6rk7apOiCOQXLmdqY)
-
-Citation: Ahmed Ibrahim, Ayman El-Refai, Sara Ahmed, Mariam Aboul-Ela, Ahmed Khalel, Hesham M. Eraqi, Mohamed Moustafa. Pervasive Hand Gesture Recognition for Smartphones using Non-audible Sound and Deep Learning. The 13rd International Joint Conference on Computational Intelligence (IJCCI), 2021.
-[Link to Demo Video](https://youtu.be/I8HhX1JGzFw)
+* [Paper Link](https://arxiv.org/abs/2108.02148)
+* [Data Link](https://drive.google.com/drive/u/2/folders/19Me8bCMPyCm1NOr6rk7apOiCOQXLmdqY)
+* Citation: Ahmed Ibrahim, Ayman El-Refai, Sara Ahmed, Mariam Aboul-Ela, Ahmed Khalel, Hesham M. Eraqi, Mohamed Moustafa. Pervasive Hand Gesture Recognition for Smartphones using Non-audible Sound and Deep Learning. The 13rd International Joint Conference on Computational Intelligence (IJCCI), 2021.
+* [Link to Demo Video](https://youtu.be/I8HhX1JGzFw)
 
 -----------------------------------
 
