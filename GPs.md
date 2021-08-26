@@ -22,6 +22,9 @@ Team: Hadeel Mabrouk - Omar Abugabal - Shahd El-Ashmawy - Marian Ramsis - Farah 
 
 In this work, we propose a technique to transfer speech recognition capabilities from audio speech recognition systems to visual speech recognizers, where our goal is to utilize audio data during lipreading model training. Impressive progress in the domain of speech recognition has been exhibited by audio and audio-visual systems. Nevertheless, there is still much to be explored with regards to visual speech recognition systems due to the visual ambiguity of some phonemes. To this end, the development of visual speech recognition models is crucial given the instability of audio models. The main contributions of this work are i) building on recent state-of-the-art word-based lipreading models by integrating sequence-level and frame-level Knowledge Distillation (KD) to their systems; ii) leveraging audio data during training visual models, a feat which has not been utilized in prior word-based work; iii) proposing the Gaussian-shaped averaging in frame-level KD, as an efficient technique that aids the model in distilling knowledge at the sequence model encoder. This work proposes a novel and competitive architecture for lip-reading, as we demonstrate a noticeable improvement in performance, setting a new benchmark equals to 88.64% on the LRW dataset.
 
+* [Paper Link](https://arxiv.org/abs/2108.03543)
+* Citation: Marian Ramsis, Shahd Elashmawy, Hesham M. Eraqi, Farah Eldeshnawy, Hadeel Mabrouk, Omar Gabal, and Nourhan Sakr. Spatio-Temporal Attention Mechanism and Knowledge Distillation for Lip Reading. The 13rd International Joint Conference on Computational Intelligence (IJCCI), 2021.
+
 -----------------------------------
 
 ### Autonomous Disinfection Robot
