@@ -74,6 +74,21 @@ Your smartphone can understand your hand gestures without using the camera and, 
 
 -----------------------------------
 
+### Smart Mirror
+
+### AUC, CSE Department, Fall 2021
+
+<center>
+<img src="GPs/AUC21_Smart_Mirror_1.jpeg" height="300">
+<img src="GPs/AUC21_Smart_Mirror_2.jpeg" height="300">
+</center>
+
+Team: Abdelrahman Rezk - Ashraf Mohammed Ibrahim - Shorouk Maged Beshara - Nourhan Mohamed Mokbel - Nour Gamal Moussa - Omar Mohamed Kamaly
+
+The team developed a Smart Mirror commercial product that can be used in the E-Health field by persons who require a regular check-up analysis. Since the spread of the COVID-19 pandemic, people avoid going to hospitals and private clinics to stay away from big crowds. So, the product provides a quick analysis that includes in body analysis, vital signs, iris detection, and emotional state detection from the user and gives him/her predictions and suggestions if there are some sort of abnormalities. The system can be used in smart homes, gyms, and hotels, it aims to ease the process of check-ups in a safer and easier way.
+
+-----------------------------------
+
 ### Reactive Collision Avoidance using Evolutionary Neural Networks
 
 ### AUC, CSE Department, Spring 2020
