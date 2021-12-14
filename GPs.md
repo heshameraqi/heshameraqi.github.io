@@ -97,7 +97,7 @@ The team developed a Smart Mirror commercial product that can be used in the E-H
 
 <center>
 <img src="GPs/AUC21_Incar_Violence_1.jpeg" height="150">
-<img src="GPs/AUC21_Incar_Violence_2.png" height="400">
+<img src="GPs/AUC21_Incar_Violence_2.png" width="400">
 </center>
 
 Team: Ismael Elsharkawi - Eyad Shaban - Youssef Khalifa - Farida Tarek - Basel Shabana
@@ -112,7 +112,7 @@ This project has introduced a novel dataset featuring both violent and non-viole
 
 <center>
 <img src="GPs/AUC20-GANN_Car_1.jpeg" height="200">
-<img src="GPs/AUC20-GANN_Car_2.jpeg" width="200">
+<img src="GPs/AUC20-GANN_Car_2.jpeg" height="200">
 </center>
 
 Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
