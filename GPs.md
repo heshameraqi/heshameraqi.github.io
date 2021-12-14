@@ -91,6 +91,21 @@ The team developed a Smart Mirror commercial product that can be used in the E-H
 
 -----------------------------------
 
+### In-vehicle Violence Detection
+
+### AUC, CSE Department, Fall 2021
+
+<center>
+<img src="GPs/AUC21_Incar_Violence_1.jpeg" height="300">
+<img src="GPs/AUC21_Incar_Violence_2.png" height="300">
+</center>
+
+Team: Ismael Elsharkawi - Eyad Shaban - Youssef Khalifa - Farida Tarek - Basel Shabana
+
+This project has introduced a novel dataset featuring both violent and non-violent actions recorded in-car from multiple views and an in-car violence detection autoencoder model for Anomaly Detection.
+
+-----------------------------------
+
 ### Reactive Collision Avoidance using Evolutionary Neural Networks
 
 ### AUC, CSE Department, Spring 2020
