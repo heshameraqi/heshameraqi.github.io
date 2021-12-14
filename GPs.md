@@ -111,8 +111,8 @@ This project has introduced a novel dataset featuring both violent and non-viole
 ### AUC, CSE Department, Spring 2020
 
 <center>
-<img src="GPs/AUC20-GANN_Car_1.jpeg" height="200">
-<img src="GPs/AUC20-GANN_Car_2.jpeg" height="200">
+<img src="GPs/AUC20-GANN_Car_1.jpeg" height="150">
+<img src="GPs/AUC20-GANN_Car_2.jpeg" width="400">
 </center>
 
 Team: Heba Hussein - Mariam Gaafar - Mariam Mohamed - Aya Moemen - Melissa Milad
