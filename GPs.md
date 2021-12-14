@@ -96,8 +96,8 @@ The team developed a Smart Mirror commercial product that can be used in the E-H
 ### AUC, CSE Department, Fall 2021
 
 <center>
-<img src="GPs/AUC21_Incar_Violence_1.jpeg" height="150">
-<img src="GPs/AUC21_Incar_Violence_2.png" width="400">
+<img src="GPs/AUC21_Incar_Violence_1.jpeg" height="200">
+<img src="GPs/AUC21_Incar_Violence_2.png" width="500">
 </center>
 
 Team: Ismael Elsharkawi - Eyad Shaban - Youssef Khalifa - Farida Tarek - Basel Shabana
