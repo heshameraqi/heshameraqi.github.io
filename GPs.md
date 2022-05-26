@@ -4,7 +4,7 @@ title: Advised Graduation Projects & Theses (Some Highlights)
 subtitle: Highlights
 ---
 
-## Highlights of advised Graduation Projects & Theses
+# Highlights of advised Graduation Projects & Theses
 
 -----------------------------------
 
