@@ -8,6 +8,44 @@ subtitle: Highlights
 
 -----------------------------------
 
+### RBPGAN: Recurrent Back-Projection GAN for Video Super Resolution
+
+### AUC, CSE Department, Spring 2022
+
+<center>
+<img src="GPs/AUC22-Super Resolution.jpg" height="400">
+<img src="GPs/AUC22-Super Resolution 2.jpg" height="400">
+</center>
+
+Team: Dareen Hussein - Israa Fahmy - Marwah Sulaiman - Mohammed Barakat - Mohammed El-Naggar - Zahraa Shehabeldin
+
+-----------------------------------
+
+### The Right Losses for the Right Gains: Improving the Semantic Consistency of Deep Text-to-Image Generation with Distribution-Sensitive Losses
+
+### AUC, CSE Department, Spring 2022
+
+<center>
+<img src="GPs/AUC22-Text-to-Image.jpg" height="400">
+<img src="GPs/AUC22-Text-to-Image 2.jpg" height="400">
+</center>
+
+Team: Mahmoud Ahmed - Omer Moussa - Ismail Shaheen - Mohamed Abdelfattah - Amr Abdallah - Marwan Eid
+
+-----------------------------------
+
+### The Right Losses for the Right Gains: Improving the Semantic Consistency of Deep Text-to-Image Generation with Distribution-Sensitive Losses
+
+### AUC, CSE Department, Spring 2022
+
+<center>
+<img src="GPs/AUC22-Models Reduction.jpg" height="400">
+</center>
+
+Team: Abdelhakim Badawy - Samah Hussien - Yahya Abbas - Samah Ayman - Mohamed Shahawy - Hoda Ahmed
+
+-----------------------------------
+
 ### Deep Visual Speech Recognition (Lip Reading)
 
 ### AUC, CSE Department, Spring 2021
@@ -71,6 +109,18 @@ Your smartphone can understand your hand gestures without using the camera and, 
 * [Data Link](https://drive.google.com/drive/u/2/folders/19Me8bCMPyCm1NOr6rk7apOiCOQXLmdqY)
 * Citation: Ahmed Ibrahim, Ayman El-Refai, Sara Ahmed, Mariam Aboul-Ela, Ahmed Khalel, Hesham M. Eraqi, Mohamed Moustafa. Pervasive Hand Gesture Recognition for Smartphones using Non-audible Sound and Deep Learning. The 13rd International Joint Conference on Computational Intelligence (IJCCI), 2021.
 * [Link to Demo Video](https://youtu.be/I8HhX1JGzFw)
+
+-----------------------------------
+
+### Fortune AI: Utilizing Machine Learning for Venture Capital Evaluation
+
+### AUC, CSE Department, Spring 2022
+
+<center>
+<img src="GPs/AUC22-ML for VC.jpg" height="400">
+</center>
+
+Team: Habeeba Sakr - Mostafa Elsharkawy - Mohamed Basuony - Nouran Ibrahim - Omar Elewa
 
 -----------------------------------
 
@@ -144,5 +194,29 @@ A self-driving car based on Conditional Imitation Learning. The project was spon
 [Link to Book](https://drive.google.com/file/d/1gwFsM2j0LD8De2MsG0oRhf2om11WxQE7/view?usp=sharing)
 
 [Link to Demo Video](https://www.youtube.com/watch?v=4CmXf6s6GtM)
+
+-----------------------------------
+
+### Classroom Monitoring Using AI-vProctor
+
+### AUC, CSE Department, Spring 2022
+
+<center>
+<img src="GPs/AUC22-Classroom Monitoring with DL.jpg" height="400">
+</center>
+
+Team: Noha Alshabrawy Abdelkader - Mohamed Elsayed Elshabshiri - Marwan Amr Awad - Omar Sherif Elmahdy - Mohamed Ashraf Taha - Youssef Khaled Beshir
+
+-----------------------------------
+
+### Sign Language Translator Using Hand Pose Estimation and Deep Learning
+
+### AUC, CSE Department, Spring 2022
+
+<center>
+<img src="GPs/AUC22-Sign Language Recognition.jpg" height="400">
+</center>
+
+Team: Ahmed Ahmed - Bassel Halabi - Chris Amgad - Feras Awaga - Mohammed Mostafa Safo - Seif ElDin El Moghazy
 
 -----------------------------------
