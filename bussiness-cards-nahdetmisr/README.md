@@ -25,7 +25,11 @@
   </li>
 
   <li>
-	أفتح موقع https://www.logodesign.net/qrcode-generator وأكتب https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=3 (استبدل آخر رقم برقم تسلسل الموظف في ملف ال Excel).
+	أفتح موقع
+	<br>https://www.logodesign.net/qrcode-generator
+	<br>وأكتب
+	<br>https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=3
+	<br>(استبدل آخر رقم برقم تسلسل الموظف في ملف ال Excel).
 	<br>الموقع سينتج لك صورة الـ QR Code الذي سيتم طبعه على الكارت
 	<br>بإمكانك تغيير اللون الأسود بلون الشركة الأزرق بإستخدام الكود: #24317E إذا أردت.
   </li>
