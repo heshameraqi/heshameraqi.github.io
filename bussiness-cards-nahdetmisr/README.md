@@ -25,20 +25,36 @@ or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-
 
 **الخطوات باللغة العربية**
 
-<ul>
-  <li>1. <a href="https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv" download>حمل ملف الـ Excel المسمى Business Cards.csv من هنا</a> و أفتحه باستخدام برنامج Notepad و أضف بيانات جميع الموظفين المُراد استخراج كارت شخصي إلكتروني لهم بهذا الملف. بيانات الموظف تكون مفصولة بحرف ;
-البيانات بالترتيب هي: الأسم ; عنوان البريد الإلكتروني ; الوظيفة ; الهاتف ; حساب موقع LinkedIn (أدخل على حساب الموظف على موقع LinkedIn وأحصل على أسم الحساب من خلال آخر جزء مكتوب في عنوان الموقع).
-لا داعي للقلق، أي بيانات غير موجودة يمكن استبدلها بمسافة فارغة بدون أي مشكلة في النظام.
+[Download](https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv)
+
+
+<ol>
+
+
+  <li>
+	<a href="https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv" download>حمل ملف الـ Excel المسمى Business Cards.csv من هنا</a> و أفتحه باستخدام برنامج Notepad و أضف بيانات جميع الموظفين المُراد استخراج كارت شخصي إلكتروني لهم بهذا الملف. بيانات الموظف تكون مفصولة بحرف ;
+	البيانات بالترتيب هي: الأسم ; عنوان البريد الإلكتروني ; الوظيفة ; الهاتف ; حساب موقع LinkedIn (أدخل على حساب الموظف على موقع LinkedIn وأحصل على أسم الحساب من خلال آخر جزء مكتوب في عنوان الموقع).
+	لا داعي للقلق، أي بيانات غير موجودة يمكن استبدلها بمسافة فارغة بدون أي مشكلة في النظام.
   </li>
-  <li>2. لكل موظف جديد مطلوب أدخاله على النظام، أحصل على صورة شخصية له وسميها 3.jpg إذا كان رقم تسلسل الموظف في ملف الـ Excel رقم 3 على سبيل المثال (السطر رقم 3 في الملف) وهكذا.
+
+  <li>
+	لكل موظف جديد مطلوب أدخاله على النظام، أحصل على صورة شخصية له وسميها 3.jpg إذا كان رقم تسلسل الموظف في ملف الـ Excel رقم 3 على سبيل المثال (السطر رقم 3 في الملف) وهكذا.
   </li>
-  <li>3. لكل موظف جديد، أكتب ملف vcf مثل الملف المرفق وسميه 3.vcf وأكتب بداخله به بيانات الموظف. يمكن كتابة الملف وفتحه بإستخدام برنامج Notepad.
+
+  <li>
+	لكل موظف جديد، أكتب ملف vcf مثل الملف المرفق وسميه 3.vcf وأكتب بداخله به بيانات الموظف. يمكن كتابة الملف وفتحه بإستخدام برنامج Notepad.
   </li>
-  <li>4. ارسل للمبرمج ملف الـ Excel والصور وملفات vcf للموظفين الجدد ليرفعها على النظام.</li>
-  <li>5. أفتح موقع https://www.logodesign.net/qrcode-generator وأكتب https://rawcdn.githack.com/heshameraqi/bussiness-cards-nahdetmisr/main/card.html?employee_number=3 (استبدل آخر رقم برقم تسلسل الموظف في ملف ال Excel).
-الموقع سينتج لك صورة الـ QR Code الذي سيتم طبعه على الكارت
-بإمكانك تغيير اللون الأسود بلون الشركة الأزرق بإستخدام الكود: #24317E إذا أردت الكود باللون الأزرق بدل الأسود.
+
+  <li>
+	ارسل للمبرمج ملف الـ Excel والصور وملفات vcf للموظفين الجدد ليرفعها على النظام.
   </li>
-</ul>
+
+  <li>
+	أفتح موقع https://www.logodesign.net/qrcode-generator وأكتب https://rawcdn.githack.com/heshameraqi/bussiness-cards-nahdetmisr/main/card.html?employee_number=3 (استبدل آخر رقم برقم تسلسل الموظف في ملف ال Excel).
+	الموقع سينتج لك صورة الـ QR Code الذي سيتم طبعه على الكارت
+	بإمكانك تغيير اللون الأسود بلون الشركة الأزرق بإستخدام الكود: #24317E إذا أردت الكود باللون الأزرق بدل الأسود.
+  </li>
+
+</ol>
 
 </div>
