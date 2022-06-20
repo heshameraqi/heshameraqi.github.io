@@ -21,6 +21,11 @@ or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-
 
 **Steps in Arabic**
 
+<div dir="rtl">
+
+**الخطوات باللغة العربية**
+
+<ul>
   <li>1. افتح ملف الـ Excel (المسمى Business Cards.csv) باستخدام برنامج Notepad و أضف بيانات جميع الموظفين المُراد استخراج كارت شخصي إلكتروني لهم بهذا الملف. بيانات الموظف تكون مفصولة بحرف ;
 البيانات بالترتيب هي: الأسم ; عنوان البريد الإلكتروني ; الوظيفة ; الهاتف ; حساب موقع LinkedIn (أدخل على حساب الموظف على موقع LinkedIn وأحصل على أسم الحساب من خلال آخر جزء مكتوب في عنوان الموقع).
 لا داعي للقلق، أي بيانات غير موجودة يمكن استبدلها بمسافة فارغة بدون أي مشكلة في النظام.
@@ -33,3 +38,6 @@ or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-
   <li>5. أفتح موقع https://www.logodesign.net/qrcode-generator وأكتب https://rawcdn.githack.com/heshameraqi/bussiness-cards-nahdetmisr/main/card.html?employee_number=3 (استبدل آخر رقم برقم تسلسل الموظف في ملف ال Excel).
 الموقع سينتج لك صورة الـ QR Code الذي سيتم طبعه على الكارت
 بإمكانك تغيير اللون الأسود بلون الشركة الأزرق بإستخدام الكود: #24317E إذا أردت الكود باللون الأزرق بدل الأسود. 5</li>
+</ul>
+
+</div>
