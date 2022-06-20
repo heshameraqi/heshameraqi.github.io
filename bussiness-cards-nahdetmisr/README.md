@@ -27,7 +27,7 @@
   <li>
 	أفتح موقع https://www.logodesign.net/qrcode-generator وأكتب https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=3 (استبدل آخر رقم برقم تسلسل الموظف في ملف ال Excel).
 	<br>الموقع سينتج لك صورة الـ QR Code الذي سيتم طبعه على الكارت
-	<br>بإمكانك تغيير اللون الأسود بلون الشركة الأزرق بإستخدام الكود: #24317E إذا أردت الكود باللون الأزرق بدل الأسود.
+	<br>بإمكانك تغيير اللون الأسود بلون الشركة الأزرق بإستخدام الكود: #24317E إذا أردت.
   </li>
 
 </ol>
@@ -45,7 +45,8 @@
 4. Send a jpg personal photo for the employee named 5.jpg
 
 **Notes:**
-- This repository is for developers who are willing to continue development or changes to this project: https://github.com/heshameraqi/bussiness-cards-nahdetmisr
+- This repository is for developers who are willing to continue development or changes to this project: 
+https://github.com/heshameraqi/heshameraqi.github.io/tree/master/bussiness-cards-nahdetmisr
 The actual GitHub HTML preview happens using:
 GitHub Pages: https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=5
 or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-nahdetmisr/main/card.html?employee_number=5
