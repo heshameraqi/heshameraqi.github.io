@@ -25,6 +25,8 @@ or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-
 
 **الخطوات باللغة العربية**
 
+[download this](data/Business%20Cards.csv)
+
 [Download](https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv)
 
 <a href="https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv" download>Click here to download</a>
