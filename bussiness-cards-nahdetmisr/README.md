@@ -26,7 +26,7 @@ or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-
 **الخطوات باللغة العربية**
 
 <ul>
-  <li>1. <a href="https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv" https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv="logo.png">حمل ملف الـ Excel المسمى Business Cards.csv من هنا</a> و أفتحه باستخدام برنامج Notepad و أضف بيانات جميع الموظفين المُراد استخراج كارت شخصي إلكتروني لهم بهذا الملف. بيانات الموظف تكون مفصولة بحرف ;
+  <li>1. <a href="https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv" download="Business%20Cards.csv">حمل ملف الـ Excel المسمى Business Cards.csv من هنا</a> و أفتحه باستخدام برنامج Notepad و أضف بيانات جميع الموظفين المُراد استخراج كارت شخصي إلكتروني لهم بهذا الملف. بيانات الموظف تكون مفصولة بحرف ;
 البيانات بالترتيب هي: الأسم ; عنوان البريد الإلكتروني ; الوظيفة ; الهاتف ; حساب موقع LinkedIn (أدخل على حساب الموظف على موقع LinkedIn وأحصل على أسم الحساب من خلال آخر جزء مكتوب في عنوان الموقع).
 لا داعي للقلق، أي بيانات غير موجودة يمكن استبدلها بمسافة فارغة بدون أي مشكلة في النظام.
   </li>
