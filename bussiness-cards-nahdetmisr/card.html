@@ -101,15 +101,11 @@
 	  var cell_phone = data[3].replace("(", "").replace(")", "").replace("+", "00");
 	  cell_phone = cell_phone.substr(0, cell_phone.indexOf('-')).replace(" ", "");
 	  var v_card_text = create_vCard(data[0], data[2], data[1], cell_phone); // name, title, email, cell_phone
-	  	
-		
-	  var fileName = "contact.vcf";
-	  var myFile = new Blob([v_card_text], {type: 'text/plain'});
+
+	  var myFile = new Blob([v_card_text], {type: 'application/vcf'});
 	  window.URL = window.URL || window.webkitURL;
 	  var dlBtn = document.getElementById("vcard_link");
-	  dlBtn.setAttribute("href", window.URL.createObjectURL(myFile));
-	  dlBtn.setAttribute("download", fileName);	
-		
+	  document.getElementById("vcard_link").setAttribute("href", window.URL.createObjectURL(myFile));
 		
 	  //document.getElementById("vcard_link").setAttribute("href", 'data:text/plain;charset=utf-8,' + encodeURIComponent(v_card_text));
 	}
@@ -128,7 +124,7 @@
 			<div id="card" class="card-body bubble-shadow">
 				<div class="d-flex justify-content-between">
 					<img id="photo" src="photos/0.jpg" width="200" alt="Personal Photo">
-					<a id="vcard_link" type="button" class="button text-success" href="#">
+					<a id="vcard_link" type="button" download="contact.vcf" class="button text-success" href="#">
 						<div class="text-center">
 							<b>Add Contact</b>
 						</div>
