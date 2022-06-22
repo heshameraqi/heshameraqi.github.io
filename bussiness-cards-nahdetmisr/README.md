@@ -1,8 +1,19 @@
 # Digital Bussiness Cards #
 ### Nahdet Misr ###
 
+### Nahdet Misr AI, heraqi@aucegypt.edu ###
+
+**Steps to generate or editing Digital Cards for employee number 5 for example:**
+1. Generate the QR code that will be printed with on the physical card:
+	1. Visit this website or similar QR code generator websites: https://www.logodesign.net/qrcode-generator (You can use this front color which represents the company identity #24317E and add/or the company logo image)
+	2. Add this link/URL: https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=5 and generate the QR to be printed (Please note to change 5.html according to the employee number)
+2. Verify the information for employee number 5 in present in row number 5 in Business Cards.CSV file in data folder (You can open the file was any Excel or any text editor as Notepad). The employee data items are separated with ; symbol, it should look like this: Name ; emails ; position and company ; phones ; LinkedIn account name
+3. Send the updated Business Cards.CSV file to be uploaded to the project server
+4. [Optional] Send a jpg personal photo for the employee named 5.jpg to be upload to server
+
+
 <div dir="rtl">
-<b>الخطوات</b>
+<b>الخطوات باللغة العربية</b>
 
 <ol>
 
@@ -33,16 +44,6 @@
 </ol>
 
 </div>
-
-### Nahdet Misr AI, heraqi@aucegypt.edu ###
-
-**Steps to generate or editing Digital Cards for employee number 5 for example:**
-1. Generate the QR code that will be printed with on the physical card:
-	1. Visit this website or similar QR code generator websites: https://www.logodesign.net/qrcode-generator (You can use this front color which represents the company identity #24317E and add/or the company logo image)
-	2. Add this link/URL: https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=5 and generate the QR to be printed (Please note to change 5.html according to the employee number)
-2. Verify the information for employee number 5 in present in row number 5 in Business Cards.CSV file in data folder (You can open the file was any Excel or any text editor as Notepad). The employee data items are separated with ; symbol, it should look like this: Name ; emails ; position and company ; phones ; LinkedIn account name
-3. Send the updated Business Cards.CSV file to be uploaded to the project server
-4. [Optional] Send a jpg personal photo for the employee named 5.jpg to be upload to server
 
 **Notes:**
 - The actual GitHub HTML preview happens using:
