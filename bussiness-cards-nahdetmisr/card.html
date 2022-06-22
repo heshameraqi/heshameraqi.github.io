@@ -27,45 +27,91 @@
 	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <script type="text/javascript">
 	var employee_id = 0
-	function readCSV() {
-		var xmlhttp = new XMLHttpRequest();
-		  xmlhttp.open("GET", "https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv", false); // `false` makes the request synchronous
-		  xmlhttp.send();
-		  if (xmlhttp.status==200) {
-			result = xmlhttp.responseText;
-		  }
-		  var lines = result.split(/\r?\n/);
-		  
-		  // employee_number Starts with 1. Set according to employee data row number in data/Bussiness Cards.csv. Recieved as a parameter
-		  // employee_number = 2
-		  var url = new URL(window.location.href);
-		  var employee_number = url.searchParams.get("employee_number");
-		  
-		  var data = lines[employee_number-1].split(";");
+	
+	function create_vCard(name, title, email, cell_phone) {
+		/*
+		BEGIN:VCARD
+		VERSION:3.0
+		N:-
+		FN:name
+		TITLE:title
+		ORG:Nahdet Misr Group
+		URL:www.nahdetmisr.com
+		EMAIL;TYPE=INTERNET:email
+		TEL;TYPE=voice,work,pref:cell_phone
+		TEL;TYPE=voice,cell,pref: -
+		ADR:;21;Ahmed Oraby Street, El Nahda Tower Mohandessine, Giza, Egypt
+		END:VCARD
+		*/
+	
+		var data = "BEGIN:VCARD\nVERSION:3.0\n";
+		//data += "N:" + lastname + ';' + surname + "\n";
+		data += "FN:" + name + "\n";
+		data += "TITLE:" + title;
+		data += "ORG:Nahdet Misr Group\nURL:www.nahdetmisr.com\n";
+		data += "EMAIL;TYPE=PREF,INTERNET:" + email + "\n";
+		data += "TEL;TYPE=CELL:" + cell_phone + "\n";
+		// data += "TEL;TYPE=WORK,VOICE:" + work_phone + "\n";
+		data += "ADR:;21;Ahmed Oraby Street, El Nahda Tower Mohandessine, Giza, Egypt\n";			
+		data += "END:VCARD";
 		
-		  document.getElementById("photo").setAttribute("src", "photos/" + employee_number + ".jpg");
-		  document.getElementById("name").innerHTML = data[0];
-	      document.getElementById("title_company").innerHTML = data[2];
-	      document.getElementById("phone").innerHTML = data[3];
-	      document.getElementById("email").innerHTML = data[1];
-		  
-		  <!--====== Adding LinkedIn Badge ======-->
-		  var div = document.createElement("div");
-		  div.className = "badge-base LI-profile-badge";
-		  div.setAttribute("data-locale", "en_US");
-		  div.setAttribute("data-size", "medium");
-		  div.setAttribute("data-theme", "light");
-		  div.setAttribute("data-type", "VERTICAL");
-		  div.setAttribute("data-vanity", data[4]);
-		  div.setAttribute("data-version", "v1");
-		  document.getElementById("card").appendChild(div);
-		  
-		  // For debugging
-		  //const welcomeTextNode = document.createTextNode("AAAAAAAAAAA");
-		  //document.getElementById("card").appendChild(welcomeTextNode);
-		  
-		  document.getElementById("vcard_number").setAttribute("href", "vcards/" + employee_number + ".vcf");
-		  document.getElementById("card_number_barcode").setAttribute("src", "https://api.qrserver.com/v1/create-qr-code/?data=https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/vcards/" + employee_number + ".vcf&amp;size=100x100");
+		return data;
+	}
+	
+	function readCSV() {
+	  var xmlhttp = new XMLHttpRequest();
+	  xmlhttp.open("GET", "https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/data/Business%20Cards.csv", false); // `false` makes the request synchronous
+	  xmlhttp.send();
+	  if (xmlhttp.status==200) {
+		result = xmlhttp.responseText;
+	  }
+	  var lines = result.split(/\r?\n/);
+	  
+	  // employee_number Starts with 1. Set according to employee data row number in data/Bussiness Cards.csv. Recieved as a parameter
+	  // employee_number = 2
+	  var url = new URL(window.location.href);
+	  var employee_number = url.searchParams.get("employee_number");
+	  
+	  var data = lines[employee_number-1].split(";");
+	
+	  document.getElementById("photo").setAttribute("src", "photos/" + employee_number + ".jpg");
+	  document.getElementById("name").innerHTML = data[0];
+	  document.getElementById("title_company").innerHTML = data[2];
+	  document.getElementById("phone").innerHTML = data[3];
+	  document.getElementById("email").innerHTML = data[1];
+	  
+	  <!--====== Adding LinkedIn Badge ======-->
+	  var div = document.createElement("div");
+	  div.className = "badge-base LI-profile-badge";
+	  div.setAttribute("data-locale", "en_US");
+	  div.setAttribute("data-size", "medium");
+	  div.setAttribute("data-theme", "light");
+	  div.setAttribute("data-type", "VERTICAL");
+	  div.setAttribute("data-vanity", data[4]);
+	  div.setAttribute("data-version", "v1");
+	  document.getElementById("card").appendChild(div);
+	  
+	  // For debugging
+	  //const welcomeTextNode = document.createTextNode("AAAAAAAAAAA");
+	  //document.getElementById("card").appendChild(welcomeTextNode);
+
+	  //document.getElementById("vcard_link").setAttribute("href", "vcards/" + employee_number + ".vcf");
+	  //document.getElementById("card_number_barcode").setAttribute("src", "https://api.qrserver.com/v1/create-qr-code/?data=https://raw.githubusercontent.com/heshameraqi/heshameraqi.github.io/master/bussiness-cards-nahdetmisr/vcards/" + employee_number + ".vcf&amp;size=100x100");
+	
+	  var cell_phone = data[3].replace("(", "").replace(")", "").replace("+", "00");
+	  cell_phone = cell_phone.substr(0, cell_phone.indexOf('-')).replace(" ", "");
+	  var v_card_text = create_vCard(data[0], data[2], data[1], cell_phone); // name, title, email, cell_phone
+	  	
+		
+	  var fileName = "contact.vcf";
+	  var myFile = new Blob([v_card_text], {type: 'text/plain'});
+	  window.URL = window.URL || window.webkitURL;
+	  var dlBtn = document.getElementById("vcard_link");
+	  dlBtn.setAttribute("href", window.URL.createObjectURL(myFile));
+	  dlBtn.setAttribute("download", fileName);	
+		
+		
+	  //document.getElementById("vcard_link").setAttribute("href", 'data:text/plain;charset=utf-8,' + encodeURIComponent(v_card_text));
 	}
     </script>
   </head>
@@ -82,7 +128,7 @@
 			<div id="card" class="card-body bubble-shadow">
 				<div class="d-flex justify-content-between">
 					<img id="photo" src="photos/0.jpg" width="200" alt="Personal Photo">
-					<a id="vcard_number" class="button text-success" href="vcards/1.vcf">
+					<a id="vcard_link" type="button" class="button text-success" href="#">
 						<div class="text-center">
 							<b>Add Contact</b>
 						</div>

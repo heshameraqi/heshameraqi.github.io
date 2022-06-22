@@ -40,21 +40,22 @@
 
 ### Nahdet Misr AI, heraqi@aucegypt.edu ###
 
-**Steps to generate or editing Digital Cards for employee number 5 for example (you can do that on multiple employees at once):**
+**Steps to generate or editing Digital Cards for employee number 5 for example:**
 1. Generate the QR code that will be printed with on the physical card:
 	1. Visit this website or similar QR code generator websites: https://www.logodesign.net/qrcode-generator (You can use this front color which represents the company identity #24317E and add/or the company logo image)
 	2. Add this link/URL: https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=5 and generate the QR to be printed (Please note to change 5.html according to the employee number)
 2. Verify the information for employee number 5 in present in row number 5 in Business Cards.CSV file in data folder (You can open the file was any Excel or any text editor as Notepad). The employee data items are separated with ; symbol, it should look like this: Name ; emails ; position and company ; phones ; LinkedIn account name
-3. Create or edit the data in 5.vcf file in the folder vcards (You can open it was any text editor as Notepad).
-4. Send a jpg personal photo for the employee named 5.jpg
+3. Update the Business Cards.CSV file at: 
+4. [Optional] Send a jpg personal photo for the employee named 5.jpg to be upload to server
 
 **Notes:**
-- This repository is for developers who are willing to continue development or changes to this project: 
+- The  
 https://github.com/heshameraqi/heshameraqi.github.io/tree/master/bussiness-cards-nahdetmisr
 The actual GitHub HTML preview happens using:
 GitHub Pages: https://heshameraqi.github.io/bussiness-cards-nahdetmisr/card.html?employee_number=5
 or raw.githack CDN service: https://raw.githack.com/heshameraqi/bussiness-cards-nahdetmisr/main/card.html?employee_number=5
 - Company logo can be retrieved from https://github.com/heshameraqi/bussiness-cards-nahdetmisr/blob/main/assets/images/logo/logo.png
 - Employee photo should be added to the photos folder.
+- The vcards folder is not used any more as its generation process is now automated with JS
 
 ![sample](./assets/Sample.png)
