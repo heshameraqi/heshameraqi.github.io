@@ -19,6 +19,9 @@ subtitle: Highlights
 
 Team: Dareen Hussein - Israa Fahmy - Marwah Sulaiman - Mohammed Barakat - Mohammed El-Naggar - Zahraa Shehabeldin
 
+[Link to Project Presentation Recording](https://www.youtube.com/watch?v=KkbRlUNGXAs)
+[![Link to Project Presentation Recording](https://img.youtube.com/vi/KkbRlUNGXAs/0.jpg)](https://www.youtube.com/watch?v=KkbRlUNGXAs)
+
 -----------------------------------
 
 ### The Right Losses for the Right Gains: Improving the Semantic Consistency of Deep Text-to-Image Generation with Distribution-Sensitive Losses
