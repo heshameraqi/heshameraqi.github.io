@@ -19,7 +19,8 @@ subtitle: Highlights
 
 Team: Dareen Hussein - Israa Fahmy - Marwah Sulaiman - Mohammed Barakat - Mohammed El-Naggar - Zahraa Shehabeldin
 
-[Link to Project Presentation Recording](https://www.youtube.com/watch?v=KkbRlUNGXAs)
+[Link to Project Presentation Recording on YouTube](https://www.youtube.com/watch?v=KkbRlUNGXAs)
+
 [![Link to Project Presentation Recording](https://img.youtube.com/vi/KkbRlUNGXAs/0.jpg)](https://www.youtube.com/watch?v=KkbRlUNGXAs)
 
 -----------------------------------
@@ -35,9 +36,13 @@ Team: Dareen Hussein - Israa Fahmy - Marwah Sulaiman - Mohammed Barakat - Mohamm
 
 Team: Mahmoud Ahmed - Omer Moussa - Ismail Shaheen - Mohamed Abdelfattah - Amr Abdallah - Marwan Eid
 
+[Link to Project Presentation Recording on YouTube](https://www.youtube.com/watch?v=EtLTazgEK7s)
+
+[![Link to Project Presentation Recording](https://img.youtube.com/vi/EtLTazgEK7s/0.jpg)](https://www.youtube.com/watch?v=EtLTazgEK7s)
+
 -----------------------------------
 
-### The Right Losses for the Right Gains: Improving the Semantic Consistency of Deep Text-to-Image Generation with Distribution-Sensitive Losses
+### ModReduce: A Multi-Knowledge Distillation Framework with Online Learning
 
 ### AUC, CSE Department, Spring 2022
 
@@ -46,6 +51,10 @@ Team: Mahmoud Ahmed - Omer Moussa - Ismail Shaheen - Mohamed Abdelfattah - Amr A
 </center>
 
 Team: Abdelhakim Badawy - Samah Hussien - Yahya Abbas - Samah Ayman - Mohamed Shahawy - Hoda Ahmed
+
+[Link to Project Presentation Recording on YouTube](https://www.youtube.com/watch?v=MiSNuV3irHQ)
+
+[![Link to Project Presentation Recording](https://img.youtube.com/vi/MiSNuV3irHQ/0.jpg)](https://www.youtube.com/watch?v=MiSNuV3irHQ)
 
 -----------------------------------
 
@@ -124,6 +133,10 @@ Your smartphone can understand your hand gestures without using the camera and, 
 </center>
 
 Team: Habeeba Sakr - Mostafa Elsharkawy - Mohamed Basuony - Nouran Ibrahim - Omar Elewa
+
+[Link to Project Presentation Recording on YouTube](https://www.youtube.com/watch?v=kJngSR1cY-M)
+
+[![Link to Project Presentation Recording](https://img.youtube.com/vi/kJngSR1cY-M/0.jpg)](https://www.youtube.com/watch?v=kJngSR1cY-M)
 
 -----------------------------------
 
@@ -210,6 +223,10 @@ A self-driving car based on Conditional Imitation Learning. The project was spon
 
 Team: Noha Alshabrawy Abdelkader - Mohamed Elsayed Elshabshiri - Marwan Amr Awad - Omar Sherif Elmahdy - Mohamed Ashraf Taha - Youssef Khaled Beshir
 
+[Link to Project Presentation Recording on YouTube](https://www.youtube.com/watch?v=RgEo9vgNpB8)
+
+[![Link to Project Presentation Recording](https://img.youtube.com/vi/RgEo9vgNpB8/0.jpg)](https://www.youtube.com/watch?v=RgEo9vgNpB8)
+
 -----------------------------------
 
 ### Sign Language Translator Using Hand Pose Estimation and Deep Learning
@@ -221,5 +238,9 @@ Team: Noha Alshabrawy Abdelkader - Mohamed Elsayed Elshabshiri - Marwan Amr Awad
 </center>
 
 Team: Ahmed Ahmed - Bassel Halabi - Chris Amgad - Feras Awaga - Mohammed Mostafa Safo - Seif ElDin El Moghazy
+
+[Link to Project Presentation Recording on YouTube](https://www.youtube.com/watch?v=4R4fbuKPtm0)
+
+[![Link to Project Presentation Recording](https://img.youtube.com/vi/4R4fbuKPtm0/0.jpg)](https://www.youtube.com/watch?v=4R4fbuKPtm0)
 
 -----------------------------------
