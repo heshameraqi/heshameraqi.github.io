@@ -11,12 +11,11 @@ category: Dataset
 
 ![D-CIL](https://heshameraqi.github.io/data/DCIL/Work Zones.png)
 
-#Code:# https://github.com/heshameraqi/Dynamic-CIL-Driving
-#arXiv:# (will be posted soon)
-
-### Citation
+**Code:** [https://github.com/heshameraqi/Dynamic-CIL-Driving](https://github.com/heshameraqi/Dynamic-CIL-Driving)
+**arXiv:** (will be posted soon)
 
 Please cite our work:
+
 {: .box-warning}
 Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
 
