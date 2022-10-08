@@ -10,9 +10,9 @@ category: Dataset
 <p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, **The American University in Cairo, Egypt**<br /> <sup>2 </sup>Last Mile Geospatial team, **Amazon**, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, **Valeo** Schalter und Sensoren GmbH, Germany Egypt<br /></p>
 <div class="row" style="width:500; margin:0 auto;" align="center"> 
   <div class="column">
-    <img src="/data/DCIL/AUC.jpg" width="50" />
-	<img src="/data/DCIL/Amazon.png" width="50" />
-	<img src="/data/DCIL/Valeo.png" width="50" />
+    <img src="/data/DCIL/AUC.jpg" width="100" />
+	<img src="/data/DCIL/Amazon.png" width="100" />
+	<img src="/data/DCIL/Valeo.png" width="100" />
   </div>
 </div>
 
@@ -27,9 +27,10 @@ category: Dataset
 {: .box-warning}
 Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
 
-A real-time video showing an example scenario visualizing our system driving a car in the test town. The ego-car detects two road blockages and dynamically estimate and follow new routes to eventually reach the designation successfully, better watched in Full-HD:
+**Video showing D-CIL method in action in test town (better watched in Full-HD):**
 
 [![Video showing D-CIL method in action in test town](/data/DCIL/Results Video Thumbnail.png)](https://www.youtube.com/watch?v=KHjbZzBhygI)
+The ego-car successfully detects two road blockages and dynamically estimate and follows new routes to eventually reach the designation successfully.
 
 ### Abstract:
 
