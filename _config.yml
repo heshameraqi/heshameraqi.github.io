@@ -28,11 +28,12 @@ navbar-links:
     - Ain Shams - CS - Deep Learning Course - 4th Year - Spring 2019: https://heshameraqi.github.io/ain-shams-cs-deep-learning-4th-year-spring-2019
   Projects:
   # Options: #
-  # 1- "https://heshameraqi.github.io/distraction_detection"  #
-  # 2- "pageX" it will refer to <pageX>.md in the main directory #
+  # 1- "https://heshameraqi.github.io/distraction_detection"
+  # 2- "pageX" it will refer to <pageX>.md in the main directory
     - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
+    - Dynamic CIL Autonomous Driving: "https://heshameraqi.github.io/dynamic_cil_autonomous_driving"
   Archive: "archive"
   Advised Graduation Projects: "GPs"
   About me: "aboutme"
