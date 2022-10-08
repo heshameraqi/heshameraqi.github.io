@@ -7,14 +7,15 @@ category: Dataset
 
 <h2 style="text-align: center;"><strong>Dynamic Conditional Imitation Learning Autonomous Driving</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi <sup>1,*</sup>, Mohamed N. Moustafa <sup>2,*</sup>, Jens Honer <sup>3,*</sup></strong></h4>
-<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, The American University in Cairo, Egypt<br /> <sup>2 </sup>Amazon<br /> <sup>3 </sup> Driving Assistance department, Valeo Schalter und Sensoren GmbH, Germany Egypt</p>
+<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, The American University in Cairo, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, Amazon, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, Valeo Schalter und Sensoren GmbH, Germany Egypt</p>
 
 ![D-CIL](https://heshameraqi.github.io/data/DCIL/Work Zones.png)
 
 **Code:** [https://github.com/heshameraqi/Dynamic-CIL-Driving](https://github.com/heshameraqi/Dynamic-CIL-Driving)
+
 **arXiv:** (will be posted soon)
 
-Please cite our work:
+**Please cite our work:**
 
 {: .box-warning}
 Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
