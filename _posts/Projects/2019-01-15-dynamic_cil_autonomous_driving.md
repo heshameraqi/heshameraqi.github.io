@@ -8,11 +8,11 @@ category: Dataset
 <h2 style="text-align: center;"><strong>Dynamic Conditional Imitation Learning Autonomous Driving</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi<sup>1</sup>, Mohamed N. Moustafa<sup>2</sup>, Jens Honer<sup>3</sup></strong></h4>
 <p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, **The American University in Cairo, Egypt**<br /> <sup>2 </sup>Last Mile Geospatial team, **Amazon**, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, **Valeo** Schalter und Sensoren GmbH, Germany Egypt<br /></p>
-<div class="row" style="width:500; margin:0 auto;" align="center"> 
+<div class="row" style="width:400; margin:0 auto;" align="center"> 
   <div class="column">
-    <img src="/data/DCIL/AUC.jpg" width="100" />
-	<img src="/data/DCIL/Amazon.png" width="100" />
-	<img src="/data/DCIL/Valeo.png" width="100" />
+    <img src="/data/DCIL/AUC.jpg" width="120" />
+	<img src="/data/DCIL/Amazon.png" width="120" />
+	<img src="/data/DCIL/Valeo.png" width="120" />
   </div>
 </div>
 
@@ -29,7 +29,8 @@ Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation 
 
 **Video showing D-CIL method in action in test town (better watched in Full-HD):**
 
-[![Video showing D-CIL method in action in test town](/data/DCIL/Results Video Thumbnail.png)](https://www.youtube.com/watch?v=KHjbZzBhygI)
+[![Video showing D-CIL method in action in test town](/data/DCIL/Results Video Thumbnail.png)](https://www.youtube.com/watch?v=v3DaKJL-HCQ)
+
 The ego-car successfully detects two road blockages and dynamically estimate and follows new routes to eventually reach the designation successfully.
 
 ### Abstract:
