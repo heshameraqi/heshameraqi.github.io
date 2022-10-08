@@ -7,7 +7,7 @@ category: Dataset
 
 <h2 style="text-align: center;"><strong>Dynamic Conditional Imitation Learning Autonomous Driving</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi<sup>1</sup>, Mohamed N. Moustafa<sup>2</sup>, Jens Honer<sup>3</sup></strong></h4>
-<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, The American University in Cairo, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, Amazon, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, Valeo Schalter und Sensoren GmbH, Germany Egypt<br /></p>
+<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, **The American University in Cairo, Egypt**<br /> <sup>2 </sup>Last Mile Geospatial team, **Amazon**, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, **Valeo** Schalter und Sensoren GmbH, Germany Egypt<br /></p>
 <div class="row" style="width:500; margin:0 auto;" align="center"> 
   <div class="column">
     <img src="/data/DCIL/AUC.jpg" width="50" />
@@ -28,6 +28,7 @@ category: Dataset
 Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
 
 A real-time video showing an example scenario visualizing our system driving a car in the test town. The ego-car detects two road blockages and dynamically estimate and follow new routes to eventually reach the designation successfully, better watched in Full-HD:
+
 [![Video showing D-CIL method in action in test town](/data/DCIL/Results Video Thumbnail.png)](https://www.youtube.com/watch?v=KHjbZzBhygI)
 
 ### Abstract:

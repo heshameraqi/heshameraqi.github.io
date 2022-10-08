@@ -30,10 +30,10 @@ navbar-links:
   # Options: #
   # 1- "https://heshameraqi.github.io/distraction_detection"
   # 2- "pageX" it will refer to <pageX>.md in the main directory
+    - Dynamic CIL Autonomous Driving: "https://heshameraqi.github.io/dynamic_cil_autonomous_driving"
     - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
-    - Dynamic CIL Autonomous Driving: "https://heshameraqi.github.io/dynamic_cil_autonomous_driving"
   Archive: "archive"
   Advised Graduation Projects: "GPs"
   About me: "aboutme"
