@@ -28,6 +28,7 @@ category: Dataset
 Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
 
 A real-time video showing an example scenario visualizing our system driving a car in the test town. The ego-car detects two road blockages and dynamically estimate and follow new routes to eventually reach the designation successfully, better watched in Full-HD:
+
 [![Video showing D-CIL method in action in test town](https://heshameraqi.github.io/data/DCIL/Results Video Thumbnail.png)](https://www.youtube.com/watch?v=KHjbZzBhygI)
 
 ### Abstract:
