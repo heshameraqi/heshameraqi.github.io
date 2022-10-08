@@ -10,10 +10,10 @@ category: Dataset
 <p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, The American University in Cairo, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, Amazon, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, Valeo Schalter und Sensoren GmbH, Germany Egypt<br /></p>
 <div class="row" style="width:500; margin:0 auto;" align="center"> 
   <div class="column">
-    <img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" width="180" />
-    <img src="/data/DCIL/AUC.jpg" height="100" />
-	<img src="/data/DCIL/Amazon.gif" height="100" />
-	<img src="/data/DCIL/Valeo.png" height="100" />
+    <img src="/data/auc.distracted.driver.dataset/logos/auc.jpg" c="100" />
+    <img src="/data/DCIL/AUC.jpg" width="100" />
+	<img src="/data/DCIL/Amazon.gif" width="100" />
+	<img src="/data/DCIL/Valeo.png" width="100" />
   </div>
 </div>
 
