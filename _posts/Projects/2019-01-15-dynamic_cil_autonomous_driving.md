@@ -10,9 +10,9 @@ category: Dataset
 <p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, The American University in Cairo, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, Amazon, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, Valeo Schalter und Sensoren GmbH, Germany Egypt<br /></p>
 <div class="row" style="width:800px; margin:0 auto;" align="center"> 
   <div class="column">
-    <img src="/data/DCIL/auc.jpg" width="180" />
-	<img src="/data/DCIL/amazon.gif" width="180" />
-	<img src="/data/DCIL/valeo.png" width="180" />
+    <img src="https://heshameraqi.github.io/data/DCIL/auc.jpg" height="100" />
+	<img src="https://heshameraqi.github.io/data/DCIL/amazon.gif" height="100" />
+	<img src="https://heshameraqi.github.io/data/DCIL/valeo.png" height="100" />
   </div>
 </div>
 
