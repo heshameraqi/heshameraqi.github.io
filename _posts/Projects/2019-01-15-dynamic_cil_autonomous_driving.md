@@ -7,7 +7,7 @@ category: Dataset
 
 <h2 style="text-align: center;"><strong>Dynamic Conditional Imitation Learning Autonomous Driving</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi<sup>1</sup>, Mohamed N. Moustafa<sup>2</sup>, Jens Honer<sup>3</sup></strong></h4>
-<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, <b>The American University in Cairo, Egypt</b><br /> <sup>2 </sup>Last Mile Geospatial team, <b>Amazon</b>, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, <b>Valeo</b> Schalter und Sensoren GmbH, Germany Egypt<br /></p>
+<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, <b>The American University in Cairo</b>, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, <b>Amazon</b>, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, <b>Valeo</b> Schalter und Sensoren GmbH, Germany Egypt<br /></p>
 <div class="row" style="width:400; margin:0 auto;" align="center"> 
   <div class="column">
     <img src="/data/DCIL/AUC.jpg" width="120" />
