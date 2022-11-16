@@ -18,6 +18,8 @@ category: Dataset
 
 ![D-CIL](https://heshameraqi.github.io/data/DCIL/Work Zones.png)
 
+**Paper:** [https://ieeexplore.ieee.org/document/9928072](https://ieeexplore.ieee.org/document/9928072)
+
 **Code:** [https://github.com/heshameraqi/Dynamic-CIL-Driving](https://github.com/heshameraqi/Dynamic-CIL-Driving)
 
 **arXiv:** (will be posted soon)
