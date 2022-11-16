@@ -20,16 +20,16 @@ category: Dataset
 
 <h4 style="text-align: center;"><a href="https://heshameraqi.github.io/docs/Dynamic_Conditional_Imitation_Learning for_Autonomous_Driving.pdf"><strong>Download Paper PDF (Peer-reviewed accepted preprint)</strong></a></h4>
 
-**Paper:** [https://ieeexplore.ieee.org/document/9928072](https://ieeexplore.ieee.org/document/9928072)
-
-**Code:** [https://github.com/heshameraqi/Dynamic-CIL-Driving](https://github.com/heshameraqi/Dynamic-CIL-Driving)
-
-**arXiv:** (will be posted soon)
-
 **Please cite our work:**
 
 {: .box-warning}
 Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
+
+**Paper:** [https://ieeexplore.ieee.org/document/9928072](https://ieeexplore.ieee.org/document/9928072)
+
+**Code:** [https://github.com/heshameraqi/Dynamic-CIL-Driving](https://github.com/heshameraqi/Dynamic-CIL-Driving)
+
+**arXiv:** (will be posted in future)
 
 **Video showing D-CIL method in action in test town (better watched in Full-HD):**
 
