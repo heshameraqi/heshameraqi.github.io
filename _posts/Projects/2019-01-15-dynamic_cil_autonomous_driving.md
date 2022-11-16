@@ -18,7 +18,7 @@ category: Dataset
 
 ![D-CIL](https://heshameraqi.github.io/data/DCIL/Work Zones.png)
 
-<h4 style="text-align: center;"><strong><a href="https://heshameraqi.github.io/docs/Dynamic_Conditional_Imitation_Learning for_Autonomous_Driving.pdf">PDF (Peer-reviewed accepted preprint</a></strong></h4>
+<h4 style="text-align: center;"><a href="https://heshameraqi.github.io/docs/Dynamic_Conditional_Imitation_Learning for_Autonomous_Driving.pdf"><strong>Download Paper PDF</strong> (Peer-reviewed accepted preprint</a></h4>
 
 **Paper:** [https://ieeexplore.ieee.org/document/9928072](https://ieeexplore.ieee.org/document/9928072)
 
