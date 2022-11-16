@@ -7,7 +7,7 @@ category: Dataset
 
 <h2 style="text-align: center;"><strong>Dynamic Conditional Imitation Learning Autonomous Driving</strong></h2>
 <h4 style="text-align: center;"><strong>Hesham M. Eraqi<sup>1</sup>, Mohamed N. Moustafa<sup>2</sup>, Jens Honer<sup>3</sup></strong></h4>
-<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, <b>The American University in Cairo</b>, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, <b>Amazon</b>, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, <b>Valeo</b> Schalter und Sensoren GmbH, Germany Egypt<br /></p>
+<p style="text-align: center;"><sup>1 </sup>Computer Science and Engineering Department, <b>The American University in Cairo</b>, Egypt<br /> <sup>2 </sup>Last Mile Geospatial team, <b>Amazon</b>, Seattle, Washington, United States<br /> <sup>3 </sup> Driving Assistance department, <b>Valeo</b> Schalter und Sensoren GmbH, Germany Egypt<br />
 <div class="row" style="width:400; margin:0 auto;" align="center"> 
   <div class="column">
     <img src="/data/DCIL/AUC.jpg" width="120" />
@@ -15,7 +15,7 @@ category: Dataset
 	<img src="/data/DCIL/Valeo.png" width="120" />
   </div>
 </div>
-
+</p>
 <h4 style="text-align: center;"><a href="https://heshameraqi.github.io/docs/Dynamic_Conditional_Imitation_Learning for_Autonomous_Driving.pdf"><strong>Download Paper PDF (Peer-reviewed accepted preprint)</strong></a></h4>
 
 {: .box-warning} Please cite our work: Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. Dynamic Conditional Imitation Learning for Autonomous Driving. IEEE Transactions on Intelligent Transportation Systems, 2022.
