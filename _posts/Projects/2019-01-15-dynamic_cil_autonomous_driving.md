@@ -27,7 +27,7 @@ category: Dataset
 
 **Code:** [https://github.com/heshameraqi/Dynamic-CIL-Driving](https://github.com/heshameraqi/Dynamic-CIL-Driving)
 
-**arXiv:** (will be posted in future)
+**arXiv:** [https://arxiv.org/abs/2211.11579](https://arxiv.org/abs/2211.11579)
 
 **Video showing D-CIL method in action in test town (better watched in Full-HD):**
 
