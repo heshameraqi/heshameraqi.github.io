@@ -104,7 +104,7 @@ Our work is being used by researches across academia and research labs:
   </tr>
   <tr>
     <td class="tg-c3ow">Download Link</td>
-    <td class="tg-c3ow" colspan="2">If you agree with terms and conditions, please fill out the license agreement and send it to: <a href="mailto:yehya.abouelnaga@tum.de">Yehya Abouelnaga: yehya.abouelnaga@tum.de</a> or <a href="mailto:heraqi@aucegypt.edu">Hesham M. Eraqi: heraqi@aucegypt.edu</a>.Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.</td>
+    <td class="tg-c3ow" colspan="2">If you agree with terms and conditions, please fill out the license agreement and send it to: <a href="mailto:yehya.abouelnaga@tum.de">Yehya Abouelnaga: yehya.abouelnaga@tum.de</a> or <a href="mailto:hesham.eraqi@gmail.com">Hesham M. Eraqi: hesham.eraqi@gmail.com</a>.Upon receiving a filled and signed license agreement, we will send you the dataset and our training/testing splits.</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Publication</td>
