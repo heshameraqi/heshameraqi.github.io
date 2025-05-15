@@ -5,8 +5,28 @@ title: Hesham Eraqi
 use-site-title: true
 ---
 
+<div class="bio-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>About Me</h2>
+        <p>
+          Hesham Eraqi is a Senior Scientist at Amazon in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as Valeo Senior Expert of artificial intelligence and deep learning in 2018, which is a Director level position where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He worked at Valeo from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world’s first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi has been an Adjunct Assistant Professor at The American University in Cairo where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has five filed patents and over 25 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops. Hesham has been the Founding CTO, General Manager, and a Board Member of Nahdet Misr AI startup (partnered with Disney, developing AI-powered EdTech products, including two apps ranked since 2021 in Google Play top ten charts with millions of users), an Advisory Board at EdVentures (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI startups. He received the Ph.D. degree in computer science and engineering from AUC in 2020 with the highest honors and is an ACM member.
+        </p>
+        <div class="social-links">
+          <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+          <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-blog"></i> Blog</a>
+          <a href="https://github.com/heshameraqi" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="posts-list">
   {% for post in paginator.posts %}
+  {% unless post.dont-show-in-home-page %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 
@@ -27,18 +47,25 @@ use-site-title: true
       Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
 	
-	<!-- For loading first image in post -->
-	{% assign foundImage = 0 %}
-	{% assign images = post.content | split:"<img " %}
-	{% for image in images %}
-	{% if image contains 'src' %}
-		{% if foundImage == 0 %}
-			{% assign html = image | split:"/>" | first %}
-			<img {{ html }} /> <!-- Image shown here -->
-			{% assign foundImage = 1 %}
-		{% endif %}
-	{% endif %}
-	{% endfor %}
+	  <!-- Display force_rectangle_image if available -->
+	  {% if post.force_rectangle_image %}
+	    <img src="{{ post.force_rectangle_image }}" />
+	  {% else %}
+	    <!-- For loading first image in post if no post.image is defined -->
+	    {% unless post.image %}
+	      {% assign foundImage = 0 %}
+	      {% assign images = post.content | split:"<img " %}
+	      {% for image in images %}
+	      {% if image contains 'src' %}
+	  	    {% if foundImage == 0 %}
+	  		    {% assign html = image | split:"/>" | first %}
+	  		    <img {{ html }} /> <!-- Image shown here -->
+	  		    {% assign foundImage = 1 %}
+	  	    {% endif %}
+	      {% endif %}
+	      {% endfor %}
+	    {% endunless %}
+	  {% endif %}
 
     <div class="post-entry-container">
       {% if post.image %}
@@ -71,6 +98,7 @@ use-site-title: true
     {% endif %}
 
    </article>
+  {% endunless %}
   {% endfor %}
 </div>
 

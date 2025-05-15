@@ -26,4 +26,4 @@ Tomorrow, I'm honored to be the Chairperson of the 2020 World ADAS & Autonomous 
 
 I'm sharing this to encourage delegates from Egyptian universities to register to join for free. The conference is scheduled to happen virtually this year, and universities and OEM's delegates can register for free: https://bit.ly/3gl5nVX (terms: https://events.marketsandmarkets.com/termsandconditions) . More details and the conference agenda are here: https://events.marketsandmarkets.com/marketsandmarkets-world-adas-ad-conference/ .
 
-{% include advertisements.html %}
+<!--{% include advertisements.html %}-->

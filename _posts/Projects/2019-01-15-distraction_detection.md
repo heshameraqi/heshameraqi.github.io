@@ -146,5 +146,3 @@ Hesham M. Eraqi, Yehya Abouelnaga, Mohamed H. Saad, Mohamed N. Moustafa, "Driver
 Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracted Driver Posture Classification", Machine Learning for Intelligent Transportation Systems Workshop in the 32nd Conference on Neural Information Processing Systems (NeuroIPS), Montréal, Canada, 2018.
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/System.png)
-
-{% include advertisements.html %}

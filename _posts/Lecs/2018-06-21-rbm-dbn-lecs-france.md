@@ -5,6 +5,7 @@ subtitle: Conducted in Paris, September 2017
 bigimg: /post_images/Unsupervised-Learning.png
 tags: [Lectures, Unsupervised Learning, Deep Belief Networks, Restricted Boltzmann Machines, DBN, RBM]
 category: Lecs
+dont-show-in-home-page: true
 ---
 
 [![Part 1](https://heshameraqi.github.io/post_images/DBN-Lec1.png)](https://www.youtube.com/embed/Jc1Kx5wfi_Q)
