@@ -3,7 +3,7 @@ layout: post
 title: Online Digital Design Lab During COVID-19
 subtitle: Enabling remote hardware access for students during the pandemic
 tags: [Teaching, Digital Design, Remote Learning, COVID-19]
-image: /img/post_images/covid-teaching-lab/1.png
+image: /post_images/covid-teaching-lab/1.png
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
@@ -16,30 +16,30 @@ In these images as example, each student, from home, remotely uses Xilinx Vivado
 This is a team effort, and I have to thank Dr. Mohamed Shalan and Eng. Amr ElShorbagy for their great contribution to it. This would not have been possible without the full support received from the university and my department (CSE) in terms of providing the cameras and the remote access tools. And for sure I would like to thank my amazing students who showed great levels of agility and cooperation. Also, it's important to mention that any instructor who implements similar approaches should account for the overhead students consume compared to before having all of this online.<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="/img/post_images/covid-teaching-lab/1.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="180" src="/img/post_images/covid-teaching-lab/1.png" width="320" /></a></div>
+<a href="/post_images/covid-teaching-lab/1.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="180" src="/post_images/covid-teaching-lab/1.png" width="320" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <span style="font-weight: bold;">Camera Sees the Hardware, and students work remotely from their homes on our empty lab</span></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="/img/post_images/covid-teaching-lab/2.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="180" src="/img/post_images/covid-teaching-lab/2.png" width="320" /></a></div>
+<a href="/post_images/covid-teaching-lab/2.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="180" src="/post_images/covid-teaching-lab/2.png" width="320" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <span style="font-weight: bold;">Students program, see, and control/interact the hardware remotely</span></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="/img/post_images/covid-teaching-lab/3.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="/img/post_images/covid-teaching-lab/3.jpg" width="320" /></a></div>
+<a href="/post_images/covid-teaching-lab/3.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="/post_images/covid-teaching-lab/3.jpg" width="320" /></a></div>
 <div style="text-align: center;">
 <b>Old picture for the lab before switching to online teaching</b></div>
 <div style="text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="/img/post_images/covid-teaching-lab/4.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="/img/post_images/covid-teaching-lab/4.jpg" width="248" /></a></div>
+<a href="/post_images/covid-teaching-lab/4.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="/post_images/covid-teaching-lab/4.jpg" width="248" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
 <span style="font-weight: bold;">Students program, see, and control/interact the hardware remotely</span></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="/img/post_images/covid-teaching-lab/5.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="138" src="/img/post_images/covid-teaching-lab/5.png" width="320" /></a></div>
+<a href="/post_images/covid-teaching-lab/5.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="138" src="/post_images/covid-teaching-lab/5.png" width="320" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <span style="font-weight: bold;">Comments like this motivate :)</span></div>
 </div>
