@@ -21,17 +21,16 @@ use-site-title: true
     overflow-x: hidden;
   }
   .profile-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 30px;
+    display: block;
     margin-bottom: 30px;
     width: 100%;
     box-sizing: border-box;
-    flex-wrap: wrap;
   }
   .profile-image {
-    flex: 0 0 220px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 220px;
   }
   .profile-image img {
     width: 220px;
@@ -46,9 +45,7 @@ use-site-title: true
     transform: scale(1.03);
   }
   .profile-content {
-    flex: 1;
-    min-width: 0;
-    max-width: calc(100% - 250px);
+    overflow: hidden;
   }
   .profile-content h2 {
     margin-top: 0;
