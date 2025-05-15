@@ -10,6 +10,8 @@ use-site-title: true
     padding: 60px 0;
     background-color: #f9f9f9;
     border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    box-sizing: border-box;
   }
   .profile-container {
     display: flex;
@@ -17,6 +19,8 @@ use-site-title: true
     align-items: flex-start;
     gap: 30px;
     margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
   }
   .profile-image {
     flex: 0 0 220px;
@@ -50,6 +54,28 @@ use-site-title: true
     line-height: 1.7;
     color: #444;
     text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .highlights {
+    background-color: #f0f4f8;
+    border-left: 4px solid #4285f4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 5px 5px 0;
+  }
+  .highlights p {
+    margin: 5px 0;
+    font-weight: 500;
+  }
+  .highlights a {
+    color: #4285f4;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .highlights a:hover {
+    color: #2a56c6;
+    text-decoration: underline;
   }
   .social-links {
     margin-top: 25px;
@@ -85,6 +111,17 @@ use-site-title: true
       display: block;
       text-align: center;
     }
+    .post-entry-container {
+      flex-direction: column;
+    }
+    .post-image {
+      order: 1;
+      flex: 0 0 auto;
+      width: 100%;
+    }
+    .post-entry {
+      order: 2;
+    }
   }
   
   /* Enhance posts list styling */
@@ -117,16 +154,26 @@ use-site-title: true
   }
   .post-entry-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
   }
   .post-image {
     margin-bottom: 15px;
     overflow: hidden;
     border-radius: 5px;
+    flex: 0 0 250px;
+    order: 2;
+  }
+  .post-entry {
+    flex: 1;
+    order: 1;
   }
   .post-image img {
     width: 100%;
     transition: transform 0.3s ease;
+    max-height: 180px;
+    object-fit: cover;
   }
   .post-image img:hover {
     transform: scale(1.03);
@@ -157,8 +204,14 @@ use-site-title: true
       </div>
       <div class="profile-content">
         <h2>Biography</h2>
+        <div class="highlights">
+          <p>Senior Scientist, <a href="https://www.amazon.com/" target="_blank">Amazon</a>, WA, USA (2022-Present)</p>
+          <p>Assistant Professor, <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo</a>, Computer Science department (2010-2022)</p>
+          <p>Senior Expert/Director of AI & Chief AI Scientist, <a href="https://www.valeo.com/" target="_blank">Valeo</a> (2012-2021)</p>
+          <p>Founding CTO & General Manager, <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> & Advisory Board, <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (2021-2022)</p>
+        </div>
         <p>
-          Hesham Eraqi is a Senior Scientist at Amazon in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as Valeo Senior Expert of artificial intelligence and deep learning in 2018, which is a Director level position where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He worked at Valeo from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi has been an Adjunct Assistant Professor at The American University in Cairo where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has five filed patents and over 25 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops. Hesham has been the Founding CTO, General Manager, and a Board Member of Nahdet Misr AI startup (partnered with Disney, developing AI-powered EdTech products, including two apps ranked since 2021 in Google Play top ten charts with millions of users), an Advisory Board at EdVentures (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI startups. He received the Ph.D. degree in computer science and engineering from AUC in 2020 with the highest honors and is an ACM member.
+          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert of artificial intelligence and deep learning in 2018, which is a Director level position where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He worked at Valeo from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi has been an Adjunct Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo</a> where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has five filed patents and over 25 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops. Hesham has been the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including two apps ranked since 2021 in Google Play top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI startups. He received the Ph.D. degree in computer science and engineering from AUC in 2020 with the highest honors and is an ACM member.
         </p>
         <div class="social-links">
           <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
