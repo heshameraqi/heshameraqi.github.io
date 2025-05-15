@@ -5,19 +5,167 @@ title: Hesham Eraqi
 use-site-title: true
 ---
 
+<style>
+  .bio-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .profile-image {
+    flex: 0 0 220px;
+  }
+  .profile-image img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  .profile-image img:hover {
+    transform: scale(1.03);
+  }
+  .profile-content {
+    flex: 1;
+  }
+  .profile-content h2 {
+    margin-top: 0;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .profile-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+  }
+  .social-links {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+  }
+  .social-links a {
+    margin-right: 25px;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .social-links a:hover {
+    color: #4285f4;
+  }
+  .social-links i {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  @media (max-width: 768px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .profile-image {
+      margin-bottom: 20px;
+    }
+    .profile-content h2 {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  /* Enhance posts list styling */
+  .posts-list {
+    margin-top: 40px;
+  }
+  .post-preview {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 25px;
+    margin-bottom: 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .post-preview:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .post-title {
+    color: #333;
+    margin-top: 0;
+  }
+  .post-subtitle {
+    color: #666;
+  }
+  .post-meta {
+    color: #888;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  .post-entry-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-image {
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .post-image img {
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  .post-image img:hover {
+    transform: scale(1.03);
+  }
+  .blog-tags {
+    margin-top: 15px;
+  }
+  .blog-tags a {
+    background: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    color: #666;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .blog-tags a:hover {
+    background: #e0e0e0;
+  }
+</style>
+
 <div class="bio-section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2>About Me</h2>
+    <div class="profile-container">
+      <div class="profile-image">
+        <img src="/img/Hesham_Eraqi_photo.jpeg" alt="Dr. Hesham Eraqi">
+      </div>
+      <div class="profile-content">
+        <h2>Biography</h2>
         <p>
-          Hesham Eraqi is a Senior Scientist at Amazon in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as Valeo Senior Expert of artificial intelligence and deep learning in 2018, which is a Director level position where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He worked at Valeo from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world’s first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi has been an Adjunct Assistant Professor at The American University in Cairo where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has five filed patents and over 25 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops. Hesham has been the Founding CTO, General Manager, and a Board Member of Nahdet Misr AI startup (partnered with Disney, developing AI-powered EdTech products, including two apps ranked since 2021 in Google Play top ten charts with millions of users), an Advisory Board at EdVentures (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI startups. He received the Ph.D. degree in computer science and engineering from AUC in 2020 with the highest honors and is an ACM member.
+          Hesham Eraqi is a Senior Scientist at Amazon in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as Valeo Senior Expert of artificial intelligence and deep learning in 2018, which is a Director level position where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He worked at Valeo from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi has been an Adjunct Assistant Professor at The American University in Cairo where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has five filed patents and over 25 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops. Hesham has been the Founding CTO, General Manager, and a Board Member of Nahdet Misr AI startup (partnered with Disney, developing AI-powered EdTech products, including two apps ranked since 2021 in Google Play top ten charts with millions of users), an Advisory Board at EdVentures (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI startups. He received the Ph.D. degree in computer science and engineering from AUC in 2020 with the highest honors and is an ACM member.
         </p>
         <div class="social-links">
           <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
           <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
-          <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-blog"></i> Blog</a>
+          <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-rss"></i> Blog</a>
           <a href="https://github.com/heshameraqi" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
+          <a href="mailto:hesham.eraqi@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i> Email</a>
         </div>
       </div>
     </div>
@@ -71,7 +219,11 @@ use-site-title: true
       {% if post.image %}
       <div class="post-image">
         <a href="{{ post.url | prepend: site.baseurl }}">
+          {% if post.force_rectangle_image %}
+          <img src="{{ post.force_rectangle_image }}">
+          {% else %}
           <img src="{{ post.image }}">
+          {% endif %}
         </a>
       </div>
       {% endif %}
