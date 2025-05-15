@@ -10,7 +10,6 @@ category: Dataset
 <p style="text-align: center;"><sup>1 </sup>The American University in Cairo<br /> <sup>2 </sup>Technical University of Munich<br /> <sup>3 </sup>Valeo Egypt<br /> <sup>* </sup>Both authors equally contributed to this work.</p>
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/Data.png)
-{% include advertisements.html %}
 
 ### Institutions
 
@@ -147,3 +146,5 @@ Hesham M. Eraqi, Yehya Abouelnaga, Mohamed H. Saad, Mohamed N. Moustafa, "Driver
 Yehya Abouelnaga, Hesham M. Eraqi, and Mohamed N. Moustafa, "Real-time Distracted Driver Posture Classification", Machine Learning for Intelligent Transportation Systems Workshop in the 32nd Conference on Neural Information Processing Systems (NeuroIPS), Montréal, Canada, 2018.
 
 ![Data](https://heshameraqi.github.io/data/auc.distracted.driver.dataset/System.png)
+
+{% include advertisements.html %}

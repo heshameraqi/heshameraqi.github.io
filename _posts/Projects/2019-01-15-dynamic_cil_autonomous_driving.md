@@ -3,6 +3,7 @@ layout: page
 title: Dynamic Conditional Imitation Learning Autonomous Driving
 tags: [Autonomous Driving, Dynamic Conditional Imitation Learning, End-to-end Learning]
 category: Dataset
+image: /data/DCIL/Results Video Thumbnail.png
 ---
 
 <h2 style="text-align: center;"><strong>Dynamic Conditional Imitation Learning Autonomous Driving</strong></h2>
