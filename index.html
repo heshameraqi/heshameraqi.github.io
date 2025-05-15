@@ -18,6 +18,7 @@ use-site-title: true
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   .profile-container {
     display: flex;
@@ -47,6 +48,7 @@ use-site-title: true
   .profile-content {
     flex: 1;
     min-width: 0;
+    max-width: calc(100% - 250px);
   }
   .profile-content h2 {
     margin-top: 0;
@@ -64,7 +66,8 @@ use-site-title: true
     text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
   }
   .highlights {
     background-color: #f0f4f8;
