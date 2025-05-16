@@ -10,13 +10,15 @@ use-site-title: true
 
 <style>
   :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #3b82f6;
+    --primary-color: #4f46e5;
+    --secondary-color: #4338ca;
+    --accent-color: #6366f1;
     --text-color: #334155;
     --light-bg: #f8fafc;
     --card-bg: #ffffff;
     --border-color: #e2e8f0;
+    --gradient-1: linear-gradient(135deg, #4f46e5, #6366f1);
+    --gradient-2: linear-gradient(135deg, #4338ca, #4f46e5);
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
     --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
@@ -42,13 +44,26 @@ use-site-title: true
   /* Bio Section Styling */
   .bio-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, var(--light-bg) 0%, #eef2ff 100%);
+    background: linear-gradient(135deg, var(--light-bg) 0%, #ede9fe 100%);
     border-bottom: 1px solid var(--border-color);
     width: 100%;
     box-sizing: border-box;
     position: relative;
     left: 0;
     right: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bio-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.08) 0%, rgba(99, 102, 241, 0) 70%);
+    z-index: 0;
   }
 
   .bio-section .container {
@@ -72,6 +87,22 @@ use-site-title: true
     flex: 0 0 250px;
   }
 
+  .profile-image {
+    position: relative;
+  }
+  
+  .profile-image::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    border: 2px dashed rgba(99, 102, 241, 0.3);
+    z-index: -1;
+  }
+  
   .profile-image img {
     width: 250px;
     height: 250px;
@@ -85,7 +116,7 @@ use-site-title: true
 
   .profile-image img:hover {
     transform: scale(1.03) rotate(2deg);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.2), 0 10px 10px -5px rgba(99, 102, 241, 0.1);
   }
 
   .profile-content {
@@ -109,7 +140,7 @@ use-site-title: true
     left: 0;
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    background: var(--gradient-1);
     border-radius: 2px;
   }
 
@@ -125,12 +156,25 @@ use-site-title: true
   }
 
   .highlights {
-    background: linear-gradient(to right, rgba(219, 234, 254, 0.5), rgba(239, 246, 255, 0.5));
+    background: linear-gradient(to right, rgba(224, 231, 255, 0.5), rgba(237, 233, 254, 0.3));
     border-left: 5px solid var(--primary-color);
     padding: 20px 25px;
     margin-bottom: 30px;
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 12px 12px 0;
     box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .highlights::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+    pointer-events: none;
   }
 
   .highlights p {
@@ -184,19 +228,22 @@ use-site-title: true
   .social-links a {
     display: flex;
     align-items: center;
-    padding: 10px 15px;
+    padding: 12px 18px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 50px;
     color: var(--text-color);
     font-weight: 500;
     transition: var(--transition);
     box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(99, 102, 241, 0.1);
   }
 
   .social-links a:hover {
     color: var(--primary-color);
     transform: translateY(-3px);
     box-shadow: var(--shadow-md);
+    border-color: rgba(99, 102, 241, 0.3);
+    background-color: rgba(99, 102, 241, 0.03);
   }
 
   .social-links i {
@@ -230,24 +277,42 @@ use-site-title: true
     transform: translateX(-50%);
     width: 100px;
     height: 3px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    background: var(--gradient-1);
     border-radius: 2px;
   }
 
   .post-preview {
     background: var(--card-bg);
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: var(--shadow-md);
     padding: 30px;
     margin-bottom: 40px;
     transition: var(--transition);
     border: 1px solid var(--border-color);
     overflow: hidden;
+    position: relative;
+  }
+  
+  .post-preview::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-1);
+    opacity: 0;
+    transition: var(--transition);
   }
 
   .post-preview:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
+    border-color: rgba(99, 102, 241, 0.2);
+  }
+  
+  .post-preview:hover::before {
+    opacity: 1;
   }
 
   .post-title {
@@ -320,18 +385,23 @@ use-site-title: true
   .post-read-more {
     display: inline-block;
     margin-top: 15px;
-    padding: 8px 16px;
-    background-color: var(--primary-color);
+    padding: 10px 20px;
+    background: var(--gradient-1);
     color: white;
-    border-radius: 6px;
+    border-radius: 30px;
     font-weight: 500;
     transition: var(--transition);
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.2);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
   }
 
   .post-read-more:hover {
-    background-color: var(--secondary-color);
+    background: var(--gradient-2);
     color: white;
     transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(99, 102, 241, 0.3);
   }
 
   .blog-tags {
@@ -348,19 +418,21 @@ use-site-title: true
   }
 
   .blog-tags a {
-    background: #f1f5f9;
+    background: rgba(99, 102, 241, 0.05);
     padding: 6px 12px;
     border-radius: 20px;
-    color: #64748b;
+    color: var(--primary-color);
     font-size: 0.85rem;
     text-decoration: none;
     transition: var(--transition);
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+    font-weight: 500;
   }
 
   .blog-tags a:hover {
-    background: #e2e8f0;
-    color: var(--primary-color);
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--secondary-color);
+    border-color: rgba(99, 102, 241, 0.2);
   }
 
   /* Pagination */
@@ -378,19 +450,22 @@ use-site-title: true
 
   .pager li a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: white;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 50px;
     color: var(--text-color);
     font-weight: 500;
     transition: var(--transition);
+    box-shadow: var(--shadow-sm);
   }
 
   .pager li a:hover {
-    background-color: var(--primary-color);
+    background: var(--gradient-1);
     color: white;
-    border-color: var(--primary-color);
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(99, 102, 241, 0.25);
+    transform: translateY(-2px);
   }
 
   /* Responsive Design */
@@ -457,10 +532,10 @@ use-site-title: true
       <div class="profile-content">
         <h2>Biography</h2>
         <div class="highlights">
-          <p>Senior Scientist, <a href="https://www.amazon.com/" target="_blank">Amazon</a>, WA, USA (2022-Present)</p>
-          <p>Assistant Professor, <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo</a>, Computer Science department (2010-2022)</p>
-          <p>Senior Expert/Director of AI & Chief AI Scientist, <a href="https://www.valeo.com/" target="_blank">Valeo</a> (2012-2021)</p>
-          <p>Founding CTO & General Manager, <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> & Advisory Board, <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (2021-2022)</p>
+          <p>Senior Scientist, <a href="https://www.amazon.com/" target="_blank"> Amazon</a>, WA, USA (2022-Present)</p>
+          <p>Assistant Professor, <a href="https://www.aucegypt.edu/" target="_blank"> The American University in Cairo</a>, Computer Science department (2010-2022)</p>
+          <p>Senior Expert/Director of AI & Chief AI Scientist, <a href="https://www.valeo.com/" target="_blank"> Valeo</a> (2012-2021)</p>
+          <p>Founding CTO & General Manager, <a href="https://nahdetmisr.com/" target="_blank"> Nahdet Misr AI</a> & Advisory Board, <a href="https://www.nmedventures.com/" target="_blank"> EdVentures</a> (2021-2022)</p>
         </div>
         <p>
           Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
