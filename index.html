@@ -5,211 +5,451 @@ title: Hesham Eraqi
 use-site-title: true
 ---
 
+<!-- Add Academicons for Google Scholar icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
 <style>
+  :root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --accent-color: #3b82f6;
+    --text-color: #334155;
+    --light-bg: #f8fafc;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+    --transition: all 0.3s ease;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: var(--text-color);
+    line-height: 1.7;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+  }
+
+  a:hover {
+    color: var(--secondary-color);
+  }
+
+  /* Bio Section Styling */
   .bio-section {
-    padding: 60px 0;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #eaeaea;
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--light-bg) 0%, #eef2ff 100%);
+    border-bottom: 1px solid var(--border-color);
     width: 100%;
     box-sizing: border-box;
     position: relative;
     left: 0;
     right: 0;
   }
+
   .bio-section .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
     box-sizing: border-box;
     overflow-x: hidden;
   }
+
   .profile-container {
-    display: block;
-    margin-bottom: 30px;
+    display: flex;
+    margin-bottom: 40px;
     width: 100%;
     box-sizing: border-box;
+    gap: 40px;
+    align-items: flex-start;
   }
+
   .profile-image {
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    width: 220px;
+    flex: 0 0 250px;
   }
+
   .profile-image img {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid white;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    border: 6px solid white;
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    filter: brightness(1.02);
   }
+
   .profile-image img:hover {
-    transform: scale(1.03);
+    transform: scale(1.03) rotate(2deg);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
+
   .profile-content {
-    overflow: hidden;
+    flex: 1;
   }
+
   .profile-content h2 {
     margin-top: 0;
-    color: #333;
-    font-weight: 600;
-    border-bottom: 2px solid #4285f4;
-    padding-bottom: 10px;
-    display: inline-block;
-    margin-bottom: 20px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 2.2rem;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
   }
+
+  .profile-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    border-radius: 2px;
+  }
+
   .profile-content p {
     font-size: 16px;
-    line-height: 1.7;
-    color: #444;
+    line-height: 1.8;
+    color: var(--text-color);
     text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
     width: 100%;
     box-sizing: border-box;
   }
+
   .highlights {
-    background-color: #f0f4f8;
-    border-left: 4px solid #4285f4;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 0 5px 5px 0;
-  }
-  .highlights p {
-    margin: 5px 0;
-    font-weight: 500;
-  }
-  .highlights a {
-    color: #4285f4;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-  .highlights a:hover {
-    color: #2a56c6;
-    text-decoration: underline;
-  }
-  .social-links {
-    margin-top: 25px;
-    padding-top: 20px;
-    border-top: 1px solid #eaeaea;
-  }
-  .social-links a {
-    margin-right: 25px;
-    display: inline-block;
-    margin-bottom: 15px;
-    color: #555;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-  }
-  .social-links a:hover {
-    color: #4285f4;
-  }
-  .social-links i {
-    margin-right: 8px;
-    font-size: 18px;
-  }
-  @media (max-width: 768px) {
-    .profile-container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .profile-image {
-      margin-bottom: 20px;
-    }
-    .profile-content h2 {
-      display: block;
-      text-align: center;
-    }
-    .post-entry-container {
-      flex-direction: column;
-    }
-    .post-image {
-      order: 1;
-      flex: 0 0 auto;
-      width: 100%;
-    }
-    .post-entry {
-      order: 2;
-    }
-  }
-  
-  /* Enhance posts list styling */
-  .posts-list {
-    margin-top: 40px;
-  }
-  .post-preview {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    padding: 25px;
+    background: linear-gradient(to right, rgba(219, 234, 254, 0.5), rgba(239, 246, 255, 0.5));
+    border-left: 5px solid var(--primary-color);
+    padding: 20px 25px;
     margin-bottom: 30px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 0 8px 8px 0;
+    box-shadow: var(--shadow-sm);
   }
-  .post-preview:hover {
+
+  .highlights p {
+    margin: 8px 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+
+  .highlights p::before {
+    content: '•';
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+
+  .highlights a {
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 2px;
+  }
+
+  .highlights a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+
+  .highlights a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .social-links {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .social-links a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 8px;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .social-links a:hover {
+    color: var(--primary-color);
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow-md);
   }
+
+  .social-links i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  /* Posts List Styling */
+  .posts-list {
+    margin-top: 60px;
+    padding: 0 30px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .posts-list h2.section-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+
+  .posts-list h2.section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    border-radius: 2px;
+  }
+
+  .post-preview {
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    padding: 30px;
+    margin-bottom: 40px;
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+  }
+
+  .post-preview:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+  }
+
   .post-title {
-    color: #333;
+    color: var(--secondary-color);
     margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+    transition: var(--transition);
   }
+
+  .post-preview a:hover .post-title {
+    color: var(--primary-color);
+  }
+
   .post-subtitle {
-    color: #666;
+    color: #64748b;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 10px;
   }
+
   .post-meta {
-    color: #888;
+    color: #94a3b8;
     font-style: italic;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
   }
+
+  .post-meta::before {
+    content: '📅';
+    margin-right: 8px;
+  }
+
   .post-entry-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 20px;
+    gap: 30px;
   }
+
   .post-image {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     overflow: hidden;
-    border-radius: 5px;
-    flex: 0 0 250px;
+    border-radius: 10px;
+    flex: 0 0 280px;
     order: 2;
+    box-shadow: var(--shadow-sm);
   }
+
   .post-entry {
     flex: 1;
     order: 1;
   }
+
   .post-image img {
     width: 100%;
-    transition: transform 0.3s ease;
-    max-height: 180px;
+    transition: transform 0.5s ease;
+    max-height: 200px;
     object-fit: cover;
+    border-radius: 10px;
   }
+
   .post-image img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
-  .blog-tags {
+
+  .post-read-more {
+    display: inline-block;
     margin-top: 15px;
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: var(--transition);
   }
+
+  .post-read-more:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transform: translateY(-2px);
+  }
+
+  .blog-tags {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .blog-tags span {
+    color: #64748b;
+    font-weight: 500;
+  }
+
   .blog-tags a {
-    background: #f0f0f0;
-    padding: 5px 10px;
-    border-radius: 15px;
-    margin-right: 5px;
-    color: #666;
-    font-size: 0.9em;
+    background: #f1f5f9;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: #64748b;
+    font-size: 0.85rem;
     text-decoration: none;
-    transition: background 0.2s ease;
+    transition: var(--transition);
+    border: 1px solid #e2e8f0;
   }
+
   .blog-tags a:hover {
-    background: #e0e0e0;
+    background: #e2e8f0;
+    color: var(--primary-color);
+  }
+
+  /* Pagination */
+  .pager {
+    padding: 0;
+    margin: 40px 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .pager li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .pager li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: var(--transition);
+  }
+
+  .pager li a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .profile-image {
+      margin-bottom: 30px;
+    }
+    
+    .profile-content h2 {
+      text-align: center;
+    }
+    
+    .profile-content h2::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .bio-section {
+      padding: 50px 0;
+    }
+    
+    .profile-container {
+      text-align: center;
+    }
+    
+    .highlights p {
+      justify-content: center;
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
+    
+    .post-entry-container {
+      flex-direction: column;
+    }
+    
+    .post-image {
+      order: 1;
+      flex: 0 0 auto;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .post-entry {
+      order: 2;
+    }
   }
 </style>
 
 <div class="bio-section" style="width: 100vw; margin-left: calc(-50vw + 50%);">
-  <div class="container" style="max-width: 100%;">
+  <div class="container">
     <div class="profile-container">
       <div class="profile-image">
         <img src="/img/Hesham_Eraqi_photo.jpeg" alt="Dr. Hesham Eraqi">
@@ -223,7 +463,7 @@ use-site-title: true
           <p>Founding CTO & General Manager, <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> & Advisory Board, <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (2021-2022)</p>
         </div>
         <p>
-          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world’s first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
+          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
         </p>
         <div class="social-links">
           <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
@@ -238,57 +478,54 @@ use-site-title: true
 </div>
 
 <div class="posts-list">
+  <h2 class="section-heading">Latest Posts</h2>
   {% for post in paginator.posts %}
   {% unless post.dont-show-in-home-page %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
+      {% if post.title == "" %}
+        <h2 class="post-title">{{ post.content | strip_html | truncatewords:5 }}</h2>
+      {% else %}
+        <h2 class="post-title">{{ post.title }}</h2>
+      {% endif %}
 
-		{% if post.title == "" %}
-			<h2 class="post-title">{{ post.content | strip_html | truncatewords:5 }}</h2>
-		{% else %}
-			<h2 class="post-title">{{ post.title }}</h2>
-		{% endif %}
-
-		{% if post.subtitle %}
-			<h3 class="post-subtitle">
-		{{ post.subtitle }}
-			</h3>
-		{% endif %}
+      {% if post.subtitle %}
+        <h3 class="post-subtitle">
+          {{ post.subtitle }}
+        </h3>
+      {% endif %}
     </a>
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
-	
-	  <!-- Display force_rectangle_image if available -->
-	  {% if post.force_rectangle_image %}
-	    <img src="{{ post.force_rectangle_image }}" />
-	  {% else %}
-	    <!-- For loading first image in post if no post.image is defined -->
-	    {% unless post.image %}
-	      {% assign foundImage = 0 %}
-	      {% assign images = post.content | split:"<img " %}
-	      {% for image in images %}
-	      {% if image contains 'src' %}
-	  	    {% if foundImage == 0 %}
-	  		    {% assign html = image | split:"/>" | first %}
-	  		    <img {{ html }} /> <!-- Image shown here -->
-	  		    {% assign foundImage = 1 %}
-	  	    {% endif %}
-	      {% endif %}
-	      {% endfor %}
-	    {% endunless %}
-	  {% endif %}
+  
+    <!-- Display force_rectangle_image if available otherwise display first image in the post if exists. -->
+    {% if post.force_rectangle_image %}
+      <img src="{{ post.force_rectangle_image }}" />
+    {% else %}
+      <!-- For loading first image in post if no post.image is defined -->
+      {% unless post.image %}
+        {% assign foundImage = 0 %}
+        {% assign images = post.content | split:"<img " %}
+        {% for image in images %}
+        {% if image contains 'src' %}
+          {% if foundImage == 0 %}
+            {% assign html = image | split:"/>" | first %}
+            <img {{ html }} /> <!-- Image shown here -->
+            {% assign foundImage = 1 %}
+          {% endif %}
+        {% endif %}
+        {% endfor %}
+      {% endunless %}
+    {% endif %}
 
+    <!-- Display post.image if exists in a circular design. -->
     <div class="post-entry-container">
       {% if post.image %}
       <div class="post-image">
         <a href="{{ post.url | prepend: site.baseurl }}">
-          {% if post.force_rectangle_image %}
-          <img src="{{ post.force_rectangle_image }}">
-          {% else %}
           <img src="{{ post.image }}">
-          {% endif %}
         </a>
       </div>
       {% endif %}
@@ -296,14 +533,14 @@ use-site-title: true
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">Read More</a>
         {% endif %}
       </div>
     </div>
 
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
-      Tags:
+      <span>Tags:</span>
       {% if site.link-tags %}
       {% for tag in post.tags %}
       <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
