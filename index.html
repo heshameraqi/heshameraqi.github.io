@@ -1,7 +1,14 @@
+---
+layout: page
+title: Hesham Eraqi
+<!-- subtitle: My personal webpage -->
+use-site-title: true
+---
+
 <style>
   .bio-section {
-    padding: 80px 0;
-    background: linear-gradient(135deg, #f9f9f9 0%, #eef5ff 100%);
+    padding: 60px 0;
+    background-color: #f9f9f9;
     border-bottom: 1px solid #eaeaea;
     width: 100%;
     box-sizing: border-box;
@@ -12,76 +19,49 @@
   .bio-section .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
     box-sizing: border-box;
     overflow-x: hidden;
   }
   .profile-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: space-between;
+    display: block;
     margin-bottom: 30px;
     width: 100%;
     box-sizing: border-box;
-    gap: 40px;
   }
   .profile-image {
-    flex: 0 0 280px;
-    position: relative;
-    margin-top: 20px;
-  }
-  .profile-image:before {
-    content: '';
-    position: absolute;
-    top: -15px;
-    right: -15px;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: rgba(66, 133, 244, 0.1);
-    z-index: 0;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 220px;
   }
   .profile-image img {
-    width: 280px;
-    height: 280px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
-    border: 8px solid white;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    transition: all 0.4s ease;
-    position: relative;
-    z-index: 1;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
   }
   .profile-image img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 15px 35px rgba(66, 133, 244, 0.3);
+    transform: scale(1.03);
   }
   .profile-content {
-    flex: 1;
+    overflow: hidden;
   }
   .profile-content h2 {
     margin-top: 0;
-    color: #2a56c6;
-    font-weight: 700;
-    font-size: 32px;
-    position: relative;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
-  }
-  .profile-content h2:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, #4285f4, #34a853);
-    border-radius: 2px;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
   }
   .profile-content p {
-    font-size: 17px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.7;
     color: #444;
     text-align: justify;
     word-wrap: break-word;
@@ -90,69 +70,46 @@
     box-sizing: border-box;
   }
   .highlights {
-    background: linear-gradient(to right, #f0f4f8, #ffffff);
-    border-left: 5px solid #4285f4;
-    padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 0 8px 8px 0;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    background-color: #f0f4f8;
+    border-left: 4px solid #4285f4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 5px 5px 0;
   }
   .highlights p {
-    margin: 8px 0;
+    margin: 5px 0;
     font-weight: 500;
-    position: relative;
-    padding-left: 20px;
-  }
-  .highlights p:before {
-    content: '•';
-    position: absolute;
-    left: 0;
-    color: #4285f4;
-    font-size: 20px;
-    line-height: 1;
   }
   .highlights a {
     color: #4285f4;
     text-decoration: none;
-    transition: all 0.3s ease;
-    font-weight: 600;
+    transition: color 0.2s ease;
   }
   .highlights a:hover {
     color: #2a56c6;
     text-decoration: underline;
   }
   .social-links {
-    margin-top: 30px;
-    padding-top: 25px;
+    margin-top: 25px;
+    padding-top: 20px;
     border-top: 1px solid #eaeaea;
-    display: flex;
-    flex-wrap: wrap;
   }
   .social-links a {
     margin-right: 25px;
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
     margin-bottom: 15px;
     color: #555;
     text-decoration: none;
     font-weight: 500;
-    transition: all 0.3s ease;
-    padding: 8px 15px;
-    border-radius: 30px;
-    background-color: rgba(255,255,255,0.8);
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: color 0.2s ease;
   }
   .social-links a:hover {
     color: #4285f4;
-    background-color: white;
-    box-shadow: 0 5px 15px rgba(66, 133, 244, 0.2);
-    transform: translateY(-2px);
   }
   .social-links i {
-    margin-right: 10px;
-    font-size: 20px;
+    margin-right: 8px;
+    font-size: 18px;
   }
-  
   @media (max-width: 768px) {
     .profile-container {
       flex-direction: column;
@@ -160,22 +117,11 @@
       text-align: center;
     }
     .profile-image {
-      margin-bottom: 30px;
-    }
-    .profile-image:before {
-      top: -10px;
-      right: -10px;
+      margin-bottom: 20px;
     }
     .profile-content h2 {
       display: block;
       text-align: center;
-    }
-    .profile-content h2:after {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    .highlights p {
-      padding-left: 25px;
     }
     .post-entry-container {
       flex-direction: column;
@@ -187,9 +133,6 @@
     }
     .post-entry {
       order: 2;
-    }
-    .social-links {
-      justify-content: center;
     }
   }
   
@@ -280,7 +223,7 @@
           <p>Founding CTO & General Manager, <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> & Advisory Board, <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (2021-2022)</p>
         </div>
         <p>
-          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
+          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world’s first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
         </p>
         <div class="social-links">
           <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
@@ -336,8 +279,19 @@
 	      {% endfor %}
 	    {% endunless %}
 	  {% endif %}
-	
+
     <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          {% if post.force_rectangle_image %}
+          <img src="{{ post.force_rectangle_image }}">
+          {% else %}
+          <img src="{{ post.image }}">
+          {% endif %}
+        </a>
+      </div>
+      {% endif %}
       <div class="post-entry">
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
