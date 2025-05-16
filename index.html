@@ -19,6 +19,7 @@ use-site-title: true
     --border-color: #e2e8f0;
     --gradient-1: linear-gradient(135deg, #4f46e5, #6366f1);
     --gradient-2: linear-gradient(135deg, #4338ca, #4f46e5);
+    --gradient-shimmer: linear-gradient(to right, var(--primary-color) 0%, var(--accent-color) 20%, var(--primary-color) 40%, var(--secondary-color) 100%);
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
     --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
@@ -43,7 +44,7 @@ use-site-title: true
 
   /* Bio Section Styling */
   .bio-section {
-    padding: 80px 0;
+    padding: 60px 0;
     background: linear-gradient(135deg, var(--light-bg) 0%, #ede9fe 100%);
     border-bottom: 1px solid var(--border-color);
     width: 100%;
@@ -129,8 +130,10 @@ use-site-title: true
     font-weight: 700;
     font-size: 2.2rem;
     position: relative;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
   }
 
   .profile-content h2::after {
@@ -140,8 +143,16 @@ use-site-title: true
     left: 0;
     width: 80px;
     height: 4px;
-    background: var(--gradient-1);
+    background: var(--gradient-shimmer);
+    background-size: 200px 100%;
     border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(99, 102, 241, 0.3);
+    animation: shimmer 2s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -100px 0; }
+    100% { background-position: 100px 0; }
   }
 
   .profile-content p {
@@ -158,8 +169,8 @@ use-site-title: true
   .highlights {
     background: linear-gradient(to right, rgba(224, 231, 255, 0.5), rgba(237, 233, 254, 0.3));
     border-left: 5px solid var(--primary-color);
-    padding: 20px 25px;
-    margin-bottom: 30px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
     border-radius: 0 12px 12px 0;
     box-shadow: var(--shadow-sm);
     position: relative;
@@ -178,7 +189,7 @@ use-site-title: true
   }
 
   .highlights p {
-    margin: 8px 0;
+    margin: 6px 0;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -217,12 +228,12 @@ use-site-title: true
   }
 
   .social-links {
-    margin-top: 35px;
-    padding-top: 25px;
+    margin-top: 25px;
+    padding-top: 20px;
     border-top: 1px solid var(--border-color);
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
   }
 
   .social-links a {
@@ -253,7 +264,7 @@ use-site-title: true
 
   /* Posts List Styling */
   .posts-list {
-    margin-top: 60px;
+    margin-top: 40px;
     padding: 0 30px;
     max-width: 1400px;
     margin-left: auto;
@@ -264,9 +275,11 @@ use-site-title: true
     text-align: center;
     font-size: 2rem;
     color: var(--secondary-color);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
   }
 
   .posts-list h2.section-heading::after {
@@ -277,16 +290,19 @@ use-site-title: true
     transform: translateX(-50%);
     width: 100px;
     height: 3px;
-    background: var(--gradient-1);
+    background: var(--gradient-shimmer);
+    background-size: 200px 100%;
     border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(99, 102, 241, 0.3);
+    animation: shimmer 2s infinite;
   }
 
   .post-preview {
     background: var(--card-bg);
     border-radius: 16px;
     box-shadow: var(--shadow-md);
-    padding: 30px;
-    margin-bottom: 40px;
+    padding: 25px;
+    margin-bottom: 30px;
     transition: var(--transition);
     border: 1px solid var(--border-color);
     overflow: hidden;
@@ -387,19 +403,20 @@ use-site-title: true
     margin-top: 15px;
     padding: 10px 20px;
     background: var(--gradient-1);
-    color: white;
+    color: #ffffff;
     border-radius: 30px;
-    font-weight: 500;
+    font-weight: 600;
     transition: var(--transition);
     box-shadow: 0 4px 6px rgba(99, 102, 241, 0.2);
     letter-spacing: 0.5px;
     text-transform: uppercase;
     font-size: 0.85rem;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
   }
 
   .post-read-more:hover {
     background: var(--gradient-2);
-    color: white;
+    color: #ffffff;
     transform: translateY(-2px);
     box-shadow: 0 6px 10px rgba(99, 102, 241, 0.3);
   }
@@ -438,7 +455,7 @@ use-site-title: true
   /* Pagination */
   .pager {
     padding: 0;
-    margin: 40px 0;
+    margin: 30px 0;
     list-style: none;
     text-align: center;
   }
@@ -545,6 +562,7 @@ use-site-title: true
           <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
           <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-rss"></i> Blog</a>
           <a href="https://github.com/heshameraqi" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
+          <a href="https://www.mathworks.com/matlabcentral/profile/authors/3912198" target="_blank" title="MATLAB FileExchange"><i class="fa fa-code"></i> MATLAB FileExchange</a>
           <a href="mailto:hesham.eraqi@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i> Email</a>
         </div>
       </div>
