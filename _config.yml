@@ -84,7 +84,7 @@ author:
 social-network-links:
   rss: true
   email: "hesham.eraqi@gmail.com"
-  facebook: hesham.eraqi
+  # facebook: hesham.eraqi
   github: heshameraqi
   twitter: hesham.eraqi
 #  reddit: yourname
@@ -104,7 +104,7 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   google: true
   
   din: true
