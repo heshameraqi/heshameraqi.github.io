@@ -44,7 +44,7 @@ use-site-title: true
 
   /* Bio Section Styling */
   .bio-section {
-    padding: 60px 0;
+    padding: 40px 0;
     background: linear-gradient(135deg, var(--light-bg) 0%, #ede9fe 100%);
     border-bottom: 1px solid var(--border-color);
     width: 100%;
@@ -84,12 +84,16 @@ use-site-title: true
     align-items: flex-start;
   }
 
-  .profile-image {
+  .profile-image-container {
     flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .profile-image {
     position: relative;
+    margin-bottom: 20px;
   }
   
   .profile-image::after {
@@ -130,8 +134,8 @@ use-site-title: true
     font-weight: 700;
     font-size: 2.2rem;
     position: relative;
-    padding-bottom: 12px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
   }
@@ -169,8 +173,8 @@ use-site-title: true
   .highlights {
     background: linear-gradient(to right, rgba(224, 231, 255, 0.5), rgba(237, 233, 254, 0.3));
     border-left: 5px solid var(--primary-color);
-    padding: 15px 25px;
-    margin-bottom: 20px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
     border-radius: 0 12px 12px 0;
     box-shadow: var(--shadow-sm);
     position: relative;
@@ -189,7 +193,7 @@ use-site-title: true
   }
 
   .highlights p {
-    margin: 6px 0;
+    margin: 3px 0;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -228,18 +232,17 @@ use-site-title: true
   }
 
   .social-links {
-    margin-top: 25px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border-color);
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
   }
 
   .social-links a {
     display: flex;
     align-items: center;
-    padding: 12px 18px;
+    padding: 8px 12px;
     background-color: white;
     border-radius: 50px;
     color: var(--text-color);
@@ -247,6 +250,8 @@ use-site-title: true
     transition: var(--transition);
     box-shadow: var(--shadow-sm);
     border: 1px solid rgba(99, 102, 241, 0.1);
+    font-size: 0.9rem;
+    margin-bottom: 6px;
   }
 
   .social-links a:hover {
@@ -258,8 +263,8 @@ use-site-title: true
   }
 
   .social-links i {
-    margin-right: 10px;
-    font-size: 20px;
+    margin-right: 8px;
+    font-size: 16px;
   }
 
   /* Posts List Styling */
@@ -403,7 +408,7 @@ use-site-title: true
     margin-top: 15px;
     padding: 10px 20px;
     background: var(--gradient-1);
-    color: #ffffff;
+    color: #ffffff !important;
     border-radius: 30px;
     font-weight: 600;
     transition: var(--transition);
@@ -492,7 +497,7 @@ use-site-title: true
       align-items: center;
     }
     
-    .profile-image {
+    .profile-image-container {
       margin-bottom: 30px;
     }
     
@@ -508,7 +513,7 @@ use-site-title: true
 
   @media (max-width: 768px) {
     .bio-section {
-      padding: 50px 0;
+      padding: 30px 0;
     }
     
     .profile-container {
@@ -516,10 +521,6 @@ use-site-title: true
     }
     
     .highlights p {
-      justify-content: center;
-    }
-    
-    .social-links {
       justify-content: center;
     }
     
@@ -543,8 +544,18 @@ use-site-title: true
 <div class="bio-section" style="width: 100vw; margin-left: calc(-50vw + 50%);">
   <div class="container">
     <div class="profile-container">
-      <div class="profile-image">
-        <img src="/img/Hesham_Eraqi_photo.jpeg" alt="Dr. Hesham Eraqi">
+      <div class="profile-image-container">
+        <div class="profile-image">
+          <img src="/img/Hesham_Eraqi_photo.jpeg" alt="Dr. Hesham Eraqi">
+        </div>
+        <div class="social-links">
+          <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+          <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-rss"></i> Blog</a>
+          <a href="https://github.com/heshameraqi" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
+          <a href="https://www.mathworks.com/matlabcentral/profile/authors/3912198" target="_blank" title="MATLAB FileExchange"><i class="fa fa-code"></i> MATLAB FileExchange</a>
+          <a href="mailto:hesham.eraqi@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i> Email</a>
+        </div>
       </div>
       <div class="profile-content">
         <h2>Biography</h2>
@@ -555,16 +566,9 @@ use-site-title: true
           <p>Founding CTO & General Manager, <a href="https://nahdetmisr.com/" target="_blank"> Nahdet Misr AI</a> & Advisory Board, <a href="https://www.nmedventures.com/" target="_blank"> EdVentures</a> (2021-2022)</p>
         </div>
         <p>
-          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank">Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank">Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank">The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank">Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank">EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
+          Hesham Eraqi is a Senior Scientist at <a href="https://www.amazon.com/" target="_blank"> Amazon</a> in Seattle (USA) with the Worldwide Last Mile Geospatial Machine Learning Science team. Prior to joining Amazon, he was appointed as <a href="https://www.valeo.com/" target="_blank"> Valeo</a> Senior Expert/Director of artificial intelligence and deep learning in 2018 where he led the technology development across all the product lines of Valeo Comfort and Driving Assistance Systems (CDA). He was a Chief Software Engineer at Valeo where he worked from 2012 to 2021 on products for several carmakers (OEMs) worldwide, including algorithms in Honda Legend which is the world's first road-legal level 3 autonomous car with Japan certification in 2021. Dr. Eraqi was an Assistant Professor at <a href="https://www.aucegypt.edu/" target="_blank"> The American University in Cairo (AUC)</a>, where he has been working on many research projects applying machine and deep learning methods to computer vision, robotics, and other applications since 2010 for over 12 years. He has 7 filed USA and European patents and over 35 articles published in top IEEE and ACM journals and conferences in his area and has been serving as the Chairperson, Editor, and Program Committee at top venues in the field, including NeurIPS/ICCV/ECCV/ICRA/ICML workshops and ACM SIGSPATIAL. Hesham was the Founding CTO, General Manager, and a Board Member of <a href="https://nahdetmisr.com/" target="_blank"> Nahdet Misr AI</a> startup (partnered with Disney, developing AI-powered EdTech products, including multiple apps ranked in Google Play education top ten charts with millions of users), an Advisory Board at <a href="https://www.nmedventures.com/" target="_blank"> EdVentures</a> (the fastest-growing EdTech Venture Capital in MENA), and an Advisor for other AI start-ups. He received his Ph.D. degree in computer science and engineering from AUC in 2020 with highest honors and is an ACM member.
         </p>
-        <div class="social-links">
-          <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-          <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
-          <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-rss"></i> Blog</a>
-          <a href="https://github.com/heshameraqi" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
-          <a href="https://www.mathworks.com/matlabcentral/profile/authors/3912198" target="_blank" title="MATLAB FileExchange"><i class="fa fa-code"></i> MATLAB FileExchange</a>
-          <a href="mailto:hesham.eraqi@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i> Email</a>
-        </div>
+      </div>
       </div>
     </div>
   </div>
