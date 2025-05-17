@@ -95,3 +95,8 @@ yelp:
   name: "Yelp"
   baseURL: "https://{{ site.author.yelp }}.yelp.com"
   icon: "fa-yelp"
+
+matlab-fileexchange:
+  name: "MATLAB FileExchange"
+  baseURL: "https://www.mathworks.com/matlabcentral/profile/authors/"
+  icon: "fa-code"

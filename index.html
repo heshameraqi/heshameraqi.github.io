@@ -481,6 +481,24 @@ use-site-title: true
     color: var(--secondary-color);
     border-color: rgba(99, 102, 241, 0.2);
   }
+  
+  /* Fix for hyperlinks preserving whitespace */
+  a {
+    white-space: normal;
+    display: inline;
+  }
+  
+  /* Preserve spaces before and after hyperlinks */
+  p a::before, p a::after {
+    content: " ";
+    font-size: 0;
+  }
+  
+  /* Remove underline from icons in social links */
+  .social-links a i {
+    text-decoration: none;
+    display: inline-block;
+  }
 
   /* Pagination */
   .pager {
