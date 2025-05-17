@@ -233,6 +233,7 @@ use-site-title: true
     cursor: pointer;
     margin: 0;
     display: inline-block;
+    text-decoration: none;
   }
 
   .highlights a::after {
@@ -489,10 +490,15 @@ use-site-title: true
   }
   
   /* Preserve spaces before and after hyperlinks */
-  p a::before, p a::after, .highlights p a::before, .highlights p a::after {
+  p a::before, p a::after {
     content: " ";
     font-size: 0;
     display: inline-block;
+  }
+  
+  /* Fix spacing for links in highlights section */
+  .highlights p a {
+    margin: 0 4px;
   }
   
   /* Remove static underline from links but keep animation */
