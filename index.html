@@ -489,12 +489,22 @@ use-site-title: true
   }
   
   /* Preserve spaces before and after hyperlinks */
-  p a::before, p a::after {
+  p a::before, p a::after, .highlights p a::before, .highlights p a::after {
     content: " ";
     font-size: 0;
+    display: inline-block;
+  }
+  
+  /* Remove static underline from links but keep animation */
+  p a {
+    text-decoration: none;
   }
   
   /* Remove underline from icons in social links */
+  .social-links a {
+    text-decoration: none;
+  }
+  
   .social-links a i {
     text-decoration: none;
     display: inline-block;
