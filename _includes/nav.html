@@ -9,15 +9,21 @@
       </button>
       {% if site.title-img %}
         <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}">
-			<div style="display:inline-block;vertical-align:middle;">
-				<img src="{{ site.title-img }}" alt="img"/>
-			</div>
-			<div style="display:inline-block;">
-				<div>Hesham Eraqi Website</div>
-			</div>
-		</a>
+          <div class="brand-container">
+            <div class="brand-image">
+              <img src="{{ site.title-img }}" alt="Hesham Eraqi">
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">Hesham Eraqi</span>
+              <span class="brand-tagline">Senior Scientist & AI Expert</span>
+            </div>
+          </div>
+        </a>
       {% else %}
-        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+        <a class="navbar-brand" href="{{ site.url }}">
+          <span class="brand-name">{{ site.title }}</span>
+          <span class="brand-tagline">Senior Scientist & AI Expert</span>
+        </a>
       {% endif %}
     </div>
 
@@ -26,7 +32,7 @@
       {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+            <a class="navlinks-parent" href="javascript:void(0)"><i class="fa fa-list-ul"></i> {{ link[0] }}</a>
             <div class="navlinks-children">
               {% for childlink in link[1] %}
                 {% for linkparts in childlink %}
@@ -37,30 +43,253 @@
           </li>
         {% else %}
           <li>
-            {% include navbarlink.html link=link %}
+            {% if link[0] == "Home" %}
+              <a href="{{ link[1] }}"><i class="fa fa-home"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "About" or link[0] == "About Me" %}
+              <a href="{{ link[1] }}"><i class="fa fa-user"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "Blog" %}
+              <a href="{{ link[1] }}"><i class="fa fa-pencil"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "Projects" %}
+              <a href="{{ link[1] }}"><i class="fa fa-code"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "Publications" %}
+              <a href="{{ link[1] }}"><i class="fa fa-book"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "Research" %}
+              <a href="{{ link[1] }}"><i class="fa fa-flask"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "Contact" %}
+              <a href="{{ link[1] }}"><i class="fa fa-envelope"></i> {{ link[0] }}</a>
+            {% elsif link[0] == "Resume" or link[0] == "CV" %}
+              <a href="{{ link[1] }}"><i class="fa fa-file-text"></i> {{ link[0] }}</a>
+            {% else %}
+              <a href="{{ link[1] }}">{{ link[0] }}</a>
+            {% endif %}
           </li>
         {% endif %}
         {% endfor %}
       </ul>
     </div>
 
-	{% if page.image and (layout.show-avatar or page.show-avatar) %}
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="{{ site.url }}">
-	      <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
-		</a>
-	  </div>
-	</div>
-	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="{{ site.url }} ">
-	      <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
-		</a>
-	  </div>
-	</div>
-	{% endif %}
+    {% if page.image and (layout.show-avatar or page.show-avatar) %}
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="{{ site.url }}">
+          <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
+        </a>
+      </div>
+    </div>
+    {% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="{{ site.url }} ">
+          <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
+        </a>
+      </div>
+    </div>
+    {% endif %}
 
   </div>
 </nav>
+
+<!-- Add custom CSS for the improved header -->
+<style>
+  /* Modern header styling */
+  .navbar-custom {
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    border-bottom: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px 15px;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-image {
+    margin-right: 12px;
+  }
+  
+  .brand-image img {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand-name {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand-tagline {
+    font-size: 12px;
+    opacity: 0.9;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar-custom .navbar-nav > li > a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 0 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom .navbar-nav > li > a:hover,
+  .navbar-custom .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  .navbar-custom .navbar-nav > li > a i {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  .navbar-custom .navbar-toggle {
+    border-color: rgba(255, 255, 255, 0.2);
+    margin-top: 12px;
+  }
+  
+  .navbar-custom .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  
+  .navbar-custom .navbar-toggle:hover,
+  .navbar-custom .navbar-toggle:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navlinks-container .navlinks-parent:after {
+    content: " \f107";
+    font-family: 'FontAwesome';
+    font-size: 14px;
+  }
+  
+  .navlinks-container .navlinks-children {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 5px 0;
+  }
+  
+  .navlinks-container .navlinks-children a {
+    color: #4f46e5 !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    transition: all 0.2s ease;
+  }
+  
+  .navlinks-container .navlinks-children a:hover {
+    background: rgba(99, 102, 241, 0.1) !important;
+    color: #4338ca !important;
+  }
+  
+  /* Responsive adjustments */
+  @media only screen and (max-width: 767px) {
+    .navbar-custom .navbar-nav > li > a {
+      padding: 12px 15px;
+      margin: 2px 0;
+    }
+    
+    .navlinks-container.show-children {
+      background: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    .navlinks-container .navlinks-children {
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: none;
+    }
+    
+    .navlinks-container .navlinks-children a {
+      color: rgba(255, 255, 255, 0.8) !important;
+    }
+    
+    .navlinks-container .navlinks-children a:hover {
+      background: rgba(255, 255, 255, 0.1) !important;
+      color: #ffffff !important;
+    }
+  }
+  
+  /* Animation for the header on scroll */
+  .navbar-custom.top-nav-short {
+    padding: 0;
+    background: linear-gradient(135deg, #4338ca, #4f46e5);
+  }
+  
+  .navbar-custom.top-nav-short .brand-image img {
+    height: 35px;
+  }
+  
+  /* Avatar styling */
+  .navbar-custom .avatar-container {
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    margin-top: -30px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom .avatar-img-border {
+    width: 100%;
+    border-radius: 50%;
+    margin-left: -50%;
+    display: inline-block;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom .avatar-img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom.top-nav-short .avatar-container {
+    margin-top: -25px;
+    width: 50px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .navbar-custom {
+      padding: 15px 0;
+    }
+    
+    .navbar-custom .avatar-container {
+      width: 100px;
+      margin-top: -50px;
+    }
+    
+    .navbar-custom.top-nav-short .avatar-container {
+      width: 80px;
+      margin-top: -40px;
+    }
+  }
+</style>

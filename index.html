@@ -44,7 +44,8 @@ use-site-title: true
 
   /* Bio Section Styling */
   .bio-section {
-    padding: 40px 0;
+    padding: 25px 0;
+    margin-top: -20px;
     background: linear-gradient(135deg, var(--light-bg) 0%, #ede9fe 100%);
     border-bottom: 1px solid var(--border-color);
     width: 100%;
@@ -54,6 +55,7 @@ use-site-title: true
     right: 0;
     position: relative;
     overflow: hidden;
+    z-index: 1;
   }
   
   .bio-section::before {
@@ -73,14 +75,16 @@ use-site-title: true
     padding: 0 30px;
     box-sizing: border-box;
     overflow-x: hidden;
+    position: relative;
+    z-index: 2;
   }
 
   .profile-container {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     width: 100%;
     box-sizing: border-box;
-    gap: 40px;
+    gap: 30px;
     align-items: flex-start;
   }
 
@@ -132,12 +136,13 @@ use-site-title: true
     margin-top: 0;
     color: var(--secondary-color);
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2rem;
     position: relative;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+    z-index: 5;
   }
 
   .profile-content h2::after {
@@ -161,24 +166,34 @@ use-site-title: true
 
   .profile-content p {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.7;
     color: var(--text-color);
     text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
     width: 100%;
     box-sizing: border-box;
+    margin: 10px 0;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .profile-content p a {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
   }
 
   .highlights {
     background: linear-gradient(to right, rgba(224, 231, 255, 0.5), rgba(237, 233, 254, 0.3));
     border-left: 5px solid var(--primary-color);
-    padding: 10px 25px;
-    margin-bottom: 15px;
+    padding: 8px 25px;
+    margin-bottom: 12px;
     border-radius: 0 12px 12px 0;
     box-shadow: var(--shadow-sm);
     position: relative;
     overflow: hidden;
+    z-index: 5;
   }
   
   .highlights::after {
@@ -197,6 +212,8 @@ use-site-title: true
     font-weight: 500;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 10;
   }
 
   .highlights p::before {
@@ -211,6 +228,8 @@ use-site-title: true
     font-weight: 600;
     position: relative;
     padding-bottom: 2px;
+    z-index: 15;
+    cursor: pointer;
   }
 
   .highlights a::after {
@@ -252,6 +271,9 @@ use-site-title: true
     border: 1px solid rgba(99, 102, 241, 0.1);
     font-size: 0.9rem;
     margin-bottom: 6px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
   }
 
   .social-links a:hover {
@@ -549,12 +571,12 @@ use-site-title: true
           <img src="/img/Hesham_Eraqi_photo.jpeg" alt="Dr. Hesham Eraqi">
         </div>
         <div class="social-links">
-          <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-          <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
-          <a href="https://heraqi.blogspot.com/" target="_blank" title="Blog"><i class="fa fa-rss"></i> Blog</a>
-          <a href="https://github.com/heshameraqi" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
-          <a href="https://www.mathworks.com/matlabcentral/profile/authors/3912198" target="_blank" title="MATLAB FileExchange"><i class="fa fa-code"></i> MATLAB FileExchange</a>
-          <a href="mailto:hesham.eraqi@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i> Email</a>
+          <a href="https://scholar.google.de/citations?user=Sk-VfXYAAAAJ" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+          <a href="https://www.linkedin.com/in/heshameraqi" target="_blank" rel="noopener" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          <a href="https://heraqi.blogspot.com/" target="_blank" rel="noopener" title="Blog"><i class="fa fa-rss"></i> Blog</a>
+          <a href="https://github.com/heshameraqi" target="_blank" rel="noopener" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
+          <a href="https://www.mathworks.com/matlabcentral/profile/authors/3912198" target="_blank" rel="noopener" title="MATLAB FileExchange"><i class="fa fa-code"></i> MATLAB FileExchange</a>
+          <a href="mailto:hesham.eraqi@gmail.com" title="Email"><i class="fa fa-envelope"></i> Email</a>
         </div>
       </div>
       <div class="profile-content">
