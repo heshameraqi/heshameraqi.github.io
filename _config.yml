@@ -34,6 +34,8 @@ navbar-links:
     - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
     - AUC: "auc"
     - Valeo: "valeo"
+  Keynotes:
+    - ICCV 2025 Keynote - Slides: "https://heshameraqi.github.io/iccv-2025-keynote"
   Archive: "archive"
   Advised Graduation Projects: "GPs"
   About me: "aboutme"
