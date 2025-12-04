@@ -12,7 +12,7 @@ image: https://heshameraqi.github.io/post_images/AinShams-Lec7-FirstSlide.png
 <div style="text-align: center;">
 <br /></div>
 <div style="text-align: center;">
-<iframe height="480" src="https://drive.google.com/file/d/1YiywUwRuo1mHp0I280hvSerzZl786fG8/preview" width="840"></iframe></div>
+<iframe height="480" src="https://drive.google.com/file/d/1GI91DVXGFBb_oDYzFUwPm8Nw_FTcjMtS/preview" width="840"></iframe></div>
 </div>
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
@@ -20,7 +20,7 @@ image: https://heshameraqi.github.io/post_images/AinShams-Lec7-FirstSlide.png
 <div style="text-align: center;">
 <br /></div>
 <div style="text-align: center;">
-<iframe height="480" src="https://drive.google.com/file/d/1V2Yj0RrYijMHvnssx6Jk_r9tZ1HhcgOu/preview" width="840"></iframe></div>
+<iframe height="480" src="https://drive.google.com/file/d/1JjUBPVOEU0zdw2_ICQ2NJLep1zIPt-w4/preview" width="840"></iframe></div>
 </div>
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
@@ -28,7 +28,7 @@ image: https://heshameraqi.github.io/post_images/AinShams-Lec7-FirstSlide.png
 <div style="text-align: center;">
 <br /></div>
 <div style="text-align: center;">
-<iframe height="480" src="https://drive.google.com/file/d/1s3vnAGRb8EVNTHoB9ye0z5fMJ-XE54dD/preview" width="840"></iframe></div>
+<iframe height="480" src="https://drive.google.com/file/d/1HwcKyxjWPiAdJhbMOGX_yOtj_5I59k0N/preview" width="840"></iframe></div>
 </div>
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
@@ -36,7 +36,7 @@ image: https://heshameraqi.github.io/post_images/AinShams-Lec7-FirstSlide.png
 <div style="text-align: center;">
 <br /></div>
 <div style="text-align: center;">
-<iframe height="480" src="https://drive.google.com/file/d/1DMk-wRAOVZkpSnZSGt1HBdDQLQ-2Q04M/preview" width="840"></iframe></div>
+<iframe height="480" src="https://drive.google.com/file/d/1mIP2za6Lkk-fVk95YuK5dfg_peuMNjb5/preview" width="840"></iframe></div>
 </div>
 
 <!--{% include advertisements.html %}-->
