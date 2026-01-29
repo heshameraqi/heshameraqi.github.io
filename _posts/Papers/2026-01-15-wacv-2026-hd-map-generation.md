@@ -11,3 +11,5 @@ Check our latest paper in WACV 2026 main conference on: HD Map generation from s
 <div style="text-align: center; margin: 20px 0;">
 <img src="/img/WACV-26-paper-HD-Map.jpg" style="max-width: 100%; height: auto;" alt="WACV 2026 HD Map Paper" />
 </div>
+
+[Paper](https://www.amazon.science/publications/semantic-map-guided-birds-eye-view-learning-for-online-hd-map-construction) | [WACV 2026 Accepted Papers](https://wacv.thecvf.com/Conferences/2026/AcceptedPapers)
