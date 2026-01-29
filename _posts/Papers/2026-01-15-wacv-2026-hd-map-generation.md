@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WACV 2026 - HD Map Generation from Surround-View Cameras
-tags: [WACV, Computer Vision, HD Maps, Autonomous Driving]
+tags: [WACV2026, HD_Map, BEV, Multi_view]
 category: Papers
 image: /img/WACV-26-paper-HD-Map.jpg
 ---
