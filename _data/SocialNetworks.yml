@@ -97,6 +97,6 @@ yelp:
   icon: "fa-yelp"
 
 matlab-fileexchange:
-  name: "MATLAB FileExchange"
+  name: "MATLAB"
   baseURL: "https://www.mathworks.com/matlabcentral/profile/authors/"
   icon: "fa-code"
