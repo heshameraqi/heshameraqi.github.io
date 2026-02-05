@@ -52,12 +52,14 @@ use-site-title: true
     margin-bottom: 20px;
     background: linear-gradient(135deg, var(--light-bg) 0%, #ede9fe 100%);
     border-bottom: 1px solid var(--border-color);
-    width: 100%;
-    box-sizing: border-box;
+    width: 100vw;
     position: relative;
-    left: 0;
-    right: 0;
-    overflow: visible;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
+    overflow: hidden;
     z-index: 1;
   }
   
@@ -307,10 +309,10 @@ use-site-title: true
   /* Posts List Styling */
   .posts-list {
     margin-top: 60px;
-    padding: 0 30px;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .posts-list h2.section-heading {
