@@ -30,6 +30,9 @@ use-site-title: true
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     color: var(--text-color);
     line-height: 1.7;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   a {
@@ -122,6 +125,7 @@ use-site-title: true
     box-shadow: var(--shadow-lg);
     transition: transform 0.5s ease, box-shadow 0.5s ease;
     filter: brightness(1.02);
+    loading: lazy;
   }
 
   .profile-image img:hover {
@@ -279,6 +283,9 @@ use-site-title: true
     position: relative;
     z-index: 10;
     cursor: pointer;
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
   }
 
   .social-links a:hover {
@@ -562,6 +569,12 @@ use-site-title: true
     
     .profile-image-container {
       margin-bottom: 30px;
+      flex: 0 0 200px;
+    }
+    
+    .profile-image img {
+      width: 200px;
+      height: 200px;
     }
     
     .profile-content h2 {
@@ -576,30 +589,125 @@ use-site-title: true
 
   @media (max-width: 768px) {
     .bio-section {
-      padding: 30px 0;
+      padding: 20px 0;
+    }
+    
+    .bio-section .container {
+      padding: 0 15px;
     }
     
     .profile-container {
       text-align: center;
+      gap: 20px;
+    }
+    
+    .profile-image-container {
+      flex: 0 0 160px;
+    }
+    
+    .profile-image img {
+      width: 160px;
+      height: 160px;
+    }
+    
+    .profile-content h2 {
+      font-size: 1.2rem;
+    }
+    
+    .profile-content p {
+      font-size: 14px;
+      text-align: left;
+    }
+    
+    .highlights {
+      padding: 8px 15px;
     }
     
     .highlights p {
-      justify-content: center;
+      font-size: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .social-links {
+      gap: 6px;
+    }
+    
+    .social-links a {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+    
+    .posts-list {
+      padding: 0 15px;
+      margin-top: 40px;
+    }
+    
+    .posts-list h2.section-heading {
+      font-size: 1.5rem;
+    }
+    
+    .post-preview {
+      padding: 20px;
+    }
+    
+    .post-title {
+      font-size: 1.4rem;
+    }
+    
+    .post-subtitle {
+      font-size: 1rem;
     }
     
     .post-entry-container {
       flex-direction: column;
+      gap: 15px;
     }
     
     .post-image {
       order: 1;
       flex: 0 0 auto;
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
     
     .post-entry {
       order: 2;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-image-container {
+      flex: 0 0 140px;
+    }
+    
+    .profile-image img {
+      width: 140px;
+      height: 140px;
+    }
+    
+    .profile-content h2 {
+      font-size: 1.1rem;
+    }
+    
+    .profile-content p {
+      font-size: 13px;
+    }
+    
+    .highlights p {
+      font-size: 11px;
+    }
+    
+    .social-links a {
+      font-size: 0.75rem;
+      padding: 6px 10px;
+    }
+    
+    .post-title {
+      font-size: 1.2rem;
+    }
+    
+    .post-preview {
+      padding: 15px;
     }
   }
 </style>
