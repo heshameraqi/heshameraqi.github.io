@@ -32,6 +32,7 @@ navbar-links:
   # 2- "pageX" it will refer to <pageX>.md in the main directory
     - Dynamic CIL Autonomous Driving: "https://heshameraqi.github.io/dynamic_cil_autonomous_driving"
     - Distraction Detection Dataset: "https://heshameraqi.github.io/distraction_detection"
+    - Cairo Roadway Safety Dataset: "https://heshameraqi.github.io/cairo-roadway-safety-dataset"
     - AUC: "auc"
     - Valeo: "valeo"
   Keynotes:
