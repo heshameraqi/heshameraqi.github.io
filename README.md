@@ -1,35 +1,99 @@
-## Hesham Eraqi's Personal Website
+# Hesham Eraqi's Personal Website
 
-### Other website: [Simply](simply.blogspot.com)
+Personal website built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
-### Markdown
+**Live site:** [https://heshameraqi.github.io](https://heshameraqi.github.io)
+**Other web blog** [Simply](simply.blogspot.com)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-### Jekyll
+## Building and Viewing Locally
 
-Whenever commits happen to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. That is because of the config folder.
+### Prerequisites
 
-```markdown
-Syntax highlighted code block
+1. **Install Homebrew** (macOS package manager, if not already installed):
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+   After installation, add Homebrew to your PATH:
+   ```bash
+   echo >> /Users/heraqi/.zprofile
+   echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/heraqi/.zprofile
+   eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+   ```
 
-# Header 1
-## Header 2
-### Header 3
+2. **Install Ruby** (version 3.0+ required):
+   ```bash
+   brew install ruby
+   ```
+   Add Homebrew Ruby to your PATH:
+   ```bash
+   echo >> /Users/heraqi/.zprofile
+   echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> /Users/heraqi/.zprofile
+   export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+   ```
 
-- Bulleted
-- List
+3. **Install Bundler:**
+   ```bash
+   gem install bundler
+   ```
 
-1. Numbered
-2. List
+### Setup
 
-**Bold** and _Italic_ and `Code` text
+```bash
+# Navigate to the project directory
+cd heshameraqi.github.io
 
-[Link](url) and ![Image](src)
+# Install dependencies
+bundle install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Run Locally
 
-### Github Pages
+```bash
+bundle exec jekyll serve
+```
 
-Having trouble with Github Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This starts a local development server. Open your browser and navigate to:
+
+```
+http://localhost:4000
+```
+
+The site will auto-regenerate when you make changes to source files. Press `Ctrl+C` to stop the server.
+
+#### Options
+
+- **Live reload** (auto-refresh browser on changes):
+  ```bash
+  bundle exec jekyll serve --livereload
+  ```
+
+- **Include drafts** (show posts in `_drafts/`):
+  ```bash
+  bundle exec jekyll serve --drafts
+  ```
+
+- **Custom port:**
+  ```bash
+  bundle exec jekyll serve --port 4001
+  ```
+
+---
+
+## Pushing Changes to Production
+
+This site is deployed automatically via GitHub Pages. To publish updates:
+
+```bash
+# Stage your changes
+git add .
+
+# Commit with a descriptive message
+git commit -m "Description of changes"
+
+# Push to the main branch
+git push origin master
+```
+
+GitHub Pages will automatically rebuild and deploy the site within a few minutes. You can monitor the build status in the repository's **Actions** tab on GitHub.
